@@ -1,6 +1,7 @@
 import Footer from "./Footer";
 import Header from "./Header";
 import Home from "./Home";
+import About from "./About";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header />
       <Home />
+      <About />
       <Footer />
     </>
   )
