@@ -53,13 +53,14 @@ header {
 
 #dev {
     font-size: 2rem;
-    margin: 3rem 0;
+    margin: 1rem 0 2rem;
 }
 
 #dev span {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     margin: 0 1rem;
+    color: var(--main-color);
 }
 
 #home {
@@ -75,14 +76,15 @@ header {
 .home-div {
     width: 80%;
     color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
+}
+
+.home-div h3 {
+    font-size: 2rem;
 }
 
 .home-div h2 {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .home-text {

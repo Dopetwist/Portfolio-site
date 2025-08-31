@@ -5,8 +5,9 @@ function Home() {
         <section id="home">
             <main>
                 <div className="home-div">
-                    <h2> Hello! I'm Jonathan </h2>
-                    <p id="dev">I'm a <span>Full Stack Developer</span></p> 
+                    <h3> Hello! I'm </h3>
+                    <h2> Jonathan Afugwobi </h2>
+                    <p id="dev">And i'm a <span>Full Stack Developer</span></p> 
 
                     <p className="home-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Autem temporibus quam, corporis sint provident similique esse aperiam 
