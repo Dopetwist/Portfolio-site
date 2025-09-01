@@ -51,11 +51,27 @@ header {
 
 .navbar a {
     margin-left: 2rem;
+    position: relative;
 }
 
 .name, .navbar a {
     text-decoration: none;
     color: var(--white);
+}
+
+.navbar a::after {
+    content: '';
+    height: 0.15rem;
+    width: 0;
+    background: var(--second-main);
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+    transition: .4s ease-in-out;
+}
+
+.navbar a:hover::after {
+    width: 100%;
 }
 
 #dev {
