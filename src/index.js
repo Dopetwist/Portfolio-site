@@ -38,4 +38,10 @@ const projects = [
     
 ]
 
-export default projects;
+const tech = {
+  frontend:  [ "/images/tech/HTML.png", "/images/tech/CSS.png", "/images/tech/javascript.png", "/images/tech/HTML.png" ],
+  backend:  [ "/images/tech/node.png", "/images/tech/postgresql.png", "/images/tech/express.png" ]
+}
+    
+
+export { projects, tech } ;
