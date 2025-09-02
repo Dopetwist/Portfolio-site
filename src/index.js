@@ -38,10 +38,55 @@ const projects = [
     
 ]
 
-const tech = {
-  frontend:  [ "/images/tech/HTML.png", "/images/tech/CSS.png", "/images/tech/javascript.png", "/images/tech/HTML.png" ],
-  backend:  [ "/images/tech/node.png", "/images/tech/postgresql.png", "/images/tech/express.png" ]
-}
+
+const frontend = [
+    {
+        id: 1,
+        img: "/images/tech/HTML.png"
+    },
+    {
+        id: 2,
+        img: "/images/tech/CSS.png"
+    },
+    {
+        id: 3,
+        img: "/images/tech/javascript.png"
+    },
+    {
+        id: 4,
+        img: "/images/tech/react.png"
+    },
+    {
+        id: 5,
+        img: "/images/tech/bootstrap.png"
+    }
+]
+
+const backend = [
+    {
+        id: 1,
+        img: "/images/tech/node.png"
+    },
+    {
+        id: 2,
+        img: "/images/tech/postgresql.png"
+    },
+    {
+        id: 3,
+        img: "/images/tech/express.png"
+    }
+]
+
+const tools = [
+    {
+        id: 1,
+        img: "/images/tech/git-logo.png"
+    },
+    {
+        id: 2,
+        img: "/images/tech/postman.jpg"
+    }
+]
     
 
-export { projects, tech } ;
+export { projects, frontend, backend, tools } ;
