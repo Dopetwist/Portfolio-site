@@ -16,9 +16,11 @@ function displayCard(item) {
 function Project() {
     return (
         <section id="project">
-            <h2 className="heading"> My Projects </h2>
+            <h2 className="heading"> Portfolio Projects </h2>
 
-            {projects.map(displayCard)}
+            <div className="project-container">
+                {projects.map(displayCard)}
+            </div>
         </section>
     )
 }
