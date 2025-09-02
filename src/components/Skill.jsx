@@ -30,7 +30,15 @@ function Skill() {
             </div>
 
             <div className="backend">
+                <h3>Backend</h3>
 
+                <div className="backend-tech">
+                    {backend.map((item) => (
+                        <div className="sk">
+                            <img src={item.img} alt="tech logo" key={item.id} />
+                        </div>
+                    ))}
+                </div>
             </div>
 
             <div className="tools">

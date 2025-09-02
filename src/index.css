@@ -147,11 +147,11 @@ section#about {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 5rem;
 }
 
 .card {
-    width: 30rem;
+    width: 25rem;
     color: var(--white);
     border-radius: 1rem;
     border: 0.15rem solid transparent;
@@ -206,16 +206,24 @@ section#about {
 }
 
 .frontend {
+    margin-bottom: 1rem;
+}
+
+.frontend, .backend {
     width: 100%;
 }
 
-.frontend h3 {
+.frontend h3, .backend h3 {
     color: var(--white);
     margin-bottom: 1rem;
 }
 
-.frontend-tech {
+.frontend-tech, .backend-tech {
     display: flex;
+}
+
+.backend-tech .sk img {
+    border-radius: 1.5rem;
 }
 
 .sk {
