@@ -6,13 +6,15 @@ function Card(props) {
             <figure>
                 <img src={props.image} alt="Project Image" />
             </figure>
-            
-            <h2> {props.title} </h2>
-            <p> {props.descrp} </p>
-            <a href={props.link}>
-                <button> View Code </button>
-            </a>
-            <p> {props.tech} </p>
+                
+            <div className="details">
+                <h2> {props.title} </h2>
+                <p> {props.descrp} </p>
+                <a href={props.link}>
+                    <button> View Code </button>
+                </a>
+                <p> {props.tech} </p>
+            </div>
         </div>
     )
 }
