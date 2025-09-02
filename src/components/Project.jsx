@@ -1,5 +1,5 @@
 import Card from "./Card";
-import projects from "../index"
+import { projects } from "../index"
 
 function displayCard(item) {
     return (

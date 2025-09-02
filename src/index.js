@@ -12,30 +12,36 @@ const projects = [
         description: "This project allows users to explore and search varieties of foreign dishes all over the world with preparation instructions.",
         img: "/images/projects/recipe.png",
         github: "https://github.com/Dopetwist/Foreign-recipes-project.git",
-        tech: [ "RESTful API", "Node.js", "JavaScript", "EJS", "Express.js", "HTML", "CSS" ]
+        tech: [ "RESTful API | ", "Node.js | ", "JavaScript | ", "EJS | ", "Express.js | ", "HTML | ", "CSS" ]
     },
     {
         title: "GeoMindz",
         description: "A simple and interactive full stack quiz application that challenges users to match countries with their capitals. It was built with a focus on a clean, responsive UI and smooth quiz experience.",
         img: "/images/projects/geomindz.png",
         github: "https://github.com/Dopetwist/GeoMindz.git",
-        tech: [ "React.js + Vite", "Node.js", "PostgreSQL", "JavaScript", "Express.js", "HTML", "CSS" ]
+        tech: [ "React.js + Vite | ", "Node.js | ", "PostgreSQL | ", "JavaScript | ", "Express.js | ", "HTML | ", "CSS" ]
     },
     {
         title: "PS4 Controller",
         description: "I designed and built a complete Gamepad with code. Flexed my fundamental skills on this project for an amazing output.",
         img: "/images/projects/gamepad.png",
         github: "https://github.com/Dopetwist/PS4_Controller.git",
-        tech: [ "HTML", "CSS" ]
+        tech: [ "HTML | ", "CSS" ]
     },
     {
         title: "Sleek Unisex Salon",
         description: "This website showcases awesome male and female hairstyles, services and products.",
         img: "/images/projects/sleek.png",
         github: "https://github.com/Dopetwist/Sleek-salon.git",
-        tech: [ "React.js + Vite", "JavaScript", "HTML", "CSS" ]
+        tech: [ "React.js + Vite | ", "JavaScript | ", "HTML | ", "CSS" ]
     }
     
 ]
 
-export default projects;
+const tech = {
+  frontend:  [ "/images/tech/HTML.png", "/images/tech/CSS.png", "/images/tech/javascript.png", "/images/tech/HTML.png" ],
+  backend:  [ "/images/tech/node.png", "/images/tech/postgresql.png", "/images/tech/express.png" ]
+}
+    
+
+export { projects, tech } ;
