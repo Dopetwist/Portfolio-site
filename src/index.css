@@ -27,7 +27,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 8rem 6% 2rem;
+    padding: 8rem 6% 5rem;
 }
 
 header {
@@ -195,6 +195,43 @@ section#about {
 }
 
 .tech {
+    color: var(--sub-text);
+}
+
+#skill {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/background-1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.frontend {
+    width: 100%;
+}
+
+.frontend h3 {
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.frontend-tech {
+    display: flex;
+}
+
+.sk {
+    width: 7%;
+    margin-right: 2rem;
+}
+
+.sk img {
+    width: 100%;
+}
+
+.skill-text {
+    margin-bottom: 2rem;
+}
+
+.skill-text p {
     color: var(--sub-text);
 }
 
