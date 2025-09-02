@@ -213,17 +213,29 @@ section#about {
     width: 100%;
 }
 
-.frontend h3, .backend h3 {
+.frontend h3, .backend h3, .soft-skills h3, .tools h3 {
     color: var(--white);
     margin-bottom: 1rem;
 }
 
-.frontend-tech, .backend-tech {
+.frontend-tech, .backend-tech, .tools-tech {
     display: flex;
 }
 
 .backend-tech .sk img {
     border-radius: 1.5rem;
+}
+
+.soft-skills {
+    width: 40%;
+    padding: 1rem;
+    margin-right: 4rem;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 0.5rem;
+}
+
+.soft-skills p {
+    color: var(--sub-text);
 }
 
 .sk {

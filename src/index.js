@@ -76,6 +76,17 @@ const backend = [
         img: "/images/tech/express.png"
     }
 ]
+
+const tools = [
+    {
+        id: 1,
+        img: "/images/tech/git-logo.png"
+    },
+    {
+        id: 2,
+        img: "/images/tech/postman.jpg"
+    }
+]
     
 
-export { projects, frontend, backend } ;
+export { projects, frontend, backend, tools } ;
