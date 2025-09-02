@@ -8,12 +8,12 @@ function Card(props) {
             </figure>
                 
             <div className="details">
-                <h2> {props.title} </h2>
-                <p> {props.descrp} </p>
-                <a href={props.link}>
-                    <button> View Code </button>
+                <h2 className="title"> {props.title} </h2>
+                <p className="descrp"> {props.descrp} </p>
+                <a href={props.link} target="blank">
+                    <button className="btn"> View Code </button>
                 </a>
-                <p> {props.tech} </p>
+                <p className="tech"> {props.tech} </p>
             </div>
         </div>
     )

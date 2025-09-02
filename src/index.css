@@ -46,7 +46,7 @@ header {
     font-size: 2rem;
     color: var(--white);
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .navbar a {
@@ -151,9 +151,18 @@ section#about {
 }
 
 .card {
-    background-color: #2c002c;
+    /* background-color: #2b022b; */
     width: 30rem;
     color: var(--white);
+    border-radius: 1rem;
+    border: 0.15rem solid transparent;
+    box-shadow: 0 0 0.7rem var(--second-main);
+}
+
+.card:hover {
+    /* background-color: #440144; */
+    /* border-color: var(--second-main); */
+    cursor: pointer;
 }
 
 .card figure img {
@@ -162,6 +171,30 @@ section#about {
 
 .card .details {
     padding: 1rem;
+}
+
+.descrp {
+    color: var(--sub-text);
+    margin: 1rem 0;
+}
+
+.btn {
+    margin-bottom: 1rem;
+    padding: 0.2rem 0.5rem;
+    border: 0.2rem solid transparent;
+    border-radius: 0.4rem;
+}
+
+.btn:hover {
+    color: var(--white);
+    cursor: pointer;
+    background-color: var(--second-main);
+    border-color: var(--main-color);
+    
+}
+
+.tech {
+    color: var(--sub-text);
 }
 
 footer {

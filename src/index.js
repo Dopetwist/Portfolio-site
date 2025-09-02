@@ -5,7 +5,7 @@ const projects = [
         description: "A Node.js web app with secured authentication that helps users document individual reading history by storing personal notes, summaries and books ratings to a database.",
         img: "/images/projects/bookhive.png",
         github: "https://github.com/Dopetwist/BookHive.git",
-        tech: [ "Node.js", "Express.js", "JavaScript", "PostgreSQL", "HTML", "CSS", "EJS" ]
+        tech: [ "Node.js | ", "Express.js | ", "JavaScript | ", "PostgreSQL | ", "HTML | ", "CSS | ", "EJS" ]
     },
     {
         title: "Food Recipes Project",
