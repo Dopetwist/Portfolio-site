@@ -89,7 +89,6 @@ header {
 
 #home {
     background-color: var(--background-one);
-    /* padding-top: 4rem; */
 }
 
 #home main {
@@ -119,6 +118,16 @@ header {
 
 .home-text {
     text-align: center;
+}
+
+.home-div button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: var(--white);
+    background: linear-gradient(100deg, var(--second-main), var(--main-color));
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
 }
 
 section#about {
@@ -195,7 +204,7 @@ section#about {
     transition: .2s ease;
 }
 
-.btn:hover {
+.btn:hover, .home-div button:hover {
     color: var(--white);
     cursor: pointer;
     background: linear-gradient(100deg, var(--main-color), var(--second-main));
@@ -220,12 +229,13 @@ section#about {
     background-repeat: no-repeat;
 }
 
-.frontend {
-    margin-bottom: 1rem;
-}
+/* .main-con {
+    background-color: red;
+    display: flex;
+} */
 
-.frontend, .backend {
-    width: 100%;
+.frontend, .backend, .tools {
+    margin-bottom: 2rem;
 }
 
 .frontend h3, .backend h3, .soft-skills h3, .tools h3 {
@@ -244,7 +254,6 @@ section#about {
 .soft-skills {
     width: 40%;
     padding: 1rem;
-    margin-right: 4rem;
     border: 0.2rem solid var(--main-color);
     border-radius: 0.5rem;
 }
