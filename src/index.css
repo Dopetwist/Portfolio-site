@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
 }
@@ -185,6 +186,9 @@ section#about {
     background: linear-gradient(100deg, var(--second-main), var(--main-color));
     color: var(--white);
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 0.3rem 0.6rem;
     border-radius: 0.4rem;
     border: none;
@@ -196,6 +200,13 @@ section#about {
     cursor: pointer;
     background: linear-gradient(100deg, var(--main-color), var(--second-main));
     box-shadow: 0 0 0.5rem var(--second-main);
+}
+
+.btn img {
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
 }
 
 .tech {
@@ -258,6 +269,19 @@ section#about {
 
 .skill-text p {
     color: var(--sub-text);
+}
+
+#view p {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 3rem;
+    color: var(--white);
+}
+
+#view p i {
+    margin-left: 0.3rem;
+    font-size: 2rem;
 }
 
 footer {
