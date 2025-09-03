@@ -21,6 +21,10 @@ function Project() {
             <div className="project-container">
                 {projects.map(displayCard)}
             </div>
+
+            <a href="https://github.com/Dopetwist" id="view"> 
+                <p> View more on GitHub <i class='bx  bx-arrow-right-stroke'></i> </p> 
+            </a>
         </section>
     )
 }

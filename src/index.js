@@ -89,7 +89,12 @@ const tools = [
     {
         id: 3,
         img: "/src/assets/postman.svg"
-    }
+    },
+    // {
+    //     id: 4,
+    //     img: "/src/assets/github-small.svg"
+    // }
+
 ]
     
 
