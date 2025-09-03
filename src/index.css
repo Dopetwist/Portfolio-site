@@ -101,7 +101,6 @@ header {
     width: 80%;
     color: var(--white);
     text-align: center;
-    /* margin-top: 6%; */
 }
 
 .home-div h3 {
@@ -229,11 +228,6 @@ section#about {
     background-repeat: no-repeat;
 }
 
-/* .main-con {
-    background-color: red;
-    display: flex;
-} */
-
 .frontend, .backend, .tools {
     margin-bottom: 2rem;
 }
@@ -281,8 +275,7 @@ section#about {
 }
 
 #view p {
-    display: flex;
-    justify-content: right;
+    display: inline-flex;
     align-items: center;
     margin-top: 3rem;
     color: var(--white);
