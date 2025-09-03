@@ -182,16 +182,20 @@ section#about {
 }
 
 .btn {
+    background: linear-gradient(100deg, var(--second-main), var(--main-color));
+    color: var(--white);
     margin-bottom: 1rem;
     padding: 0.3rem 0.6rem;
     border-radius: 0.4rem;
     border: none;
+    transition: .2s ease;
 }
 
 .btn:hover {
     color: var(--white);
     cursor: pointer;
-    background-color: var(--second-main);
+    background: linear-gradient(100deg, var(--main-color), var(--second-main));
+    box-shadow: 0 0 0.5rem var(--second-main);
 }
 
 .tech {
@@ -245,6 +249,7 @@ section#about {
 
 .sk img {
     width: 100%;
+    color: var(--white);
 }
 
 .skill-text {
