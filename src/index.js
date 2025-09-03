@@ -65,7 +65,7 @@ const frontend = [
 const backend = [
     {
         id: 1,
-        img: "/images/tech/node.png"
+        img: "/src/assets/node-js.svg"
     },
     {
         id: 2,
@@ -80,11 +80,15 @@ const backend = [
 const tools = [
     {
         id: 1,
-        img: "/images/tech/git-logo.png"
+        img: "/src/assets/Git.svg"
     },
     {
         id: 2,
-        img: "/images/tech/postman.jpg"
+        img: "/src/assets/dfinity_logo.svg"
+    },
+    {
+        id: 3,
+        img: "/src/assets/postman.svg"
     }
 ]
     
