@@ -43,6 +43,10 @@ header {
     z-index: 100;
 }
 
+header.reset {
+    position: relative;
+}
+
 .heading {
     font-size: 2rem;
     color: var(--white);

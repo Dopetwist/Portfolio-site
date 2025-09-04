@@ -24,8 +24,8 @@ function Skill() {
 
                         <div className="frontend-tech">
                             {frontend.map((item) => (
-                                <div className="sk">
-                                    <img src={item.img} alt="tech logo" key={item.id} />
+                                <div className="sk"  key={item.id}>
+                                    <img src={item.img} alt="tech logo" />
                                 </div>
                             ))}
                         </div>
@@ -37,8 +37,8 @@ function Skill() {
 
                         <div className="backend-tech">
                             {backend.map((item) => (
-                                <div className="sk">
-                                    <img src={item.img} alt="tech logo" key={item.id} />
+                                <div className="sk" key={item.id}>
+                                    <img src={item.img} alt="tech logo" />
                                 </div>
                             ))}
                         </div>
@@ -49,8 +49,8 @@ function Skill() {
 
                         <div className="tools-tech">
                             {tools.map((item) => (
-                                <div className="sk">
-                                    <img src={item.img} alt="tech logo" key={item.id} />
+                                <div className="sk" key={item.id}>
+                                    <img src={item.img} alt="tech logo" />
                                 </div>
                             ))}
                         </div>
