@@ -3,7 +3,8 @@ import { projects } from "../index"
 
 function displayCard(item) {
     return (
-        <Card 
+        <Card
+            key={item.id}
             title={item.title}
             descrp={item.description}
             image={item.img}
@@ -23,7 +24,7 @@ function Project() {
             </div>
 
             <a href="https://github.com/Dopetwist" id="view"> 
-                <p> View more on GitHub <i class='bx  bx-arrow-right-stroke'></i> </p> 
+                <p> View more on GitHub <i className='bx  bx-arrow-right-stroke'></i> </p> 
             </a>
         </section>
     )

@@ -43,6 +43,10 @@ header {
     z-index: 100;
 }
 
+header.reset {
+    position: relative;
+}
+
 .heading {
     font-size: 2rem;
     color: var(--white);
@@ -284,6 +288,22 @@ section#about {
 #view p i {
     margin-left: 0.3rem;
     font-size: 2rem;
+}
+
+#contact .gen-con {
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+}
+
+#contact .gen-con .form {
+    width: 50%;
+    background-color: green;
+}
+
+#contact .gen-con .info {
+    width: 50%;
+    background-color: red;
 }
 
 footer {
