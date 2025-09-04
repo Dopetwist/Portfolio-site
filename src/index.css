@@ -286,6 +286,22 @@ section#about {
     font-size: 2rem;
 }
 
+#contact .gen-con {
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+}
+
+#contact .gen-con .form {
+    width: 50%;
+    background-color: green;
+}
+
+#contact .gen-con .info {
+    width: 50%;
+    background-color: red;
+}
+
 footer {
     width: 100%;
     padding: 1rem 0;

@@ -4,6 +4,7 @@ import Home from "./Home";
 import About from "./About";
 import Project from "./Project";
 import Skill from "./Skill";
+import Contact from "./Contact";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Project />
       <Skill />
+      <Contact />
       <Footer />
     </>
   )
