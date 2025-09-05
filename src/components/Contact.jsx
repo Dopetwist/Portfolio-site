@@ -6,7 +6,14 @@ function Contact() {
             <h2 className="heading"> Get in Touch </h2>
             <div className="gen-con">
                 <div className="form">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime voluptatem atque ex blanditiis nisi iure voluptatibus tenetur a necessitatibus repellat.</p>
+                    <h2> Send me a Message </h2>
+                    <form action="#">
+                        <input type="text" placeholder="Name"/>
+                        <input type="email" placeholder="Email"/>
+                        <textarea name="message" id="msg" placeholder="Message" rows={10}></textarea>
+
+                        <button type="submit" id="submit-btn"> Submit </button>
+                    </form>
                 </div>
 
                 <div className="info">

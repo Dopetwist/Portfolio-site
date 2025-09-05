@@ -28,7 +28,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 9rem 6% 5rem;
+    padding: 8rem 6% 5rem;
 }
 
 header {
@@ -301,12 +301,44 @@ section#about {
 
 #contact .gen-con .form {
     width: 50%;
-    background-color: green;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #e6e6e6;
 }
 
 #contact .gen-con .info {
     width: 50%;
     background-color: red;
+}
+
+.form h2 {
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--sub-text);
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form form input, .form form textarea {
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline-color: var(--main-color);
+}
+
+.form form textarea {
+    resize: none;
+}
+
+#submit-btn {
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    border-radius: 0.4rem;
+    border: none;
 }
 
 footer {
