@@ -281,10 +281,15 @@ section#about {
     color: var(--sub-text);
 }
 
+.more-projects {
+    display: flex;
+    justify-content: right;
+    margin-top: 3rem;
+}
+
 #view p {
     display: inline-flex;
     align-items: center;
-    margin-top: 3rem;
     color: var(--white);
 }
 
@@ -296,11 +301,12 @@ section#about {
 #contact .gen-con {
     width: 100%;
     display: flex;
+    justify-content: center;
     gap: 4rem;
 }
 
 #contact .gen-con .form, #contact .gen-con .info {
-    width: 50%;
+    width: 30rem;
     padding: 2rem 1.5rem;
     border-radius: 0.5rem;
     border: 0.1rem solid #e6e6e6;
@@ -353,16 +359,15 @@ section#about {
 }
 
 #btn-arrow {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-left: 0.4rem;
 }
 
 footer {
     width: 100%;
-    padding: 1rem 0;
+    padding: 2rem;
 }
 
 footer p {
     color: var(--sub-text);
-    text-align: center;
 }

@@ -12,7 +12,7 @@ function Contact() {
                         <input type="email" placeholder="Email"/>
                         <textarea name="message" id="msg" placeholder="Write a Message..." rows={10}></textarea>
 
-                        <button type="submit" id="submit-btn"> Send Message <i className='bx  bx-arrow-right-stroke' id="btn-arrow"></i> </button>
+                        <button type="submit" id="submit-btn"> Send Message <i class='bxr  bx-send' id="btn-arrow"></i> </button>
                     </form>
                 </div>
 

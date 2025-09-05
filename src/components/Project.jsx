@@ -23,9 +23,11 @@ function Project() {
                 {projects.map(displayCard)}
             </div>
 
-            <a href="https://github.com/Dopetwist" id="view"> 
-                <p> View more on GitHub <i className='bx  bx-arrow-right-stroke'></i> </p> 
-            </a>
+            <div className="more-projects">
+                <a href="https://github.com/Dopetwist" id="view"> 
+                    <p> View more on GitHub <i className='bx  bx-arrow-right-stroke'></i> </p> 
+                </a>
+            </div>
         </section>
     )
 }
