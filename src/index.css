@@ -301,7 +301,7 @@ section#about {
 
 #contact .gen-con .form, #contact .gen-con .info {
     width: 50%;
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem;
     border-radius: 0.5rem;
     border: 0.1rem solid #e6e6e6;
 }
@@ -330,7 +330,7 @@ section#about {
 }
 
 .form form textarea {
-    resize: none;
+    resize: vertical;
 }
 
 #submit-btn {
@@ -344,6 +344,7 @@ section#about {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    transition: .2s ease;
 }
 
 #submit-btn:hover {
