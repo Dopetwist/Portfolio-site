@@ -18,7 +18,7 @@
     --background-two: #1f1c1c;
     --extra-color: #02ced1;
     --white: #fff;
-    --sub-text: #6b6666;
+    --sub-text: #737373;
 }
 
 body {
@@ -120,6 +120,7 @@ header.reset {
 }
 
 .home-text {
+    color: var(--sub-text);
     text-align: center;
 }
 
@@ -143,7 +144,7 @@ section#about {
 }
 
 .about-content .about-text {
-    color: var(--white);
+    color: var(--sub-text);
     margin-right: 5rem;
 }
 
@@ -197,7 +198,7 @@ section#about {
 .btn {
     background: linear-gradient(100deg, var(--second-main), var(--main-color));
     color: var(--white);
-    margin-bottom: 1rem;
+    margin: 2rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
