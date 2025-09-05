@@ -281,10 +281,15 @@ section#about {
     color: var(--sub-text);
 }
 
+.more-projects {
+    display: flex;
+    justify-content: right;
+    margin-top: 3rem;
+}
+
 #view p {
     display: inline-flex;
     align-items: center;
-    margin-top: 3rem;
     color: var(--white);
 }
 
@@ -296,12 +301,13 @@ section#about {
 #contact .gen-con {
     width: 100%;
     display: flex;
+    justify-content: center;
     gap: 4rem;
 }
 
 #contact .gen-con .form, #contact .gen-con .info {
-    width: 50%;
-    padding: 1rem 1.5rem;
+    width: 30rem;
+    padding: 2rem 1.5rem;
     border-radius: 0.5rem;
     border: 0.1rem solid #e6e6e6;
 }
@@ -323,14 +329,14 @@ section#about {
 
 .form form input, .form form textarea {
     margin-bottom: 1rem;
-    padding: 0.3rem 0.5rem;
+    padding: 0.5rem 0.7rem;
     border-radius: 0.3rem;
     border: none;
     outline-color: var(--main-color);
 }
 
 .form form textarea {
-    resize: none;
+    resize: vertical;
 }
 
 #submit-btn {
@@ -344,6 +350,7 @@ section#about {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    transition: .2s ease;
 }
 
 #submit-btn:hover {
@@ -352,16 +359,15 @@ section#about {
 }
 
 #btn-arrow {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-left: 0.4rem;
 }
 
 footer {
     width: 100%;
-    padding: 1rem 0;
+    padding: 2rem;
 }
 
 footer p {
     color: var(--sub-text);
-    text-align: center;
 }
