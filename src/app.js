@@ -1,9 +1,13 @@
-// const name = document.querySelector(".name");
-// const header = document.querySelector("header");
 
-// document.querySelector(".home-nav").addEventListener("click", () => {
-//     // header.classList.add("reset");
-//     console.log("Testing.")
-// });
+
+window.addEventListener("scroll", () => {
+    const navbar = document.getElementById("header");
+
+    if (window.scrollY > 0) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+});
 
 

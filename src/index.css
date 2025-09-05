@@ -28,23 +28,24 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 8rem 6% 5rem;
+    padding: 9rem 6% 5rem;
 }
 
 header {
+    width: 100%;
     background-color: var(--background-one);
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     padding: 2rem 7%;
-    box-shadow: 0 0 1rem var(--sub-text);
     z-index: 100;
+    transition: box-shadow .3s;
 }
 
-header.reset {
-    position: relative;
+#header.scrolled {
+    box-shadow: 0 0.1rem 0.5rem var(--sub-text);
 }
 
 .heading {
@@ -99,6 +100,7 @@ header.reset {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .home-div {
