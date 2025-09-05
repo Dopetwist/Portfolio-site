@@ -313,8 +313,8 @@ section#about {
 
 .form h2 {
     font-weight: 500;
-    margin-bottom: 1rem;
-    color: var(--sub-text);
+    margin-bottom: 1.5rem;
+    color: #e6e6e6;
 }
 
 .form form {
@@ -325,7 +325,7 @@ section#about {
 .form form input, .form form textarea {
     margin-bottom: 1rem;
     padding: 0.3rem 0.5rem;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     border: none;
     outline-color: var(--main-color);
 }
@@ -335,10 +335,18 @@ section#about {
 }
 
 #submit-btn {
+    font-size: 1rem;
+    background-color: var(--main-color);
+    color: var(--white);
     margin: 1rem 0;
     padding: 0.5rem 0;
     border-radius: 0.4rem;
     border: none;
+}
+
+#submit-btn:hover {
+    background-color: #cf00cf;
+    cursor: pointer;
 }
 
 footer {

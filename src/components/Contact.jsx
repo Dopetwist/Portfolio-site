@@ -10,9 +10,9 @@ function Contact() {
                     <form action="#">
                         <input type="text" placeholder="Name"/>
                         <input type="email" placeholder="Email"/>
-                        <textarea name="message" id="msg" placeholder="Message" rows={10}></textarea>
+                        <textarea name="message" id="msg" placeholder="Write a Message..." rows={10}></textarea>
 
-                        <button type="submit" id="submit-btn"> Submit </button>
+                        <button type="submit" id="submit-btn"> Send Message </button>
                     </form>
                 </div>
 
