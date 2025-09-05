@@ -8,9 +8,9 @@ function Contact() {
                 <div className="form">
                     <h2> Send me a Message </h2>
                     <form action="#">
-                        <input type="text" placeholder="Name"/>
-                        <input type="email" placeholder="Email"/>
-                        <textarea name="message" id="msg" placeholder="Write a Message..." rows={10}></textarea>
+                        <input type="text" placeholder="Name" required/>
+                        <input type="email" placeholder="Email" required/>
+                        <textarea name="message" id="msg" placeholder="Write a Message..." rows={10} required></textarea>
 
                         <button type="submit" id="submit-btn"> Send Message <i class='bxr  bx-send' id="btn-arrow"></i> </button>
                     </form>
