@@ -299,7 +299,7 @@ section#about {
     gap: 4rem;
 }
 
-#contact .gen-con .form {
+#contact .gen-con .form, #contact .gen-con .info {
     width: 50%;
     padding: 1rem 1.5rem;
     border-radius: 0.5rem;
@@ -307,8 +307,7 @@ section#about {
 }
 
 #contact .gen-con .info {
-    width: 50%;
-    background-color: red;
+    color: #737373;
 }
 
 .form h2 {
@@ -342,11 +341,19 @@ section#about {
     padding: 0.5rem 0;
     border-radius: 0.4rem;
     border: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #submit-btn:hover {
     background-color: #cf00cf;
     cursor: pointer;
+}
+
+#btn-arrow {
+    font-size: 1.5rem;
+    margin-left: 0.4rem;
 }
 
 footer {
