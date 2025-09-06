@@ -361,6 +361,7 @@ section#about {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #contact .together i {
