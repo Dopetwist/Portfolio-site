@@ -130,6 +130,41 @@ header {
     text-align: center;
 }
 
+.home-buttons button#my-work {
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+    color: var(--white);
+    background: linear-gradient(100deg, var(--second-main), var(--main-color));
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+    transition: .2s ease;
+}
+
+.home-buttons button#my-work:hover {
+    cursor: pointer;
+    background: linear-gradient(100deg, var(--main-color), var(--second-main));
+    box-shadow: 0 0 0.5rem var(--second-main);
+}
+
+.home-buttons button#touch {
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+    color: var(--background-one);
+    background: #e6e6e6;
+    border: 0.1rem solid var(--sub-text);
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    transition: .3s ease;
+}
+
+.home-buttons button#touch:hover {
+    cursor: pointer;
+    background: #aaa1a1;
+    box-shadow: 0 0 0.7rem var(--second-main);
+}
+
 section#about {
     background: linear-gradient(300deg, var(--background-one), var(--background-one), var(--main-color));
 }
@@ -157,7 +192,7 @@ section#about {
     padding: 0.5rem 0.7rem;
     color: #000;
     background-color: #e6e6e6;
-    border: 0.15rem solid var(--background-one);
+    border: none;
     box-shadow: 0 0 1rem var(--extra-color);
     border-radius: 0.5rem;
     display: flex;
