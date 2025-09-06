@@ -15,7 +15,7 @@ function Home() {
                         enim rem ea quam iusto laudantium totam tempora nisi fugiat
                     </p>
 
-                    <button> Download CV </button>
+                    
                 </div>
             </main>
         </section>

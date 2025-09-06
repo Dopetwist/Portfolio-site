@@ -60,6 +60,10 @@ header {
     position: relative;
 }
 
+.name h2 {
+    font-weight: 500;
+}
+
 .name, .navbar a {
     text-decoration: none;
     color: var(--white);
@@ -126,16 +130,6 @@ header {
     text-align: center;
 }
 
-.home-div button {
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    color: var(--white);
-    background: linear-gradient(100deg, var(--second-main), var(--main-color));
-    border: none;
-    border-radius: 0.5rem;
-    margin-top: 2rem;
-}
-
 section#about {
     background: linear-gradient(300deg, var(--background-one), var(--background-one), var(--main-color));
 }
@@ -156,6 +150,30 @@ section#about {
     border-radius: 50%;
     border: 0.3rem solid var(--white);
     box-shadow: 0 1rem 1.5rem var(--extra-color);
+}
+
+.about-sub button {
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+    color: #000;
+    background-color: #e6e6e6;
+    border: 0.15rem solid var(--background-one);
+    box-shadow: 0 0 1rem var(--extra-color);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    transition: .3s ease;
+}
+
+.about-sub button:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.about-sub button i {
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
 }
 
 .project-container {
@@ -210,7 +228,7 @@ section#about {
     transition: .2s ease;
 }
 
-.btn:hover, .home-div button:hover {
+.btn:hover {
     color: var(--white);
     cursor: pointer;
     background: linear-gradient(100deg, var(--main-color), var(--second-main));
@@ -313,7 +331,7 @@ section#about {
 }
 
 #contact .gen-con .info {
-    color: #737373;
+    color: var(--sub-text);
 }
 
 .form h2 {
