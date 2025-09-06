@@ -60,6 +60,10 @@ header {
     position: relative;
 }
 
+.name h2 {
+    font-weight: 500;
+}
+
 .name, .navbar a {
     text-decoration: none;
     color: var(--white);
@@ -126,14 +130,39 @@ header {
     text-align: center;
 }
 
-.home-div button {
+.home-buttons button#my-work {
     font-size: 1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.7rem;
     color: var(--white);
     background: linear-gradient(100deg, var(--second-main), var(--main-color));
     border: none;
     border-radius: 0.5rem;
     margin-top: 2rem;
+    margin-right: 1.5rem;
+    transition: .2s ease;
+}
+
+.home-buttons button#my-work:hover {
+    cursor: pointer;
+    background: linear-gradient(100deg, var(--main-color), var(--second-main));
+    box-shadow: 0 0 0.5rem var(--second-main);
+}
+
+.home-buttons button#touch {
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+    color: var(--background-one);
+    background: #e6e6e6;
+    border: 0.1rem solid var(--sub-text);
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    transition: .3s ease;
+}
+
+.home-buttons button#touch:hover {
+    cursor: pointer;
+    background: #aaa1a1;
+    box-shadow: 0 0 0.7rem var(--second-main);
 }
 
 section#about {
@@ -156,6 +185,30 @@ section#about {
     border-radius: 50%;
     border: 0.3rem solid var(--white);
     box-shadow: 0 1rem 1.5rem var(--extra-color);
+}
+
+.about-sub button {
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+    color: #000;
+    background-color: #e6e6e6;
+    border: none;
+    box-shadow: 0 0 1rem var(--extra-color);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    transition: .3s ease;
+}
+
+.about-sub button:hover {
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.about-sub button i {
+    font-size: 1.3rem;
+    margin-right: 0.5rem;
 }
 
 .project-container {
@@ -210,7 +263,7 @@ section#about {
     transition: .2s ease;
 }
 
-.btn:hover, .home-div button:hover {
+.btn:hover {
     color: var(--white);
     cursor: pointer;
     background: linear-gradient(100deg, var(--main-color), var(--second-main));
@@ -298,11 +351,31 @@ section#about {
     font-size: 2rem;
 }
 
+#contact #get-in-touch {
+    margin-bottom: 1rem;
+}
+
+#contact .together {
+    font-size: 1.3rem;
+    color: var(--sub-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contact .together i {
+    color: var(--main-color);
+    font-size: 2rem;
+    margin: 1rem;
+}
+
 #contact .gen-con {
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 4rem;
+    margin-top: 3rem;
 }
 
 #contact .gen-con .form, #contact .gen-con .info {
@@ -313,18 +386,57 @@ section#about {
 }
 
 #contact .gen-con .info {
-    color: #737373;
+    color: var(--sub-text);
+}
+
+.contact-details div {
+    margin: 2rem 0;
+}
+
+.contact-details div p {
+    color: #e6e6e6;
+}
+
+.contact-details div p i {
+    font-size: 1.3rem;
+    margin-right: 0.3rem;
+    color: var(--sub-text);
+}
+
+.contact-details .email .p-color,
+.contact-details .phone .p-color,
+.contact-details .address .p-color {
+    color: var(--sub-text);
+}
+
+.p-icon {
+    display: flex;
+    align-items: center;
+}
+
+.info h2 {
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+    color: #e6e6e6;
+}
+
+.info .reach, .form .respond {
+    font-size: 0.9rem;
+}
+
+.form .respond {
+    color: var(--sub-text);
 }
 
 .form h2 {
     font-weight: 500;
-    margin-bottom: 1.5rem;
     color: #e6e6e6;
 }
 
 .form form {
     display: flex;
     flex-direction: column;
+    margin-top: 1.5rem;
 }
 
 .form form input, .form form textarea {
@@ -337,6 +449,7 @@ section#about {
 
 .form form textarea {
     resize: vertical;
+    max-height: 25rem;
 }
 
 #submit-btn {
@@ -366,8 +479,31 @@ section#about {
 footer {
     width: 100%;
     padding: 2rem;
+    border-top: 0.1rem solid var(--sub-text);
+    display: flex;
+    justify-content: space-between;
 }
 
 footer p {
     color: var(--sub-text);
+}
+
+footer .socials {
+    display: flex;
+    margin-right: 2rem;
+}
+
+footer .socials a {
+    margin-right: 1.5rem;
+}
+
+footer .socials .social-con {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+footer .social-con img {
+    width: 100%;
 }

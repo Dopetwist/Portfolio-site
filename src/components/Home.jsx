@@ -15,7 +15,14 @@ function Home() {
                         enim rem ea quam iusto laudantium totam tempora nisi fugiat
                     </p>
 
-                    <button> Download CV </button>
+                    <div className="home-buttons">
+                        <a href="#project">
+                            <button id="my-work"> View My Work </button>
+                        </a>
+                        <a href="#contact">
+                            <button id="touch"> Get In Touch </button>
+                        </a>
+                    </div>
                 </div>
             </main>
         </section>
