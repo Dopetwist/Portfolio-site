@@ -478,8 +478,31 @@ section#about {
 footer {
     width: 100%;
     padding: 2rem;
+    border-top: 0.1rem solid var(--sub-text);
+    display: flex;
+    justify-content: space-between;
 }
 
 footer p {
     color: var(--sub-text);
+}
+
+footer .socials {
+    display: flex;
+    margin-right: 2rem;
+}
+
+footer .socials a {
+    margin-right: 1.5rem;
+}
+
+footer .socials .social-con {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+footer .social-con img {
+    width: 100%;
 }
