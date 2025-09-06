@@ -3,7 +3,7 @@
 function Footer() {
     return (
         <footer id="footer">
-            <p> &copy; 2025, Jonathan Afugwobi | All Rights Reserved. </p>
+            <p> &copy; 2025, Jonathan Afugwobi | All rights reserved. </p>
         </footer>
     )
 }

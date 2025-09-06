@@ -351,11 +351,30 @@ section#about {
     font-size: 2rem;
 }
 
+#contact #get-in-touch {
+    margin-bottom: 1rem;
+}
+
+#contact .together {
+    font-size: 1.3rem;
+    color: var(--sub-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .together i {
+    color: var(--main-color);
+    font-size: 2rem;
+    margin: 1rem;
+}
+
 #contact .gen-con {
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 4rem;
+    margin-top: 3rem;
 }
 
 #contact .gen-con .form, #contact .gen-con .info {
@@ -369,15 +388,54 @@ section#about {
     color: var(--sub-text);
 }
 
+.contact-details div {
+    margin: 2rem 0;
+}
+
+.contact-details div p {
+    color: #e6e6e6;
+}
+
+.contact-details div p i {
+    font-size: 1.3rem;
+    margin-right: 0.3rem;
+    color: var(--sub-text);
+}
+
+.contact-details .email .p-color,
+.contact-details .phone .p-color,
+.contact-details .address .p-color {
+    color: var(--sub-text);
+}
+
+.p-icon {
+    display: flex;
+    align-items: center;
+}
+
+.info h2 {
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+    color: #e6e6e6;
+}
+
+.info .reach, .form .respond {
+    font-size: 0.9rem;
+}
+
+.form .respond {
+    color: var(--sub-text);
+}
+
 .form h2 {
     font-weight: 500;
-    margin-bottom: 1.5rem;
     color: #e6e6e6;
 }
 
 .form form {
     display: flex;
     flex-direction: column;
+    margin-top: 1.5rem;
 }
 
 .form form input, .form form textarea {
@@ -390,6 +448,7 @@ section#about {
 
 .form form textarea {
     resize: vertical;
+    max-height: 25rem;
 }
 
 #submit-btn {
