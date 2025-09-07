@@ -7,25 +7,25 @@ function Footer() {
 
             <div className="socials">
                 
-                <a href="#"> 
+                <a href="#" className="linkedin"> 
                     <div className="social-con">
                         <img src="/images/socials/linkedin.png" alt="LinkedIn Image" />
                     </div>
                 </a>
             
-                <a href="#"> 
+                <a href="#" className="github"> 
                     <div className="social-con">
                         <img src="/images/socials/github.jpg" alt="GitHub Image" />
                     </div>
                 </a>
 
-                <a href="#"> 
+                <a href="#" className="instagram"> 
                     <div className="social-con">
                         <img src="/images/socials/instagram.jpeg" alt="Instagram Image" />
                     </div>
                 </a>
 
-                <a href="#"> 
+                <a href="#" className="X"> 
                     <div className="social-con">
                         <img src="/images/socials/X.jpg" alt="X Image" />
                     </div>
