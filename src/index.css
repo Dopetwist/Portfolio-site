@@ -484,6 +484,7 @@ footer {
 }
 
 footer p {
+    font-size: 0.9rem;
     color: var(--sub-text);
 }
 
