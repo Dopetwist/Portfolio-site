@@ -156,12 +156,11 @@ header {
     border: 0.1rem solid var(--sub-text);
     border-radius: 0.5rem;
     margin-top: 2rem;
-    transition: .3s ease;
+    transition: .1s ease;
 }
 
 .home-buttons button#touch:hover {
     cursor: pointer;
-    background: #aaa1a1;
     box-shadow: 0 0 0.7rem var(--second-main);
 }
 
@@ -485,6 +484,7 @@ footer {
 }
 
 footer p {
+    font-size: 0.9rem;
     color: var(--sub-text);
 }
 
@@ -502,6 +502,38 @@ footer .socials .social-con {
     height: 2rem;
     border-radius: 0.5rem;
     overflow: hidden;
+}
+
+.linkedin {
+    transition: .2s ease;
+}
+
+footer .socials .linkedin:hover {
+    transform: rotate(20deg) scale(1.2);
+}
+
+.github {
+    transition: .2s ease;
+}
+
+footer .socials .github:hover {
+    transform: rotate(20deg) scale(1.2);
+}
+
+.instagram {
+    transition: .2s ease;
+}
+
+footer .socials .instagram:hover {
+    transform: rotate(20deg) scale(1.2);
+}
+
+.X {
+    transition: .2s ease;
+}
+
+footer .socials .X:hover {
+    transform: rotate(20deg) scale(1.2);
 }
 
 footer .social-con img {
