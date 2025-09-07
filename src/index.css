@@ -475,6 +475,28 @@ section#about {
     margin-left: 0.4rem;
 }
 
+#back-to-top {
+    background-color: #aca7a7;
+    padding: 0.2rem 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    position: fixed;
+    bottom: 7%;
+    right: 5%;
+    /* display: flex;
+    align-items: center; */
+}
+
+#back-to-top:hover {
+    cursor: pointer;
+    background-color: #747070;
+}
+
+/* #back-to-top i {
+    font-size: 1.5rem;
+    margin-right: 0.3rem;
+} */
+
 footer {
     width: 100%;
     padding: 2rem;
