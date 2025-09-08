@@ -328,12 +328,12 @@ section#about {
     color: var(--sub-text);
 }
 
-#skill {
+/* #skill {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/background-1.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 #skill h2 {
     color: #fff;
@@ -364,7 +364,7 @@ section#about {
 }
 
 .soft-skills p {
-    color: var(--sub-text);
+    color: #e6e6e6;
 }
 
 .sk {
@@ -382,7 +382,7 @@ section#about {
 }
 
 .skill-text p {
-    color: var(--sub-text);
+    color: #e6e6e6;
 }
 
 .more-projects {
