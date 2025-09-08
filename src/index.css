@@ -48,11 +48,31 @@ header {
     box-shadow: 0 0.1rem 0.5rem var(--sub-text);
 }
 
+.mode-con {
+    background-color: #a09c9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    margin-left: 3rem;
+}
+
+#light-icon {
+    font-size: 1.5rem;
+    color: var(--background-one);
+}
+
 .heading {
     font-size: 2rem;
     color: var(--white);
     text-align: center;
     margin-bottom: 3rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
 }
 
 .navbar a {
@@ -128,6 +148,7 @@ header {
 .home-text {
     color: var(--sub-text);
     text-align: center;
+    margin: 1rem 0;
 }
 
 .home-buttons button#my-work {
@@ -210,12 +231,30 @@ section#about {
     margin-right: 0.5rem;
 }
 
+#project .explore {
+    font-size: 1.3rem;
+    color: #a09c9c;
+    text-align: center;
+}
+
+#project #portfolio {
+    display: flex;
+    justify-content: center;
+}
+
 .project-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 5rem;
+    margin-top: 4rem;
+}
+
+#code-icon {
+    font-size: 3rem;
+    color: var(--extra-color);
+    margin-right: 1rem;
 }
 
 .card {
@@ -345,18 +384,22 @@ section#about {
     color: var(--white);
 }
 
+#view p:hover {
+    color: var(--extra-color);
+}
+
 #view p i {
     margin-left: 0.3rem;
     font-size: 2rem;
 }
 
-#contact #get-in-touch {
+#contact #get-in-touch, #project #portfolio {
     margin-bottom: 1rem;
 }
 
 #contact .together {
     font-size: 1.3rem;
-    color: var(--sub-text);
+    color: #a09c9c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -364,7 +407,7 @@ section#about {
 }
 
 #contact .together i {
-    color: var(--main-color);
+    color: var(--extra-color);
     font-size: 2rem;
     margin: 1rem;
 }
@@ -476,26 +519,28 @@ section#about {
 }
 
 #back-to-top {
-    background-color: #aca7a7;
-    padding: 0.2rem 0.5rem;
+    background-color: var(--extra-color);
+    padding: 0.3rem;
     border: none;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     position: fixed;
     bottom: 7%;
     right: 5%;
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s ease;
 }
 
 #back-to-top:hover {
     cursor: pointer;
-    background-color: #747070;
+    background-color: #bbb8b8;
+    box-shadow: 0 0 0.5rem var(--extra-color);
 }
 
-/* #back-to-top i {
-    font-size: 1.5rem;
-    margin-right: 0.3rem;
-} */
+#back-to-top i {
+    font-size: 2rem;
+}
 
 footer {
     width: 100%;
@@ -512,7 +557,7 @@ footer p {
 
 footer .socials {
     display: flex;
-    margin-right: 2rem;
+    margin-right: 4rem;
 }
 
 footer .socials a {

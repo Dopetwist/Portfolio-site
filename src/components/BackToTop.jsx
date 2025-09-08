@@ -28,10 +28,9 @@ function BackToTop() {
             { showButton && (
                 <button 
                 onClick={scrollTop}
-                style={{display: "block"}}
                 id="back-to-top"
                 >
-                    <i class='bxr  bx-arrow-up-stroke'  ></i>    Back to Top
+                    <i class='bxr  bx-arrow-up-stroke'  ></i>
                 </button>
             )}
         </div>
