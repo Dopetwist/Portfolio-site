@@ -28,7 +28,6 @@ function BackToTop() {
             { showButton && (
                 <button 
                 onClick={scrollTop}
-                style={{visibility: "visible"}}
                 id="back-to-top"
                 >
                     <i class='bxr  bx-arrow-up-stroke'  ></i>

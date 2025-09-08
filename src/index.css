@@ -345,6 +345,10 @@ section#about {
     color: var(--white);
 }
 
+#view p:hover {
+    color: var(--extra-color);
+}
+
 #view p i {
     margin-left: 0.3rem;
     font-size: 2rem;
@@ -514,7 +518,7 @@ footer p {
 
 footer .socials {
     display: flex;
-    margin-right: 2rem;
+    margin-right: 4rem;
 }
 
 footer .socials a {
