@@ -1,4 +1,4 @@
-
+import ThemeMode from "./ThemeMode";
 
 function Nav() {
     return (
@@ -9,9 +9,7 @@ function Nav() {
             <a href="#skill">Skills</a>
             <a href="#contact">Contact</a>
 
-            <div className="mode-con">
-                <i class='bxr  bx-sun-bright'  id="light-icon"></i>
-            </div>
+            <ThemeMode />
         </nav>
     )
 }

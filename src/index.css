@@ -58,7 +58,11 @@ header {
     margin-left: 3rem;
 }
 
-#light-icon {
+.mode-con:hover {
+    cursor: pointer;
+}
+
+#toggle-icon {
     font-size: 1.5rem;
     color: var(--background-one);
 }
