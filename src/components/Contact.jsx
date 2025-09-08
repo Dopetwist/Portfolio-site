@@ -4,7 +4,7 @@ function Contact() {
     return (
         <section id="contact">
             <h2 className="heading" id="get-in-touch"> Get in Touch </h2>
-            <p className="together"><i class='bxr  bx-arrow-right'  ></i> Let's work together to bring your amazing ideas to reality!<i class='bxr  bx-arrow-left'  ></i> </p>
+            <p className="together"><i class='bxr  bx-arrow-right'  ></i> Let's work together to bring your amazing ideas to life!<i class='bxr  bx-arrow-left'  ></i> </p>
 
             <div className="gen-con">
                 <div className="form">

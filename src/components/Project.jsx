@@ -16,8 +16,10 @@ function displayCard(item) {
 
 function Project() {
     return (
-        <section id="project">
-            <h2 className="heading"> Portfolio Projects </h2>
+        <section id="project"> 
+            <h2 className="heading" id="portfolio"><i class='bxr  bx-code-alt' id="code-icon" ></i>  Portfolio Projects </h2>
+
+            <p className="explore"> Explore my previous projects built with various technologies! </p>
 
             <div className="project-container">
                 {projects.map(displayCard)}

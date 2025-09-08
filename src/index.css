@@ -210,12 +210,30 @@ section#about {
     margin-right: 0.5rem;
 }
 
+#project .explore {
+    font-size: 1.3rem;
+    color: #a09c9c;
+    text-align: center;
+}
+
+#project #portfolio {
+    display: flex;
+    justify-content: center;
+}
+
 .project-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 5rem;
+    margin-top: 4rem;
+}
+
+#code-icon {
+    font-size: 3rem;
+    color: var(--extra-color);
+    margin-right: 1rem;
 }
 
 .card {
@@ -354,13 +372,13 @@ section#about {
     font-size: 2rem;
 }
 
-#contact #get-in-touch {
+#contact #get-in-touch, #project #portfolio {
     margin-bottom: 1rem;
 }
 
 #contact .together {
     font-size: 1.3rem;
-    color: var(--sub-text);
+    color: #a09c9c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -368,7 +386,7 @@ section#about {
 }
 
 #contact .together i {
-    color: var(--main-color);
+    color: var(--extra-color);
     font-size: 2rem;
     margin: 1rem;
 }
