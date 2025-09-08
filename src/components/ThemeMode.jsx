@@ -1,32 +1,33 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function ThemeMode() {
-    const [ darkTheme, setDarkTheme ] = useState(true);
-   
+    const [ lightTheme, setLightTheme ] = useState(false);
 
-    function handleClick() {
+    useEffect(() => {
         const toggleButton = document.getElementById("toggle-icon");
 
-        if (toggleButton.classList.contains("bx-sun-bright")) {
-            setDarkTheme(false);
+        if (lightTheme) {
+            toggleButton.classList.remove("bx-sun-bright");
+            toggleButton.classList.add("bx-moon");
+            document.body.classList.add("light-mode");
         } else {
-            setDarkTheme(true);
+            toggleButton.classList.remove("bx-moon");
+            toggleButton.classList.add("bx-sun-bright");
+            document.body.classList.remove("light-mode");
         }
-    }
+
+    }, [lightTheme]);
+
+
 
     return (
         <div>
-            { darkTheme ? 
             <div className="mode-con"
-            onClick={handleClick}
+            onClick={() => setLightTheme(!lightTheme)}
             >
-                <i className='bxr  bx-sun-bright'  id="toggle-icon"></i>
-            </div> : 
-            <div className="mode-con"
-            onClick={handleClick}
-            >
-                <i className='bxr  bx-moon' id="toggle-icon"></i> 
-            </div> }
+                { lightTheme ? <i className='bxr  bx-sun-bright'  id="toggle-icon"></i>
+                    :  <i className='bxr  bx-moon'  id="toggle-icon"></i> }
+            </div>
         </div>
     )
 }
