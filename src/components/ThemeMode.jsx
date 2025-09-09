@@ -9,6 +9,7 @@ function ThemeMode() {
     useLayoutEffect(() => {
         const toggleButton = document.getElementById("toggle-icon");
         const skillBG = document.getElementById("skill");
+        const text = document.querySelector(".about-text p");
 
         if (lightTheme) {
             toggleButton.classList.remove("bx-sun-bright");
@@ -17,6 +18,7 @@ function ThemeMode() {
             skillBG.style.background = "linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url('/images/background-1.png')";
             skillBG.style.backgroundPosition = "center";
             skillBG.style.backgroundSize = "cover";
+            text.style.color = "#000";
             localStorage.setItem("theme", "light");
         } else {
             toggleButton.classList.remove("bx-moon");
@@ -25,6 +27,7 @@ function ThemeMode() {
             skillBG.style.background = "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/background-1.png')";
             skillBG.style.backgroundPosition = "center";
             skillBG.style.backgroundSize = "cover";
+            text.style.color = "#fff";
             localStorage.setItem("theme", "dark");
         }
 

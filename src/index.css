@@ -204,8 +204,7 @@ section#about {
     align-items: center;
 }
 
-.about-content .about-text {
-    color: var(--sub-text);
+.about-content .about-text p {
     margin-right: 5rem;
 }
 
@@ -220,7 +219,7 @@ section#about {
 .about-sub button {
     font-size: 1rem;
     padding: 0.5rem 0.7rem;
-    color: #000;
+    color: var(--background-one);
     background-color: var(--second-color);
     border: none;
     box-shadow: 0 0 1rem var(--extra-color);
