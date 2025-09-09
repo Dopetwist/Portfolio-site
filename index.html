@@ -3,19 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jonathan Afugwobi | Full-stack Dev</title>
+    <title>Jonathan Afugwobi | Full-Stack Dev</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
 
     <script>
       (function() {
-        const savedTheme = localStorage.getItem("theme");
+        let savedTheme = localStorage.getItem("theme");
         const toggleButton = document.getElementById("toggle-icon");
+        
+        // Set default theme to dark mode on first reload
+        if (!savedTheme) {
+          savedTheme = "dark";
+          localStorage.setItem("theme", "dark");
+        } 
         
         if (savedTheme === "light") {
           document.documentElement.classList.add("light-mode");
-        } else {
-          document.documentElement.classList.remove("light-mode");
         }
       })();
     </script>
