@@ -6,6 +6,19 @@
     <title>Jonathan Afugwobi | Full-stack Dev</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+
+    <script>
+      (function() {
+        const savedTheme = localStorage.getItem("theme");
+        const toggleButton = document.getElementById("toggle-icon");
+        
+        if (savedTheme === "light") {
+          document.documentElement.classList.add("light-mode");
+        } else {
+          document.documentElement.classList.remove("light-mode");
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

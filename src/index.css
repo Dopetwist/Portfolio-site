@@ -22,7 +22,7 @@
     --second-color: #e6e6e6;
 }
 
-.light-mode {
+html.light-mode {
     --background-one: #e6e6e6;
     --text: #000;
     --second-color: #504d4d;
