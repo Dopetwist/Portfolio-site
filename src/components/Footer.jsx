@@ -1,9 +1,11 @@
 
 
 function Footer() {
+    const currentYear = new Date().getFullYear();
+
     return (
         <footer id="footer">
-            <p> &copy; 2025, Jonathan Afugwobi | All rights reserved. </p>
+            <p> &copy; {currentYear}, Jonathan Afugwobi | All rights reserved. </p>
 
             <div className="socials">
                 
