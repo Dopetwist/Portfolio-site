@@ -255,11 +255,12 @@ section#about {
 
 .project-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-wrap: wrap;
     gap: 5rem;
     margin-top: 4rem;
+    padding-left: 13%;
 }
 
 #code-icon {
