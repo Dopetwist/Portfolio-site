@@ -12,7 +12,7 @@
         let savedTheme = localStorage.getItem("theme");
         const toggleButton = document.getElementById("toggle-icon");
         
-        // Set default theme to dark mode on first reload
+        // Set default theme to dark mode on first load
         if (!savedTheme) {
           savedTheme = "dark";
           localStorage.setItem("theme", "dark");
