@@ -25,7 +25,7 @@ function Home() {
             <main>
                 <div className="home-div">
                     <h3> Hello! I'm </h3>
-                    <h2> Jonathan Afugwobi </h2>
+                    <h2 id='main-name'> Jonathan Afugwobi </h2>
                     <p id="dev">And i'm a <span ref={el}/> </p> 
 
                     <p className="home-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
