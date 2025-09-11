@@ -21,7 +21,7 @@ function About() {
                     <button><i class='bxr  bx-arrow-in-down-square-half'></i>  Download CV </button>
                 </div>
 
-                <figure>
+                <figure id="about-img">
                     <img src="/images/Profile-pic.JPG" alt="Profile Picture" loading="lazy"/>
                 </figure>
             </div>
