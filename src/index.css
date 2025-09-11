@@ -255,11 +255,12 @@ section#about {
 
 .project-container {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     flex-wrap: wrap;
     gap: 5rem;
     margin-top: 4rem;
+    padding-left: 13%;
 }
 
 #code-icon {
@@ -329,15 +330,12 @@ section#about {
     color: var(--sub-text);
 }
 
-/* #skill {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/background-1.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
 #skill h2 {
     color: #fff;
+}
+
+.main-con {
+    display: flex;
 }
 
 .frontend, .backend, .tools {
@@ -359,6 +357,7 @@ section#about {
 
 .soft-skills {
     width: 40%;
+    margin-left: 5rem;
     padding: 1rem;
     border: 0.2rem solid var(--main-color);
     border-radius: 0.5rem;
@@ -369,7 +368,7 @@ section#about {
 }
 
 .sk {
-    width: 7%;
+    width: 5rem;
     margin-right: 2rem;
 }
 
@@ -379,7 +378,7 @@ section#about {
 }
 
 .skill-text {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .skill-text p {
