@@ -355,6 +355,17 @@ section#about {
     border-radius: 1.5rem;
 }
 
+.skill-name {
+    background-color: teal;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    opacity: 0.4;
+}
+
 .soft-skills {
     width: 40%;
     margin-left: 5rem;
@@ -370,6 +381,7 @@ section#about {
 .sk {
     width: 5rem;
     margin-right: 2rem;
+    position: relative;
 }
 
 .sk img {

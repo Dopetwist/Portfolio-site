@@ -26,6 +26,7 @@ function Skill() {
                             {frontend.map((item) => (
                                 <div className="sk"  key={item.id}>
                                     <img src={item.img} alt="tech logo" />
+                                    <div className="skill-name"> {item.name} </div>
                                 </div>
                             ))}
                         </div>
