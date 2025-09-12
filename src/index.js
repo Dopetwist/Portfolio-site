@@ -47,22 +47,27 @@ const projects = [
 const frontend = [
     {
         id: 1,
+        name: "HTML",
         img: "/images/tech/HTML.png"
     },
     {
         id: 2,
+        name: "CSS",
         img: "/images/tech/CSS.png"
     },
     {
         id: 3,
+        name: "JavaScript",
         img: "/images/tech/javascript.png"
     },
     {
         id: 4,
+        name: "React.js",
         img: "/images/tech/react.png"
     },
     {
         id: 5,
+        name: "Bootstrap",
         img: "/images/tech/bootstrap.png"
     }
 ]
@@ -70,14 +75,17 @@ const frontend = [
 const backend = [
     {
         id: 1,
+        name: "Node.js",
         img: "/src/assets/node-js.svg"
     },
     {
         id: 2,
+        name: "PostgreSQL",
         img: "/images/tech/postgresql.png"
     },
     {
         id: 3,
+        name: "Express.js",
         img: "/images/tech/express.png"
     }
 ]
@@ -85,14 +93,17 @@ const backend = [
 const tools = [
     {
         id: 1,
+        name: "Git",
         img: "/src/assets/Git.svg"
     },
     {
         id: 2,
+        name: "Dfinity (Motoko)",
         img: "/src/assets/dfinity_logo.svg"
     },
     {
         id: 3,
+        name: "Postman",
         img: "/src/assets/postman.svg"
     }
 ]
