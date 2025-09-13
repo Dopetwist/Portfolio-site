@@ -40,6 +40,10 @@ function Home() {
                             <button id="touch"> Get In Touch </button>
                         </a>
                     </div>
+
+                    <a href="#about" id='arrow-con'>
+                        <i class='bxr  bx-chevrons-down'  id='arrow-down'></i>
+                    </a> 
                 </div>
             </main>
         </section>
