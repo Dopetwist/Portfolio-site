@@ -236,7 +236,7 @@ section#about {
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
     transition: .3s ease;
 }
 
@@ -383,7 +383,7 @@ section#about {
 
 .tech-name-con {
     width: 100%;
-    background-color: rgb(0, 129, 129);
+    background-color: rgb(3, 100, 100);
     display: none;
     position: absolute;
     bottom: -1.5rem;
@@ -406,7 +406,11 @@ section#about {
     border-radius: 0.5rem;
 }
 
-.soft-skills p {
+.soft-skills ul {
+    margin-left: 2rem;
+}
+
+.soft-skills p, .soft-skills ul li {
     color: #e6e6e6;
 }
 
@@ -427,10 +431,16 @@ section#about {
 
 .skill-text {
     margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skill-text p {
+    width: 80%;
+    font-size: 1.3rem;
     color: #e6e6e6;
+    text-align: center;
 }
 
 .more-projects {

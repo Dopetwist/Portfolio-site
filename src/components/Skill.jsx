@@ -6,14 +6,7 @@ function Skill() {
             <h2 className="heading"> Tech Skills </h2>
 
             <div className="skill-text">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Similique magnam id laudantium? Consequatur voluptatum quam quis 
-                    soluta rerum pariatur praesentium. 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Similique magnam id laudantium? Consequatur voluptatum quam quis 
-                    soluta rerum pariatur praesentium.
-                </p>
+                <p> With extensive knowledge in good technologies, i transform ideas into functional and interactive applications. </p>
             </div>
 
             
@@ -25,7 +18,7 @@ function Skill() {
                         <div className="frontend-tech">
                             {frontend.map((item) => (
                                 <div className="sk"  key={item.id}>
-                                    <img src={item.img} alt="tech logo" />
+                                    <img src={item.img} alt="tech logo" loading="lazy" />
                                     <div className="skill-name"> 
                                         <div className="tech-name-con">
                                             <p className="tech-name"> {item.name} </p>
@@ -43,7 +36,7 @@ function Skill() {
                         <div className="backend-tech">
                             {backend.map((item) => (
                                 <div className="sk" key={item.id}>
-                                    <img src={item.img} alt="tech logo" />
+                                    <img src={item.img} alt="tech logo" loading="lazy" />
                                     <div className="skill-name"> 
                                         <div className="tech-name-con">
                                             <p className="tech-name"> {item.name} </p>
@@ -60,7 +53,7 @@ function Skill() {
                         <div className="tools-tech">
                             {tools.map((item) => (
                                 <div className="sk" key={item.id}>
-                                    <img src={item.img} alt="tech logo" />
+                                    <img src={item.img} alt="tech logo" loading="lazy" />
                                     <div className="skill-name"> 
                                         <div className="tech-name-con">
                                             <p className="tech-name"> {item.name} </p>
@@ -75,13 +68,17 @@ function Skill() {
                 <div className="soft-skills">
                     <h3>Soft Skills</h3>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Obcaecati ipsa enim nisi eveniet consequuntur molestias ex adipisci quisquam, 
-                        dolorem quibusdam?
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                        Obcaecati ipsa enim nisi eveniet consequuntur molestias ex adipisci quisquam, 
-                        dolorem quibusdam?
+                        Aside technical skills, i possess soft skills which includes;
                     </p>
+
+                    <br />
+
+                    <ul>
+                        <li>Excellent Communication skills</li>
+                        <li>Teamwork</li>
+                        <li>Goal-oriented</li>
+                        <li>Interpersonal skills</li>
+                    </ul>
                 </div>
             </div>
 

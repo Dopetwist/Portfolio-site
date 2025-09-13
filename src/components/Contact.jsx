@@ -9,7 +9,7 @@ function Contact() {
             <div className="gen-con">
                 <div className="form">
                     <h2> Send me a Message </h2>
-                    <p className="respond"> I respond quickly within 24 hours </p>
+                    <p className="respond"> I respond as soon as possible. </p>
 
                     <form action="#">
                         <input type="text" placeholder="Name" required/>
