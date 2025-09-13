@@ -158,10 +158,18 @@ header {
     letter-spacing: 0.3rem;
 }
 
-.home-text {
-    color: var(--sub-text);
-    text-align: center;
+.tagline {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 1rem 0;
+}
+
+.home-text {
+    width: 90%;
+    font-size: 1.5rem;
+    color: var(--sub-text);
 }
 
 .home-buttons button#my-work {
