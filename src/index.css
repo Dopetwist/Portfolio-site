@@ -117,7 +117,7 @@ header {
 
 #dev {
     font-size: 1.5rem;
-    margin: 1rem 0 2rem;
+    margin: 1rem 0;
     margin-left: 17%;
     text-align: left !important;
 }
@@ -158,12 +158,46 @@ header {
     letter-spacing: 0.3rem;
 }
 
+.home-div #arrow-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.home-div a #arrow-down {
+    font-size: 2.5rem;
+    color: var(--text);
+    animation: floatIcon 1.5s ease-in-out infinite;
+}
+
+.home-div a #arrow-down:hover {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0.1rem solid var(--text);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@keyframes floatIcon {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-1.5rem);
+    }
+    0% {
+        transform: translateY(0);
+    }
+}
+
 .tagline {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 .home-text {
@@ -236,7 +270,7 @@ section#about {
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
     transition: .3s ease;
 }
 
@@ -383,7 +417,7 @@ section#about {
 
 .tech-name-con {
     width: 100%;
-    background-color: rgb(0, 129, 129);
+    background-color: rgb(3, 100, 100);
     display: none;
     position: absolute;
     bottom: -1.5rem;
@@ -406,7 +440,11 @@ section#about {
     border-radius: 0.5rem;
 }
 
-.soft-skills p {
+.soft-skills ul {
+    margin-left: 2rem;
+}
+
+.soft-skills p, .soft-skills ul li {
     color: #e6e6e6;
 }
 
@@ -427,10 +465,16 @@ section#about {
 
 .skill-text {
     margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skill-text p {
+    width: 80%;
+    font-size: 1.3rem;
     color: #e6e6e6;
+    text-align: center;
 }
 
 .more-projects {

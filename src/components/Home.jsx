@@ -29,7 +29,7 @@ function Home() {
                     <p id="dev">And i'm a <span ref={el}/> </p> 
 
                     <div className="tagline">
-                        <p className="home-text"> Building Innovative Solutions and digital experiences that elevates businesses growth and success. </p>
+                        <p className="home-text"> Building Innovative Solutions and digital experiences with performance and precision. </p>
                     </div>
 
                     <div className="home-buttons">
@@ -40,6 +40,10 @@ function Home() {
                             <button id="touch"> Get In Touch </button>
                         </a>
                     </div>
+
+                    <a href="#about" id='arrow-con'>
+                        <i class='bxr  bx-chevrons-down'  id='arrow-down'></i>
+                    </a> 
                 </div>
             </main>
         </section>
