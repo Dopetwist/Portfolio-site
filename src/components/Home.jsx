@@ -28,11 +28,9 @@ function Home() {
                     <h2 id='main-name'> Jonathan Afugwobi </h2>
                     <p id="dev">And i'm a <span ref={el}/> </p> 
 
-                    <p className="home-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Autem temporibus quam, corporis sint provident similique esse aperiam 
-                        eius adipisci aspernatur veritatis saepe. Quidem recusandae amet quod 
-                        enim rem ea quam iusto laudantium totam tempora nisi fugiat
-                    </p>
+                    <div className="tagline">
+                        <p className="home-text"> Building Innovative Solutions and digital experiences that elevates businesses growth and success. </p>
+                    </div>
 
                     <div className="home-buttons">
                         <a href="#project">

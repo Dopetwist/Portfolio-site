@@ -9,12 +9,9 @@ function About() {
                 <div className="about-sub">
                     <div className="about-text">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Autem temporibus quam, corporis sint provident similique esse aperiam 
-                            eius adipisci aspernatur veritatis saepe. Quidem recusandae amet quod 
-                            enim rem ea quam iusto laudantium totam tempora nisi fugiat, officia 
-                            laborum eligendi sapiente perspiciatis debitis a nemo necessitatibus 
-                            dolorem!
+                            I‘m a B.Eng degree holder who ventured into Tech out of curiosity and a keen eye for futuristic innovations. <br /><br />
+                            I utilize modern Frontend and Backend Technologies which includes React.js, Node.js, Javascript and more in building optimized and seamless web experiences. <br /><br />
+                            With over 2 years of hands-on experience and a solid foundation in web development, I’ve built various dynamic web apps and i focus on bringing cutting-edge solutions to users. <br />
                         </p>
                     </div>
 
