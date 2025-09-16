@@ -711,3 +711,38 @@ footer .socials .X:hover {
 footer .social-con img {
     width: 100%;
 }
+
+
+
+
+/* ====== BREAKPOINTS ======= */
+
+/* Mobile */
+
+@media (max-width: 479px) {
+
+}
+
+/* Portrait Tablet */
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Landscape Tablet */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+/* Laptop */
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+}
+
+/* Desktops */
+
+@media (min-width: 1200px) {
+
+}
