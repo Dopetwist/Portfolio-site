@@ -36,6 +36,7 @@ body {
 section {
     min-height: 100vh;
     padding: 8rem 6% 5rem;
+    overflow: hidden;
 }
 
 header {
@@ -742,6 +743,10 @@ footer .social-con img {
         margin-left: 1.8rem;
     }
 
+    section {
+        padding: 8rem 5% 5rem;
+    }
+
     .mode-con {
         padding: 0.3rem;
     }
@@ -784,8 +789,12 @@ footer .social-con img {
     }
 
     .heading {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         margin-bottom: 2rem;
+    }
+
+    .info .reach, .form .respond {
+        font-size: 0.8rem;
     }
 
     .about-content .about-text p {
@@ -805,38 +814,37 @@ footer .social-con img {
         font-size: 2.4rem;
     }
     
-   /* ==== Current Point of responsiveness ==== */
     .project-container {
-        padding-left: 0;
+        padding-left: 9%;
         gap: 3rem;
     }
 
     #project #portfolio {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     #project .explore,
     .skill-text p,
     #contact .together {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .card {
-        width: 18rem;
+        width: 17rem;
     }
 
     h2.title {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .btn {
         font-size: 0.7rem;
         margin: 1rem 0;
-        padding: 0.2rem 0.5rem;
+        padding: 0.2rem 0.4rem;
     }
 
     .btn img {
-        width: 1.3rem;
+        width: 1.2rem;
     }
 
     .descrp {
@@ -848,7 +856,7 @@ footer .social-con img {
     }
 
     #view p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     #view p i {
@@ -856,44 +864,69 @@ footer .social-con img {
         font-size: 1.5rem;
     }
 
+    #back-to-top {
+        padding: 0.2rem;
+    }
+
     #back-to-top i {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    .frontend h3, 
+    .backend h3, 
+    .soft-skills h3, 
+    .tools h3 {
+        font-size: 1rem;
     }
 
     .sk {
-        width: 4rem;
+        width: 3rem;
         margin-right: 1.5rem;
     }
 
     .soft-skills {
         height: 60%;
+        padding: 0.7rem;
     }
 
     .soft-skills p, 
     .soft-skills ul li {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 
     .backend-tech .sk img {
-        border-radius: 1.2rem;
+        border-radius: 0.9rem;
     }
 
     #submit-btn {
+        font-size: 0.8rem;
+    }
+
+    #btn-arrow {
+        font-size: 1.2rem;
+        margin-left: 0.4rem;
+    }
+
+    #contact .gen-con {
+        gap: 2rem;
+    }
+
+    .contact-details div p {
         font-size: 0.9rem;
     }
 
     .form h2, .info h2 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 400;
     }
 
     footer .socials {
-        margin-right: 3rem;
+        margin-right: 2rem;
     }
 
     footer .socials .social-con {
-        width: 1.8rem;
-        height: 1.8rem;
+        width: 1.6rem;
+        height: 1.6rem;
     }
 
     footer p {
