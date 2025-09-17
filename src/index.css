@@ -20,10 +20,11 @@
     --text: #fff;
     --sub-text: #737373;
     --second-color: #e6e6e6;
+    --boarder-color: #bebebe;
 }
 
 html.light-mode {
-    --background-one: #e6e6e6;
+    --background-one: #fbfbfe;
     --text: #000;
     --second-color: #504d4d;
 }
@@ -54,6 +55,13 @@ header {
 
 #header.scrolled {
     box-shadow: 0 0.1rem 0.5rem var(--sub-text);
+}
+
+#menu-icon {
+    font-size: 1.5rem;
+    color: var(--text);
+    margin-left: 1rem;
+    display: none;
 }
 
 .mode-con {
@@ -229,7 +237,7 @@ header {
     font-size: 1rem;
     padding: 0.5rem 0.7rem;
     color: #0e0d0d;
-    border: 0.1rem solid #504d4d;
+    border: 0.1rem solid #bebebe;
     border-radius: 0.5rem;
     margin-top: 2rem;
     transition: .1s ease;
@@ -264,10 +272,9 @@ section#about {
 .about-sub button {
     font-size: 1rem;
     padding: 0.5rem 0.7rem;
-    color: var(--background-one);
-    background-color: var(--second-color);
-    border: none;
-    box-shadow: 0 0 1rem var(--extra-color);
+    color: #fff;
+    background-color: var(--main-color);
+    border: 0.1rem solid var(--boarder-color);
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
@@ -276,8 +283,8 @@ section#about {
 }
 
 .about-sub button:hover {
+    background-color: #cf00cf;
     cursor: pointer;
-    box-shadow: none;
 }
 
 .about-sub button i {
@@ -530,7 +537,7 @@ section#about {
     width: 30rem;
     padding: 2rem 1.5rem;
     border-radius: 0.5rem;
-    border: 0.1rem solid var(--second-color);
+    border: 0.1rem solid var(--boarder-color);
 }
 
 #contact .gen-con .info {
@@ -591,7 +598,7 @@ section#about {
     margin-bottom: 1rem;
     padding: 0.5rem 0.7rem;
     border-radius: 0.3rem;
-    border: none;
+    border: 0.1rem solid var(--boarder-color);
     outline-color: var(--main-color);
 }
 
@@ -652,7 +659,7 @@ section#about {
 footer {
     width: 100%;
     padding: 2rem;
-    border-top: 0.1rem solid var(--second-color);
+    border-top: 0.1rem solid var(--boarder-color);
     display: flex;
     justify-content: space-between;
 }
@@ -729,6 +736,289 @@ footer .social-con img {
 
 @media (min-width: 480px) and (max-width: 767px) {
 
+    header#header {
+        padding: 1.5rem 5%;
+    }
+
+    .mode-con {
+        background-color: transparent;
+    }
+
+    #toggle-icon {
+        font-size: 1.3rem;
+        color: var(--text);
+    }
+
+    .navbar a {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .name h2 {
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 8rem 5% 5rem;
+    }
+
+    .home-div {
+        width: 90%;
+    }
+
+    .home-div h3 {
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+
+    .home-div h2 {
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-top: 0.7rem;
+    }
+
+    #dev {
+        width: 90%;
+        font-size: 0.9rem;
+        margin-left: 8%;
+    }
+
+    #dev span {
+        font-size: 1.4rem;
+    }
+
+    .home-text {
+        font-size: 0.9rem;
+    }
+
+    .home-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .home-buttons button#my-work, 
+    .home-buttons button#touch {
+        font-size: 0.8rem;
+        padding: 0.5rem 2rem;
+        margin-top: 1.5rem;
+        margin-right: 0;
+    }
+
+    .home-div a #arrow-down {
+        font-size: 1.5rem;
+    }
+
+    .heading {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .main-con {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .info .reach, .form .respond {
+        font-size: 0.8rem;
+    }
+
+    .about-content {
+        flex-direction: column-reverse;
+    }
+
+    .about-content .about-text p {
+        width: 100%;
+        font-size: 0.9rem;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    #about-img {
+        margin: 2rem 0 4rem;
+    }
+
+    .about-content figure img {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .about-sub {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-sub button {
+        font-size: 0.8rem;
+    }
+
+    #code-icon {
+        font-size: 2.4rem;
+        margin-right: 0.5rem;
+    }
+    
+    .project-container {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    #project #portfolio {
+        font-size: 1.5rem;
+    }
+
+    #project .explore,
+    .skill-text p,
+    #contact .together {
+        font-size: 0.8rem;
+    }
+
+    .skill-text p {
+        width: 90%;
+    }
+
+    .card {
+        width: 70%;
+    }
+
+    h2.title {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: 0.7rem;
+        margin: 1rem 0;
+        padding: 0.2rem 0.4rem;
+    }
+
+    .btn img {
+        width: 1.2rem;
+    }
+
+    .descrp {
+        font-size: 0.8rem;
+    }
+
+    .tech {
+        font-size: 0.8rem;
+    }
+
+    #view p {
+        font-size: 0.8rem;
+    }
+
+    #view p i {
+        margin-left: 0.3rem;
+        font-size: 1.5rem;
+    }
+
+    #back-to-top {
+        padding: 0.2rem;
+    }
+
+    #back-to-top i {
+        font-size: 1.4rem;
+    }
+
+    .frontend, .backend, .tools {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .frontend h3, 
+    .backend h3, 
+    .soft-skills h3, 
+    .tools h3 {
+        font-size: 1rem;
+    }
+
+    .sk {
+        width: 3rem;
+        margin: 0 1rem;
+    }
+
+    .soft-skills {
+        width: 80%;
+        height: 60%;
+        padding: 0.7rem;
+        margin-left: 0;
+    }
+
+    .soft-skills p, 
+    .soft-skills ul li {
+        font-size: 0.85rem;
+    }
+
+    .backend-tech .sk img {
+        border-radius: 0.9rem;
+    }
+
+    #submit-btn {
+        font-size: 0.8rem;
+    }
+
+    #btn-arrow {
+        font-size: 1.2rem;
+        margin-left: 0.4rem;
+    }
+
+    #contact .gen-con {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    #contact .gen-con .form, 
+    #contact .gen-con .info {
+        width: 25rem;
+    }
+    .contact-details div p {
+        font-size: 0.9rem;
+    }
+
+    .contact-details div p.p-color {
+        font-size: 0.8rem;
+    }
+
+    .form h2, .info h2 {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    footer {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    footer .socials {
+        margin-bottom: 2rem;
+        margin-right: 0;
+    }
+
+    footer .socials a {
+        margin-right: 1rem;
+    }
+
+    footer .socials .social-con {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
 }
 
 /* Landscape Tablet ===================================================================== */
@@ -848,7 +1138,7 @@ footer .social-con img {
     }
 
     .descrp {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .tech {
@@ -915,6 +1205,10 @@ footer .social-con img {
         font-size: 0.9rem;
     }
 
+    .contact-details div p.p-color {
+        font-size: 0.8rem;
+    }
+
     .form h2, .info h2 {
         font-size: 1.2rem;
         font-weight: 400;
@@ -922,6 +1216,10 @@ footer .social-con img {
 
     footer .socials {
         margin-right: 2rem;
+    }
+
+    footer .socials a {
+        margin-right: 1rem;
     }
 
     footer .socials .social-con {
@@ -1090,6 +1388,10 @@ footer .social-con img {
 
     footer .socials {
         margin-right: 3rem;
+    }
+
+    footer .socials a {
+        margin-right: 1.3rem;
     }
 
     footer .socials .social-con {

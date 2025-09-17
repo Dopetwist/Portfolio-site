@@ -10,6 +10,7 @@ function Nav() {
             <a href="#contact">Contact</a>
 
             <ThemeMode />
+            <i class='bxr  bx-menu' id="menu-icon"></i>
         </nav>
     )
 }
