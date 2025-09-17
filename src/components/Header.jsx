@@ -5,7 +5,7 @@ function Header() {
         <header id="header">
             <a href="#home" className="name">
                 <h2> Jonathan Afugwobi </h2>
-            </a>
+            </a> 
 
             <Nav />
         </header>
