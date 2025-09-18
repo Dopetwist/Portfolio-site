@@ -45,6 +45,7 @@ header {
     background-color: var(--background-one);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -70,7 +71,7 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 0.3rem;
-    padding: 0.5rem;
+    padding: 0.3rem;
     margin-left: 3rem;
 }
 
@@ -101,6 +102,7 @@ header {
 }
 
 .name h2 {
+    font-size: 1.4rem;
     font-weight: 500;
 }
 
@@ -324,7 +326,7 @@ section#about {
     color: var(--text);
     border-radius: 1rem;
     border: 0.15rem solid transparent;
-    box-shadow: 0 0 0.7rem var(--second-main);
+    box-shadow: 0 0 0.4rem var(--second-main);
     overflow: hidden;
 }
 
@@ -386,6 +388,7 @@ section#about {
 
 .main-con {
     display: flex;
+    justify-content: center;
 }
 
 .frontend, .backend, .tools {
@@ -442,6 +445,7 @@ section#about {
 
 .soft-skills {
     width: 40%;
+    height: 60%;
     margin-left: 5rem;
     padding: 1rem;
     border: 0.2rem solid var(--main-color);
@@ -756,7 +760,7 @@ footer .social-con img {
     }
 
     .name h2 {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     section {
@@ -1066,8 +1070,21 @@ footer .social-con img {
         color: var(--text);
     }
 
-    .navbar a {
+    .navbar .nav-links {
+        width: 100%;
         display: none;
+    }
+
+    /* .navbar .nav-links a {
+        display: block;
+    } */
+
+    .nav-links.toggle {
+        display: block;
+        background-color: red;
+        position: absolute;
+        bottom: -1.5rem;
+        left: 0;
     }
 
     #menu-icon {
@@ -1270,7 +1287,6 @@ footer .social-con img {
 
     .soft-skills {
         width: 80%;
-        height: 60%;
         padding: 0.7rem;
         margin-left: 0;
     }
@@ -1433,8 +1449,8 @@ footer .social-con img {
     }
     
     .project-container {
-        padding-left: 9%;
-        gap: 3rem;
+        padding-left: 12%;
+        gap: 3.5rem;
     }
 
     #project #portfolio {
@@ -1503,7 +1519,6 @@ footer .social-con img {
     }
 
     .soft-skills {
-        height: 60%;
         padding: 0.7rem;
     }
 
@@ -1635,7 +1650,7 @@ footer .social-con img {
     }
 
     .project-container {
-        padding-left: 9%;
+        padding-left: 13%;
     }
 
     #project #portfolio {
@@ -1692,10 +1707,6 @@ footer .social-con img {
         margin-right: 1.5rem;
     }
 
-    .soft-skills {
-        height: 60%;
-    }
-
     .soft-skills p, 
     .soft-skills ul li {
         font-size: 0.9rem;
@@ -1736,5 +1747,5 @@ footer .social-con img {
 /* Desktops ===================================================================== */
 
 @media (min-width: 1200px) {
-
+    
 }
