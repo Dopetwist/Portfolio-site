@@ -22,6 +22,7 @@ function Nav() {
             </div>
 
             <ThemeMode />
+            
             <i class='bxr  bx-menu' id="menu-icon"
             onClick={handleClick}></i>
         </nav>
