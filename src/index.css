@@ -21,12 +21,14 @@
     --sub-text: #737373;
     --second-color: #e6e6e6;
     --boarder-color: #bebebe;
+    --sideBar-color: #3b3b3b;
 }
 
 html.light-mode {
     --background-one: #fbfbfe;
     --text: #000;
     --second-color: #504d4d;
+    --sideBar-color: #f1f1f1;
 }
 
 body {
@@ -751,12 +753,35 @@ footer .social-con img {
         font-size: 1.3rem;
     }
 
-    .navbar a {
-        display: none;
-    }
-
     #menu-icon {
         display: block;
+    }
+
+    .navbar .nav-links {
+        background-color: var(--sideBar-color);
+        width: 70%;
+        height: calc(100vh - 3rem);
+        position: fixed;
+        top: 5rem;
+        left: -100%;
+        border-top-right-radius: 1rem;
+        box-shadow: 0.1rem 0 0.4rem var(--sub-text);
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 1rem 0.5rem;
+        z-index: 100;
+        transition: left .3s ease-in-out;
+    }
+
+    .nav-links a {
+        font-size: 0.8rem;
+        margin: 0.9rem 5%;
+    }
+
+    .nav-links.show {
+        left: 0;
     }
 
     .name h2 {
@@ -1071,19 +1096,29 @@ footer .social-con img {
     }
 
     .navbar .nav-links {
-        width: 100%;
-        display: none;
+        background-color: var(--sideBar-color);
+        width: 70%;
+        height: calc(100vh - 3rem);
+        position: fixed;
+        top: 13%;
+        left: -100%;
+        border-top-right-radius: 1rem;
+        box-shadow: 0.1rem 0 0.4rem var(--sub-text);
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        padding: 1rem 0.5rem;
+        z-index: 100;
+        transition: left .3s ease-in-out;
     }
 
-    /* .navbar .nav-links a {
-        display: block;
-    } */
+    .nav-links a {
+        font-size: 0.9rem;
+        margin: 0.9rem 5%;
+    }
 
-    .nav-links.toggle {
-        display: block;
-        background-color: red;
-        position: absolute;
-        bottom: -1.5rem;
+    .nav-links.show {
         left: 0;
     }
 
@@ -1373,7 +1408,7 @@ footer .social-con img {
     }
 
     .navbar a {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         margin-left: 1.8rem;
     }
 

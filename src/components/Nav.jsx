@@ -6,15 +6,9 @@ function Nav() {
         const menu = document.getElementById("menu-icon");
         const nav = document.querySelector(".nav-links");
 
-        if (menu.classList.contains("bx-menu")) {
-            menu.classList.remove("bx-menu");
-            menu.classList.add("bx-x");
-            nav.classList.add("toggle");
-        } else {
-            menu.classList.remove("bx-x");
-            menu.classList.add("bx-menu");
-            nav.classList.remove("toggle");
-        }
+        menu.classList.toggle("bx-x");
+        nav.classList.toggle("toggle");
+        nav.classList.toggle("show");
     }
 
     return (
