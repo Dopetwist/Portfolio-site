@@ -1100,7 +1100,7 @@ footer .social-con img {
         width: 70%;
         height: calc(100vh - 3rem);
         position: fixed;
-        top: 13%;
+        top: 5rem;
         left: -100%;
         border-top-right-radius: 1rem;
         box-shadow: 0.1rem 0 0.4rem var(--sub-text);
