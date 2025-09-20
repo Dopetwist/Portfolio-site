@@ -1,6 +1,39 @@
 
+import { useState } from "react";
+
 
 function Contact() {
+    const [ status, setStatus ] = useState("");
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        const formData = {
+            name: e.target.name.value,
+            email: e.target.email.value,
+            message: e.target.message.value
+        }
+
+        try {
+            const res = await fetch("/api/sendEmail", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(formData)
+            });
+
+            const data = await res.json();
+
+            if (data.success) {
+                setStatus("Message sent Successfully! ✅");
+            } else {
+                setStatus("Failed to Send! ❌");
+            }
+        } catch (error) {
+            setStatus("An error occurred!");
+        }
+    }
+
+
     return (
         <section id="contact">
             <h2 className="heading" id="get-in-touch"> Get in Touch </h2>
@@ -11,12 +44,14 @@ function Contact() {
                     <h2> Send me a Message </h2>
                     <p className="respond"> I respond as soon as possible. </p>
 
-                    <form action="#">
-                        <input type="text" placeholder="Name" required/>
-                        <input type="email" placeholder="Email" required/>
-                        <textarea name="message" id="msg" placeholder="Write a Message..." rows={10} required></textarea>
+                    <form onSubmit={handleSubmit}>
+                        <input type="text" name="name" placeholder="Name" required />
+                        <input type="email" name="email" placeholder="Email" required />
+                        <textarea name="message" id="msg" placeholder="Write a Message..." rows={7} required></textarea>
 
                         <button type="submit" id="submit-btn"> Send Message <i class='bxr  bx-send' id="btn-arrow"></i> </button>
+
+                        <p> {status} </p>
                     </form>
                 </div>
 
