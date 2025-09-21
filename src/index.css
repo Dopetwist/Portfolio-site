@@ -21,7 +21,7 @@
     --sub-text: #737373;
     --second-color: #e6e6e6;
     --boarder-color: #bebebe;
-    --sideBar-color: #3b3b3b;
+    --sideBar-color: #272727;
 }
 
 html.light-mode {
@@ -68,7 +68,7 @@ header {
 }
 
 .mode-con {
-    background-color: #a09c9c;
+    background-color: #a09c9c60;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +83,7 @@ header {
 
 #toggle-icon {
     font-size: 1.5rem;
-    color: #0e0d0d;
+    color: var(--text);
 }
 
 .heading {
@@ -248,8 +248,10 @@ header {
 }
 
 .home-buttons button#touch:hover {
+    background-color: #a09c9c83;
+    color: var(--text);
     cursor: pointer;
-    box-shadow: 0 0 0.7rem var(--second-main);
+    /* box-shadow: 0 0 0.7rem var(--second-main); */
 }
 
 section#about {
@@ -326,6 +328,7 @@ section#about {
 .card {
     width: 25rem;
     color: var(--text);
+    background-color: #a09c9c15;
     border-radius: 1rem;
     border: 0.15rem solid transparent;
     box-shadow: 0 0 0.4rem var(--second-main);
@@ -765,7 +768,7 @@ footer .social-con img {
         top: 5rem;
         left: -100%;
         border-top-right-radius: 1rem;
-        box-shadow: 0.1rem 0 0.4rem var(--sub-text);
+        box-shadow: 0.05rem 0 0.4rem var(--sub-text);
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -1103,7 +1106,7 @@ footer .social-con img {
         top: 5rem;
         left: -100%;
         border-top-right-radius: 1rem;
-        box-shadow: 0.1rem 0 0.4rem var(--sub-text);
+        box-shadow: 0.05rem 0 0.4rem var(--sub-text);
         display: flex;
         flex-direction: column;
         justify-content: start;
