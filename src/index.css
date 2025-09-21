@@ -768,7 +768,7 @@ footer .social-con img {
         top: 5rem;
         left: -100%;
         border-top-right-radius: 1rem;
-        box-shadow: 0.1rem 0 0.4rem var(--sub-text);
+        box-shadow: 0.05rem 0 0.4rem var(--sub-text);
         display: flex;
         flex-direction: column;
         justify-content: start;
