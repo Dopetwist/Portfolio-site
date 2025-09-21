@@ -69,6 +69,11 @@ const frontend = [
         id: 5,
         name: "Bootstrap",
         img: "/images/tech/bootstrap.png"
+    },
+    {
+        id: 6,
+        name: "EJS",
+        img: "/src/assets/ejs.svg"
     }
 ]
 
@@ -105,6 +110,16 @@ const tools = [
         id: 3,
         name: "Postman",
         img: "/src/assets/postman.svg"
+    },
+    {
+        id: 4,
+        name: "VS Code",
+        img: "/src/assets/vs-code.svg"
+    },
+    {
+        id: 5,
+        name: "GitHub",
+        img: "/src/assets/github-icon.svg"
     }
 ]
     
