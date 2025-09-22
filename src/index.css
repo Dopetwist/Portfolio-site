@@ -57,7 +57,7 @@ header {
 }
 
 #header.scrolled {
-    box-shadow: 0 0.1rem 0.5rem var(--sub-text);
+    box-shadow: 0 0.05rem 0.3rem var(--sub-text);
 }
 
 #menu-icon {
@@ -271,7 +271,7 @@ section#about {
     width: 20rem;
     height: 20rem;
     border-radius: 50%;
-    border: 0.3rem solid var(--text);
+    border: 0.1rem solid var(--text);
     box-shadow: 0 1rem 1.5rem var(--extra-color);
 }
 
@@ -331,7 +331,7 @@ section#about {
     background-color: #a09c9c15;
     border-radius: 1rem;
     border: 0.15rem solid transparent;
-    box-shadow: 0 0 0.4rem var(--second-main);
+    box-shadow: 0 0 0.2rem var(--second-main);
     overflow: hidden;
 }
 
@@ -453,7 +453,7 @@ section#about {
     height: 60%;
     margin-left: 5rem;
     padding: 1rem;
-    border: 0.2rem solid var(--main-color);
+    border: 0.1rem solid var(--main-color);
     border-radius: 0.5rem;
 }
 
@@ -770,10 +770,10 @@ footer .social-con img {
         width: 70%;
         height: calc(100vh - 3rem);
         position: fixed;
-        top: 5rem;
+        top: 4rem;
         left: -100%;
         border-top-right-radius: 1rem;
-        box-shadow: 0.05rem 0 0.4rem var(--sub-text);
+        box-shadow: 0 0 0.1rem var(--sub-text);
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -793,7 +793,7 @@ footer .social-con img {
     }
 
     .name h2 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     section {
@@ -823,6 +823,7 @@ footer .social-con img {
 
     #dev span {
         font-size: 1.3rem;
+        margin-right: 0;
     }
 
     .home-text {
@@ -874,7 +875,7 @@ footer .social-con img {
         font-size: 0.9rem;
         margin-right: 0;
         padding: 0 0.5rem;
-        text-align: center;
+        text-align: left;
     }
 
     #about-img {
@@ -1108,10 +1109,10 @@ footer .social-con img {
         width: 70%;
         height: calc(100vh - 3rem);
         position: fixed;
-        top: 5rem;
+        top: 4rem;
         left: -100%;
         border-top-right-radius: 1rem;
-        box-shadow: 0.05rem 0 0.4rem var(--sub-text);
+        box-shadow: 0 0 0.1rem var(--sub-text);
         display: flex;
         flex-direction: column;
         justify-content: start;
