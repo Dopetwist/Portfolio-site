@@ -4,6 +4,8 @@ import { useState } from "react";
 
 function Contact() {
     const [ status, setStatus ] = useState("");
+    // const [ isDisabled, setDisable ] = useState(false);
+    const [ buttonText, setButtonText ] = useState("Send Message");
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -15,6 +17,11 @@ function Contact() {
         }
 
         try {
+            // setDisable(true);
+            // console.log(isDisabled);
+            setButtonText("Please wait...")
+            document.getElementById("btn-arrow").style.display = "none";
+
             const statusElement = document.getElementById("status");
 
             const res = await fetch("/api/sendEmail", {
@@ -34,6 +41,12 @@ function Contact() {
                 setStatus("❌ " + data.error);
                 statusElement.style.color = "#ff0000";
             }
+
+            // setDisable(false);
+            // console.log(isDisabled);
+            setButtonText("Send Message")
+            document.getElementById("btn-arrow").style.display = "block";
+
         } catch (error) {
             setStatus("An error occurred!");
             statusElement.style.color = "#ff0000";
@@ -56,7 +69,12 @@ function Contact() {
                         <input type="email" name="email" placeholder="Email" required />
                         <textarea name="message" id="msg" placeholder="Write a Message..." rows={7} required></textarea>
 
-                        <button type="submit" id="submit-btn"> Send Message <i class='bxr  bx-send' id="btn-arrow"></i> </button>
+                        <button 
+                        type="submit" 
+                        id="submit-btn"
+                        // disabled={isDisabled}
+                        > {buttonText} <i class='bxr  bx-send' id="btn-arrow"></i> 
+                        </button>
 
                         <p id="status"> {status} </p>
                     </form>
