@@ -10,7 +10,7 @@ const projects = [
     },
     {
         id: 2,
-        title: "Food Recipes Project",
+        title: "Foreign Recipes Project",
         description: "This project allows users to explore and search varieties of foreign dishes all over the world with preparation instructions.",
         img: "/images/projects/recipe.png",
         github: "https://github.com/Dopetwist/Foreign-recipes-project.git",
