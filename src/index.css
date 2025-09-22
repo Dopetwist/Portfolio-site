@@ -635,6 +635,12 @@ section#about {
     cursor: pointer;
 }
 
+#status {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #ff0000;
+}
+
 #btn-arrow {
     font-size: 1.3rem;
     margin-left: 0.4rem;

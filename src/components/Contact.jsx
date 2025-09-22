@@ -26,7 +26,8 @@ function Contact() {
             if (data.success) {
                 setStatus("Message sent Successfully! ✅");
             } else {
-                setStatus("Failed to Send! ❌");
+                console.error("❌ Server error:", data.error);
+                setStatus("❌ " + data.error);
             }
         } catch (error) {
             setStatus("An error occurred!");
@@ -51,7 +52,7 @@ function Contact() {
 
                         <button type="submit" id="submit-btn"> Send Message <i class='bxr  bx-send' id="btn-arrow"></i> </button>
 
-                        <p> {status} </p>
+                        <p id="status"> {status} </p>
                     </form>
                 </div>
 
