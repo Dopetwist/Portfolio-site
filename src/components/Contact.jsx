@@ -4,6 +4,7 @@ import { useState } from "react";
 
 function Contact() {
     const [ status, setStatus ] = useState("");
+    // const [ formInfo, setForm ] = useState({formData});
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -15,6 +16,8 @@ function Contact() {
         }
 
         try {
+            const statusElement = document.getElementById("status");
+
             const res = await fetch("/api/sendEmail", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -25,12 +28,15 @@ function Contact() {
 
             if (data.success) {
                 setStatus("Message sent Successfully! ✅");
+                statusElement.style.color = "#008000";
             } else {
                 console.error("❌ Server error:", data.error);
                 setStatus("❌ " + data.error);
+                statusElement.style.color = "#ff0000";
             }
         } catch (error) {
             setStatus("An error occurred!");
+            statusElement.style.color = "#ff0000";
         }
     }
 
