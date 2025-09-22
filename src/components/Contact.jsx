@@ -4,6 +4,8 @@ import { useState } from "react";
 
 function Contact() {
     const [ status, setStatus ] = useState("");
+    const [ buttonText, setButtonText ] = useState("Send Message");
+
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -14,7 +16,13 @@ function Contact() {
             message: e.target.message.value
         }
 
+        const statusElement = document.getElementById("status");
+
         try {
+            setButtonText("Please wait...")
+            document.getElementById("btn-arrow").style.display = "none";
+
+
             const res = await fetch("/api/sendEmail", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -25,11 +33,21 @@ function Contact() {
 
             if (data.success) {
                 setStatus("Message sent Successfully! ✅");
+                statusElement.style.color = "#008000";
+                document.querySelector("form").reset();
             } else {
-                setStatus("Failed to Send! ❌");
+                console.error("❌ Server error:", data.error);
+                setStatus("❌ " + data.error);
+                statusElement.style.color = "#ff0000";
             }
+
+           
+            setButtonText("Send Message")
+            document.getElementById("btn-arrow").style.display = "block";
+
         } catch (error) {
             setStatus("An error occurred!");
+            statusElement.style.color = "#ff0000";
         }
     }
 
@@ -49,9 +67,13 @@ function Contact() {
                         <input type="email" name="email" placeholder="Email" required />
                         <textarea name="message" id="msg" placeholder="Write a Message..." rows={7} required></textarea>
 
-                        <button type="submit" id="submit-btn"> Send Message <i class='bxr  bx-send' id="btn-arrow"></i> </button>
+                        <button 
+                        type="submit" 
+                        id="submit-btn"
+                        > {buttonText} <i class='bxr  bx-send' id="btn-arrow"></i> 
+                        </button>
 
-                        <p> {status} </p>
+                        <p id="status"> {status} </p>
                     </form>
                 </div>
 

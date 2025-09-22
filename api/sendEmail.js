@@ -10,6 +10,7 @@ export default async function handler(req, res) {
     const { name, email, message } = req.body;
 
     try {
+
         // Transporter config
         const transporter = nodemailer.createTransport({
             service: "gmail",
@@ -23,13 +24,14 @@ export default async function handler(req, res) {
         await transporter.sendMail({
             from: email,
             to: process.env.EMAIL_USER,
-            subject: `New Portfolio Contact: ${name}`,
+            subject: `New Portfolio Message: ${name}`,
             text: message,
+            replyTo: email
         });
 
-        return res.status(200).json({ success: true, msg: "Email sent!" });
+        return res.status(200).json({ success: true });
     } catch (err) {
-        console.error(err);
-        return res.status(500).json({ error: "Failed to send email" });
+        console.error("❌ Email error:", err);
+        res.status(500).json({ error: "Email failed to send" });
     }
 }
