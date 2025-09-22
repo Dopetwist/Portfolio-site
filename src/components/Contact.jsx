@@ -4,7 +4,6 @@ import { useState } from "react";
 
 function Contact() {
     const [ status, setStatus ] = useState("");
-    // const [ formInfo, setForm ] = useState({formData});
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -29,6 +28,7 @@ function Contact() {
             if (data.success) {
                 setStatus("Message sent Successfully! ✅");
                 statusElement.style.color = "#008000";
+                document.querySelector("form").reset();
             } else {
                 console.error("❌ Server error:", data.error);
                 setStatus("❌ " + data.error);
