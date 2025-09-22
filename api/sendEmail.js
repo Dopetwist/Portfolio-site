@@ -24,8 +24,9 @@ export default async function handler(req, res) {
         await transporter.sendMail({
             from: email,
             to: process.env.EMAIL_USER,
-            subject: `New Portfolio Contact: ${name}`,
+            subject: `New Portfolio Message: ${name}`,
             text: message,
+            replyTo: email
         });
 
         return res.status(200).json({ success: true });
