@@ -4,8 +4,8 @@ import { useState } from "react";
 
 function Contact() {
     const [ status, setStatus ] = useState("");
-    // const [ isDisabled, setDisable ] = useState(false);
     const [ buttonText, setButtonText ] = useState("Send Message");
+
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -16,13 +16,12 @@ function Contact() {
             message: e.target.message.value
         }
 
+        const statusElement = document.getElementById("status");
+
         try {
-            // setDisable(true);
-            // console.log(isDisabled);
             setButtonText("Please wait...")
             document.getElementById("btn-arrow").style.display = "none";
 
-            const statusElement = document.getElementById("status");
 
             const res = await fetch("/api/sendEmail", {
                 method: "POST",
@@ -42,8 +41,7 @@ function Contact() {
                 statusElement.style.color = "#ff0000";
             }
 
-            // setDisable(false);
-            // console.log(isDisabled);
+           
             setButtonText("Send Message")
             document.getElementById("btn-arrow").style.display = "block";
 
@@ -72,7 +70,6 @@ function Contact() {
                         <button 
                         type="submit" 
                         id="submit-btn"
-                        // disabled={isDisabled}
                         > {buttonText} <i class='bxr  bx-send' id="btn-arrow"></i> 
                         </button>
 
