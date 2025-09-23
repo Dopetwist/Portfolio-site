@@ -75,7 +75,9 @@ function Contact() {
                                 <span className="spinner"></span> Sending...
                             </>
                             ) : (
-                            "Send Message"
+                            <>
+                                Send Message <i class='bxr  bx-send' id="btn-arrow"></i>
+                            </>
                             )}
                         </button>
 
