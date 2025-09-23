@@ -1,14 +1,16 @@
 
 import { useState } from "react";
+import "../spinner.css";
 
 
 function Contact() {
     const [ status, setStatus ] = useState("");
-    const [ buttonText, setButtonText ] = useState("Send Message");
-
+    const [ isDisabled, setIsDisabled ] = useState(false);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        setIsDisabled(true);
+
 
         const formData = {
             name: e.target.name.value,
@@ -19,9 +21,6 @@ function Contact() {
         const statusElement = document.getElementById("status");
 
         try {
-            setButtonText("Please wait...")
-            document.getElementById("btn-arrow").style.display = "none";
-
 
             const res = await fetch("/api/sendEmail", {
                 method: "POST",
@@ -34,21 +33,21 @@ function Contact() {
             if (data.success) {
                 setStatus("Message sent Successfully! ✅");
                 statusElement.style.color = "#008000";
-                document.querySelector("form").reset();
+                e.target.reset();
             } else {
                 console.error("❌ Server error:", data.error);
                 setStatus("❌ " + data.error);
                 statusElement.style.color = "#ff0000";
             }
 
-           
-            setButtonText("Send Message")
-            document.getElementById("btn-arrow").style.display = "block";
 
         } catch (error) {
             setStatus("An error occurred!");
             statusElement.style.color = "#ff0000";
+        } finally {
+            setIsDisabled(false);
         }
+
     }
 
 
@@ -70,7 +69,14 @@ function Contact() {
                         <button 
                         type="submit" 
                         id="submit-btn"
-                        > {buttonText} <i class='bxr  bx-send' id="btn-arrow"></i> 
+                        disabled={isDisabled}
+                        > {isDisabled ? (
+                            <>
+                                <span className="spinner"></span> Sending...
+                            </>
+                            ) : (
+                            "Send Message"
+                            )}
                         </button>
 
                         <p id="status"> {status} </p>
