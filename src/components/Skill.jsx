@@ -6,7 +6,7 @@ function Skill() {
             <h2 className="heading"> Tech Skills </h2>
 
             <div className="skill-text">
-                <p> With extensive knowledge in good technologies, i transform ideas into functional and interactive applications that satisfies users needs. </p>
+                <p> With extensive knowledge in modern technologies, i transform ideas into functional and interactive digital experiences satisfying users needs. </p>
             </div>
 
             
