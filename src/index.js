@@ -10,7 +10,7 @@ const projects = [
     },
     {
         id: 2,
-        title: "Food Recipes Project",
+        title: "Foreign Recipes Project",
         description: "This project allows users to explore and search varieties of foreign dishes all over the world with preparation instructions.",
         img: "/images/projects/recipe.png",
         github: "https://github.com/Dopetwist/Foreign-recipes-project.git",
@@ -92,6 +92,11 @@ const backend = [
         id: 3,
         name: "Express.js",
         img: "/images/tech/express.png"
+    },
+    {
+        id: 4,
+        name: "Dfinity (Motoko)",
+        img: "/src/assets/dfinity_logo.svg"
     }
 ]
 
@@ -103,8 +108,8 @@ const tools = [
     },
     {
         id: 2,
-        name: "Dfinity (Motoko)",
-        img: "/src/assets/dfinity_logo.svg"
+        name: "VS Code",
+        img: "/src/assets/vs-code.svg"
     },
     {
         id: 3,
@@ -113,11 +118,6 @@ const tools = [
     },
     {
         id: 4,
-        name: "VS Code",
-        img: "/src/assets/vs-code.svg"
-    },
-    {
-        id: 5,
         name: "GitHub",
         img: "/src/assets/github-icon.svg"
     }
