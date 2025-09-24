@@ -30,7 +30,7 @@ function BackToTop() {
                 onClick={scrollTop}
                 id="back-to-top"
                 >
-                    <i class='bxr  bx-arrow-up-stroke'  ></i>
+                    <i className='bxr  bx-arrow-up-stroke'  ></i>
                 </button>
             )}
         </div>

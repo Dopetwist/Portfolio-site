@@ -54,7 +54,7 @@ function Contact() {
     return (
         <section id="contact">
             <h2 className="heading" id="get-in-touch"> Get in Touch </h2>
-            <p className="together"><i class='bxr  bx-arrow-right'  ></i> Let's work together to bring your amazing ideas to life!<i class='bxr  bx-arrow-left'  ></i> </p>
+            <p className="together"><i className='bxr  bx-arrow-right'  ></i> Let's work together to bring your amazing ideas to life!<i className='bxr  bx-arrow-left'  ></i> </p>
 
             <div className="gen-con">
                 <div className="form">
@@ -76,7 +76,7 @@ function Contact() {
                             </>
                             ) : (
                             <>
-                                Send Message <i class='bxr  bx-send' id="btn-arrow"></i>
+                                Send Message <i className='bxr  bx-send' id="btn-arrow"></i>
                             </>
                             )}
                         </button>
@@ -91,17 +91,17 @@ function Contact() {
 
                     <div className="contact-details">
                         <div className="email">
-                            <p className="p-icon"><i class='bxr  bx-envelope-alt'  ></i>  Email: </p>
+                            <p className="p-icon"><i className='bxr  bx-envelope-alt'  ></i>  Email: </p>
                             <p className="p-color"> jonathanafugwobi1@gmail.com </p>
                         </div>
 
                         <div className="phone">
-                            <p className="p-icon"><i class='bxr  bx-phone'  ></i>  Phone: </p>
+                            <p className="p-icon"><i className='bxr  bx-phone'  ></i>  Phone: </p>
                             <p className="p-color"> +234-805-858-6681 </p>
                         </div>
 
                         <div className="address">
-                            <p className="p-icon"><i class='bxr  bx-location-alt-2'  ></i>  Address: </p>
+                            <p className="p-icon"><i className='bxr  bx-location-alt-2'  ></i>  Address: </p>
                             <p className="p-color"> Abuja, Nigeria. </p>
                         </div>
                     </div>

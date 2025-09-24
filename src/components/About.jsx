@@ -16,7 +16,7 @@ function About() {
                         </p>
                     </div>
 
-                    <button><i class='bxr  bx-arrow-in-down-square-half'></i>  Download CV </button>
+                    <button><i className='bxr  bx-arrow-in-down-square-half'></i>  Download CV </button>
                 </div>
 
                 <figure id="about-img">
