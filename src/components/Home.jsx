@@ -42,7 +42,7 @@ function Home() {
                     </div>
 
                     <a href="#about" id='arrow-con'>
-                        <i class='bxr  bx-chevrons-down'  id='arrow-down'></i>
+                        <i className='bxr  bx-chevrons-down'  id='arrow-down'></i>
                     </a> 
                 </div>
             </main>

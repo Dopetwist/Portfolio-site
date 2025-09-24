@@ -3,7 +3,7 @@ const projects = [
     {
         id: 1,
         title: "BookHive",
-        description: "A Node.js web app with secured authentication that helps users document individual reading history by storing personal notes, summaries and books ratings to a database.",
+        description: "Built a Node.js web app with secured authentication and profile pages that helps users document individual reading history seamlessly by storing personal notes, summaries and books ratings.",
         img: "/images/projects/bookhive.png",
         github: "https://github.com/Dopetwist/BookHive.git",
         tech: [ "Node.js | ", "Express.js | ", "JavaScript | ", "PostgreSQL | ", "HTML | ", "CSS | ", "EJS" ]
@@ -11,15 +11,15 @@ const projects = [
     {
         id: 2,
         title: "Foreign Recipes Project",
-        description: "This project allows users to explore and search varieties of foreign dishes all over the world with preparation instructions.",
+        description: "This project fetches meal data from a public API, allows users to explore and search varieties of foreign dishes all over the world with preparation instructions.",
         img: "/images/projects/recipe.png",
         github: "https://github.com/Dopetwist/Foreign-recipes-project.git",
-        tech: [ "RESTful API | ", "Node.js | ", "JavaScript | ", "EJS | ", "Express.js | ", "HTML | ", "CSS" ]
+        tech: [ "REST API | ", "Node.js | ", "JavaScript | ", "EJS | ", "Express.js | ", "HTML | ", "CSS" ]
     },
     {
         id: 3,
         title: "GeoMindz",
-        description: "A simple and interactive full stack quiz application that challenges users to match countries with their capitals. It was built with a focus on a clean, responsive UI and smooth quiz experience.",
+        description: "Developed a simple and interactive full stack quiz application that challenges users to match countries with their capitals. It was built with a focus on a clean, responsive UI and smooth quiz experience.",
         img: "/images/projects/geomindz.png",
         github: "https://github.com/Dopetwist/GeoMindz.git",
         tech: [ "React.js + Vite | ", "Node.js | ", "PostgreSQL | ", "JavaScript | ", "Express.js | ", "HTML | ", "CSS" ]

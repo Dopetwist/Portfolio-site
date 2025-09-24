@@ -74,12 +74,11 @@ function Skill() {
                     <br />
 
                     <ul>
-                        <li>Excellent Communication skills</li>
+                        <li>Good Communication </li>
                         <li>Teamwork</li>
                         <li>Problem Solving</li>
                         <li>Time Management</li>
                         <li>Goal-oriented</li>
-                        <li>Interpersonal skills</li>
                     </ul>
                 </div>
             </div>

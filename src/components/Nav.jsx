@@ -23,7 +23,7 @@ function Nav() {
 
             <ThemeMode />
             
-            <i class='bxr  bx-menu' id="menu-icon"
+            <i className='bxr  bx-menu' id="menu-icon"
             onClick={handleClick}></i>
         </nav>
     )
