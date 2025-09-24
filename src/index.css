@@ -766,10 +766,11 @@ footer .social-con img {
 
     #menu-icon {
         font-size: 1.3rem;
+        display: block;
     }
 
-    #menu-icon {
-        display: block;
+    #status {
+        font-size: 0.8rem;
     }
 
     .navbar .nav-links {
@@ -1160,6 +1161,10 @@ footer .social-con img {
 
     #menu-icon {
         display: block;
+    }
+
+    #status {
+        font-size: 0.8rem;
     }
 
     .name h2 {
