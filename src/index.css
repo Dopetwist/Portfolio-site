@@ -951,7 +951,7 @@ footer .social-con img {
         font-size: 0.8rem;
     }
 
-    .tech {
+    p.tech {
         font-size: 0.8rem;
     }
 
@@ -990,9 +990,19 @@ footer .social-con img {
         margin-bottom: 2rem;
     }
 
-    /* .backend, .tools {
+    .backend, .tools {
         margin-top: 4rem;
-    } */
+    }
+
+    .backend .sk, .tools .sk {
+        width: 3rem;
+        margin: 0 1rem;
+    }
+
+    .frontend .sk {
+        width: 3rem;
+        margin: 0 0.5rem;
+    }
 
     .frontend h3, 
     .backend h3, 
@@ -1001,26 +1011,21 @@ footer .social-con img {
         font-size: 1rem;
     }
 
-    .sk {
-        width: 3rem;
-        margin: 0 0.5rem;
-    }
-
-    /* .tech-name-con {
+    .tech-name-con {
         background-color: transparent;
         display: block;
     }
 
     .tech-name {
         font-size: 0.7rem;
-        color: var(--sub-text);
-    } */
+        color: #e6e6e675;
+    }
 
     .soft-skills {
         width: 80%;
         height: 60%;
         padding: 0.7rem;
-        /* margin-top: 3rem; */
+        margin-top: 3rem;
         margin-left: 0;
     }
 
@@ -1237,7 +1242,7 @@ footer .social-con img {
         width: 100%;
         font-size: 0.9rem;
         margin-right: 0;
-        text-align: center;
+        text-align: left;
     }
 
     #about-img {
@@ -1285,7 +1290,7 @@ footer .social-con img {
     }
 
     .skill-text p {
-        width: 90%;
+        width: 100%;
     }
 
     .tech-name-con {
@@ -1295,7 +1300,7 @@ footer .social-con img {
 
     .tech-name {
         font-size: 0.7rem;
-        color: var(--sub-text);
+        color: #e6e6e675;
     }
 
     .card {
@@ -1317,10 +1322,10 @@ footer .social-con img {
     }
 
     .descrp {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
-    .tech {
+    p.tech {
         font-size: 0.8rem;
     }
 

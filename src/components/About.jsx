@@ -12,7 +12,7 @@ function About() {
                             I'm a B.Eng degree holder who ventured into Tech out of curiosity and a keen eye for futuristic innovations. <br /><br />
                             I utilize modern Frontend and Backend Technologies which includes React.js, Node.js, PostgreSQL and more in building optimized and seamless web experiences. <br /><br />
                             With over 2 years of hands-on experience and a solid foundation in web development, I’ve built various dynamic web applications 
-                            and i focus on blending quality with creativity to deliver web solutions that don't just work but scale. <br />
+                            and i focus on blending high-quality with creativity to deliver web solutions that don't just work but scale. <br />
                         </p>
                     </div>
 
