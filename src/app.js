@@ -16,4 +16,16 @@ window.addEventListener("scroll", () => {
     nav.classList.remove("show");
 });
 
+document.addEventListener("mousedown", (event) => {
+    const menu = document.getElementById("menu-icon");
+    const navBar = document.querySelector(".navbar");
+    const navLinks = document.querySelector(".nav-links");
+
+
+    if (!navBar.contains(event.target) && !navLinks.contains(event.target)) {
+        menu.classList.remove("bx-x");
+        navLinks.classList.remove("show");
+    }
+});
+
 

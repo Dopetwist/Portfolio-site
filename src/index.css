@@ -648,7 +648,7 @@ p.tech {
 }
 
 #status {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: center;
 }
 
@@ -775,7 +775,7 @@ footer .social-con img {
     }
 
     #status {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .navbar .nav-links {
@@ -810,7 +810,7 @@ footer .social-con img {
     }
 
     section {
-        padding: 6rem 3% 5rem;
+        padding: 7rem 3% 5rem;
     }
 
     .home-div {
@@ -831,7 +831,7 @@ footer .social-con img {
     #dev {
         width: 100%;
         font-size: 0.9rem;
-        margin-left: 3%;
+        margin-left: 6%;
     }
 
     #dev span {
@@ -1046,11 +1046,13 @@ footer .social-con img {
 
     #submit-btn {
         font-size: 0.8rem;
+        font-weight: 300;
         margin: 0.5rem 0;
     }
 
     #btn-arrow {
         font-size: 1.2rem;
+        font-weight: 300;
         margin-left: 0.4rem;
     }
 
@@ -1169,7 +1171,7 @@ footer .social-con img {
     }
 
     #status {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .name h2 {
@@ -1398,10 +1400,12 @@ footer .social-con img {
 
     #submit-btn {
         font-size: 0.8rem;
+        font-weight: 300;
     }
 
     #btn-arrow {
         font-size: 1.2rem;
+        font-weight: 300;
         margin-left: 0.4rem;
     }
 
