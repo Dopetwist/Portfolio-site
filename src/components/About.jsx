@@ -16,7 +16,9 @@ function About() {
                         </p>
                     </div>
 
-                    <button><i className='bxr  bx-arrow-in-down-square-half'></i>  Download CV </button>
+                    <a href="/JonathanA-resume.pdf" target="blank">
+                        <button><i className='bxr  bx-arrow-in-down-square-half'></i>  Download CV </button>
+                    </a>
                 </div>
 
                 <figure id="about-img">
