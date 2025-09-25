@@ -36,7 +36,7 @@ function Contact() {
                 e.target.reset();
             } else {
                 console.error("❌ Server error:", data.error);
-                setStatus("❌ " + data.error);
+                setStatus(data.error);
                 statusElement.style.color = "#ff0000";
             }
 
