@@ -274,6 +274,11 @@ section#about {
     box-shadow: 0 1rem 1.5rem var(--extra-color);
 }
 
+.about-sub a {
+    width: max-content;
+    display: block;
+}
+
 .about-sub button {
     font-size: 1rem;
     padding: 0.5rem 0.7rem;
