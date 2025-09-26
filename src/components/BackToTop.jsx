@@ -31,7 +31,7 @@ function BackToTop() {
                 onClick={scrollTop}
                 id="back-to-top"
                 >
-                    <Icons.ArrowUp />
+                    <Icons.ArrowUp size={22} id="B2T" />
                 </button>
             )}
         </div>

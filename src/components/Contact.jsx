@@ -54,7 +54,7 @@ function Contact() {
     return (
         <section id="contact">
             <h2 className="heading" id="get-in-touch"> Get in Touch </h2>
-            <p className="together"><Icons.MoveRight /> Let's work together to bring your amazing ideas to life! <Icons.MoveLeft /> </p>
+            <p className="together"><Icons.MoveRight size={30} className="Move-arrow" /> Let's work together to bring your amazing ideas to life! <Icons.MoveLeft size={30} className="Move-arrow" /> </p>
 
             <div className="gen-con">
                 <div className="form">
@@ -76,7 +76,7 @@ function Contact() {
                             </>
                             ) : (
                             <>
-                                Send Message <Icons.Send id="btn-arrow" />
+                                Send Message <Icons.Send size={22} id="btn-arrow" />
                             </>
                             )}
                         </button>
@@ -91,17 +91,17 @@ function Contact() {
 
                     <div className="contact-details">
                         <div className="email">
-                            <p className="p-icon"><Icons.Mail />  Email: </p>
+                            <p className="p-icon"><Icons.Mail size={22} className="detail-icon" />  Email: </p>
                             <p className="p-color"> jonathanafugwobi1@gmail.com </p>
                         </div>
 
                         <div className="phone">
-                            <p className="p-icon"><Icons.Phone />  Phone: </p>
+                            <p className="p-icon"><Icons.Phone size={22} className="detail-icon" />  Phone: </p>
                             <p className="p-color"> +234-805-858-6681 </p>
                         </div>
 
                         <div className="address">
-                            <p className="p-icon"><Icons.MapPin />  Address: </p>
+                            <p className="p-icon"><Icons.MapPin size={22} className="detail-icon" />  Address: </p>
                             <p className="p-color"> Abuja, Nigeria. </p>
                         </div>
                     </div>

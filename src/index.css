@@ -180,14 +180,11 @@ header {
 }
 
 .home-div a #arrow-down {
-    font-size: 2.5rem;
     color: var(--text);
     animation: floatIcon 1.5s ease-in-out infinite;
 }
 
 .home-div a #arrow-down:hover {
-    width: 2.5rem;
-    height: 2.5rem;
     border: 0.1rem solid var(--text);
     border-radius: 50%;
     cursor: pointer;
@@ -297,7 +294,7 @@ section#about {
     cursor: pointer;
 }
 
-.about-sub button i {
+.about-sub button #download-icon {
     font-size: 1.3rem;
     margin-right: 0.5rem;
 }
@@ -324,7 +321,6 @@ section#about {
 }
 
 #code-icon {
-    font-size: 3rem;
     color: var(--extra-color);
     margin-right: 1rem;
 }
@@ -522,9 +518,8 @@ p.tech {
     color: var(--extra-color);
 }
 
-#view p i {
+#view p #arrow-right {
     margin-left: 0.3rem;
-    font-size: 2rem;
 }
 
 #contact #get-in-touch, #project #portfolio {
@@ -540,9 +535,8 @@ p.tech {
     text-align: center;
 }
 
-#contact .together i {
+#contact .together .Move-arrow {
     color: var(--extra-color);
-    font-size: 2rem;
     margin: 1rem;
 }
 
@@ -573,9 +567,8 @@ p.tech {
     color: var(--second-color);
 }
 
-.contact-details div p i {
-    font-size: 1.3rem;
-    margin-right: 0.3rem;
+.contact-details div p .detail-icon {
+    margin-right: 0.5rem;
     color: var(--sub-text);
 }
 
@@ -653,7 +646,6 @@ p.tech {
 }
 
 #btn-arrow {
-    font-size: 1.3rem;
     margin-left: 0.4rem;
 }
 
@@ -678,8 +670,8 @@ p.tech {
     box-shadow: 0 0 0.5rem var(--extra-color);
 }
 
-#back-to-top i {
-    font-size: 2rem;
+#back-to-top #B2T {
+    color: #000;
 }
 
 footer {

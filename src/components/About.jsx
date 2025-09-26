@@ -17,7 +17,7 @@ function About() {
                     </div>
 
                     <a href="/JonathanA-resume.pdf" target="blank">
-                        <button><Icons.Download />  Download CV </button>
+                        <button><Icons.Download id="download-icon"/>  Download CV </button>
                     </a>
                 </div>
 

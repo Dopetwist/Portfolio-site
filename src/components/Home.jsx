@@ -43,8 +43,7 @@ function Home() {
                     </div>
 
                     <a href="#about" id='arrow-con'>
-                        <Icons.ChevronsDown id='arrow-down' />
-                        {/* <i className='bxr  bx-chevrons-down'  id='arrow-down'></i> */}
+                        <Icons.ChevronsDown size={30} id='arrow-down' />
                     </a> 
                 </div>
             </main>

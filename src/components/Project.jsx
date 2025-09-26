@@ -18,7 +18,7 @@ function displayCard(item) {
 function Project() {
     return (
         <section id="project"> 
-            <h2 className="heading" id="portfolio"><Icons.CodeXml id="code-icon" />  Portfolio Projects </h2>
+            <h2 className="heading" id="portfolio"><Icons.CodeXml size={40} id="code-icon" />  Portfolio Projects </h2>
 
             <p className="explore"> Explore my previous projects built with various technologies! </p>
 
@@ -28,7 +28,7 @@ function Project() {
 
             <div className="more-projects">
                 <a href="https://github.com/Dopetwist" id="view"> 
-                    <p> View more on GitHub <Icons.ArrowRight /> </p> 
+                    <p> View more on GitHub <Icons.ArrowRight id="arrow-right"/> </p> 
                 </a>
             </div>
         </section>
