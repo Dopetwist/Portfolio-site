@@ -1,20 +1,22 @@
 import ThemeMode from "./ThemeMode";
 import Icons from "./Icons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Nav() {
 
-    // const [ menuClicked, setClicked ] = useState(false);
+    const [ isOpen, setIsOpen ] = useState(false);
 
-    function handleClick() {
-        const menu = document.getElementById("menu-icon");
+    useEffect(() => {
         const nav = document.querySelector(".nav-links");
 
-        // setClicked(true);
-        menu.classList.toggle("bx-x");
-        nav.classList.toggle("toggle");
-        nav.classList.toggle("show");
-    }
+        if (isOpen) {
+            nav.classList.add("toggle");
+            nav.classList.add("show");
+        } else {
+            nav.classList.remove("toggle");
+            nav.classList.remove("show");
+        }
+    }, [isOpen]);
 
     return (
         <nav className="navbar">
@@ -30,10 +32,15 @@ function Nav() {
             
             <div
             id="menu-icon"
-            onClick={handleClick}
+            onClick={() => setIsOpen(!isOpen)}
             >
-                <Icons.TextAlignJustify />
+                { isOpen ? 
+                    <Icons.X className="inner-icon"/> 
+                    : <Icons.TextAlignJustify className="inner-icon" /> 
+                }
+
             </div>
+
         </nav>
     )
 }

@@ -61,10 +61,12 @@ header {
 }
 
 #menu-icon {
-    font-size: 1.5rem;
-    color: var(--text);
     margin-left: 1rem;
     display: none;
+}
+
+#menu-icon .inner-icon {
+    color: var(--text);
 }
 
 .mode-con {
@@ -790,8 +792,8 @@ footer .social-con img {
     }
 
     .nav-links a {
-        font-size: 0.8rem;
-        margin: 0.9rem 5%;
+        font-size: 1rem;
+        margin: 1rem 5%;
     }
 
     .nav-links.show {
@@ -1143,8 +1145,8 @@ footer .social-con img {
     }
 
     .nav-links a {
-        font-size: 0.9rem;
-        margin: 0.9rem 5%;
+        font-size: 1rem;
+        margin: 1rem 5%;
     }
 
     .nav-links.show {
