@@ -73,7 +73,7 @@ const frontend = [
     {
         id: 6,
         name: "EJS",
-        img: "/src/assets/ejs.svg"
+        img: "/images/svgs/ejs.svg"
     }
 ]
 
@@ -81,7 +81,7 @@ const backend = [
     {
         id: 1,
         name: "Node.js",
-        img: "/src/assets/node-js.svg"
+        img: "/images/svgs/node-js.svg"
     },
     {
         id: 2,
@@ -96,7 +96,7 @@ const backend = [
     {
         id: 4,
         name: "Dfinity (Motoko)",
-        img: "/src/assets/dfinity_logo.svg"
+        img: "/images/svgs/dfinity_logo.svg"
     }
 ]
 
@@ -104,22 +104,22 @@ const tools = [
     {
         id: 1,
         name: "Git",
-        img: "/src/assets/Git.svg"
+        img: "/images/svgs/Git.svg"
     },
     {
         id: 2,
         name: "VS Code",
-        img: "/src/assets/vs-code.svg"
+        img: "/images/svgs/vs-code.svg"
     },
     {
         id: 3,
         name: "Postman",
-        img: "/src/assets/postman.svg"
+        img: "/images/svgs/postman.svg"
     },
     {
         id: 4,
         name: "GitHub",
-        img: "/src/assets/github-icon.svg"
+        img: "/images/svgs/github-icon.svg"
     }
 ]
     

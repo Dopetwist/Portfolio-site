@@ -1,15 +1,37 @@
 import ThemeMode from "./ThemeMode";
+import Icons from "./Icons";
+import { useEffect, useState } from "react";
 
 function Nav() {
 
-    function handleClick() {
-        const menu = document.getElementById("menu-icon");
-        const nav = document.querySelector(".nav-links");
+    const [ isOpen, setIsOpen ] = useState(false);
 
-        menu.classList.toggle("bx-x");
-        nav.classList.toggle("toggle");
-        nav.classList.toggle("show");
-    }
+    useEffect(() => {
+        const nav = document.querySelector(".nav-links");
+        const navBar = document.querySelector(".navbar");
+
+        const handleMousedown = (event) => {
+
+            // Close sidebar on outside click
+            if (!navBar.contains(event.target) && !nav.contains(event.target)) {
+                nav.classList.remove("show");
+            }
+
+        }
+
+        if (isOpen) {
+            nav.classList.add("toggle");
+            nav.classList.add("show");
+        } else {
+            nav.classList.remove("toggle");
+            nav.classList.remove("show");
+        }
+
+        window.addEventListener("mousedown", handleMousedown);
+
+        // Cleanup 
+        return () => { window.removeEventListener("mousedown", handleMousedown); }
+    }, [isOpen]);
 
     return (
         <nav className="navbar">
@@ -23,8 +45,17 @@ function Nav() {
 
             <ThemeMode />
             
-            <i className='bxr  bx-menu' id="menu-icon"
-            onClick={handleClick}></i>
+            <div
+            id="menu-icon"
+            onClick={() => setIsOpen(!isOpen)}
+            >
+                { isOpen ? 
+                    <Icons.X className="inner-icon"/> 
+                    : <Icons.TextAlignJustify className="inner-icon" /> 
+                }
+
+            </div>
+
         </nav>
     )
 }

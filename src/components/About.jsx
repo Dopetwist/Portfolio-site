@@ -1,4 +1,4 @@
-
+import Icons from "./Icons";
 
 function About() {
     return (
@@ -17,7 +17,7 @@ function About() {
                     </div>
 
                     <a href="/JonathanA-resume.pdf" target="blank">
-                        <button><i className='bxr  bx-arrow-in-down-square-half'></i>  Download CV </button>
+                        <button><Icons.Download id="download-icon"/>  Download CV </button>
                     </a>
                 </div>
 

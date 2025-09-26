@@ -1,4 +1,5 @@
 import { useLayoutEffect, useState } from "react";
+import Icons from "./Icons";
 
 function ThemeMode() {
     const [ lightTheme, setLightTheme ] = useState(() => {
@@ -7,13 +8,10 @@ function ThemeMode() {
     });
 
     useLayoutEffect(() => {
-        const toggleButton = document.getElementById("toggle-icon");
         const skillBG = document.getElementById("skill");
         const text = document.querySelector(".about-text p");
 
         if (lightTheme) {
-            toggleButton.classList.remove("bx-sun-bright");
-            toggleButton.classList.add("bx-moon");
             document.documentElement.classList.add("light-mode");
             skillBG.style.background = "linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url('/images/background-1.png')";
             skillBG.style.backgroundPosition = "center";
@@ -21,8 +19,6 @@ function ThemeMode() {
             text.style.color = "#000";
             localStorage.setItem("theme", "light");
         } else {
-            toggleButton.classList.remove("bx-moon");
-            toggleButton.classList.add("bx-sun-bright");
             document.documentElement.classList.remove("light-mode");
             skillBG.style.background = "linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/background-1.png')";
             skillBG.style.backgroundPosition = "center";
@@ -40,8 +36,8 @@ function ThemeMode() {
             <div className="mode-con"
             onClick={() => setLightTheme(!lightTheme)}
             >
-                { lightTheme ? <i className='bxr  bx-sun-bright'  id="toggle-icon"></i>
-                    :  <i className='bxr  bx-moon'  id="toggle-icon"></i> }
+                { lightTheme ? <Icons.Moon id="toggle-icon"/>
+                    : <Icons.Sun id="toggle-icon" /> }
             </div>
         </div>
     )

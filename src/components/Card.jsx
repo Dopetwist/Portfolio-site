@@ -11,7 +11,7 @@ function Card(props) {
                 <h2 className="title"> {props.title} </h2>
                 <p className="descrp"> {props.descrp} </p>
                 <a href={props.link} target="blank">
-                    <button className="btn"><img src="/src/assets/github-small.svg" alt="Github Icon" /> View Code </button>
+                    <button className="btn"><img src="/images/svgs/github-small.svg" alt="Github Icon" /> View Code </button>
                 </a>
                 <p className="tech"> {props.tech} </p>
             </div>

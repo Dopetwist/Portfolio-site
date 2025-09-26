@@ -1,8 +1,9 @@
 import { 
-    TextAlignJustify, 
+    TextAlignJustify,
     Sun, 
     Moon, 
-    ChevronsDown, 
+    ChevronsDown,
+    X, 
     Download, 
     CodeXml, 
     ArrowRight, 
@@ -12,7 +13,7 @@ import {
     MoveLeft,
     Mail,
     Phone,
-    MapPin,
+    MapPin
 
 } from "lucide-react";
 
@@ -21,7 +22,8 @@ const Icons = {
     TextAlignJustify,
     Sun,
     Moon, 
-    ChevronsDown, 
+    ChevronsDown,
+    X, 
     Download, 
     CodeXml, 
     ArrowRight, 

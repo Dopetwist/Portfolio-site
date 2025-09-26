@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Icons from "./Icons";
 
 function BackToTop() {
     const [ showButton, setShowButton ] = useState(false);
@@ -30,7 +31,7 @@ function BackToTop() {
                 onClick={scrollTop}
                 id="back-to-top"
                 >
-                    <i className='bxr  bx-arrow-up-stroke'  ></i>
+                    <Icons.ArrowUp size={22} id="B2T" />
                 </button>
             )}
         </div>

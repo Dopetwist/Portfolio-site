@@ -61,10 +61,12 @@ header {
 }
 
 #menu-icon {
-    font-size: 1.5rem;
-    color: var(--text);
     margin-left: 1rem;
     display: none;
+}
+
+#menu-icon .inner-icon {
+    color: var(--text);
 }
 
 .mode-con {
@@ -180,14 +182,11 @@ header {
 }
 
 .home-div a #arrow-down {
-    font-size: 2.5rem;
     color: var(--text);
     animation: floatIcon 1.5s ease-in-out infinite;
 }
 
 .home-div a #arrow-down:hover {
-    width: 2.5rem;
-    height: 2.5rem;
     border: 0.1rem solid var(--text);
     border-radius: 50%;
     cursor: pointer;
@@ -297,7 +296,7 @@ section#about {
     cursor: pointer;
 }
 
-.about-sub button i {
+.about-sub button #download-icon {
     font-size: 1.3rem;
     margin-right: 0.5rem;
 }
@@ -324,7 +323,6 @@ section#about {
 }
 
 #code-icon {
-    font-size: 3rem;
     color: var(--extra-color);
     margin-right: 1rem;
 }
@@ -522,9 +520,8 @@ p.tech {
     color: var(--extra-color);
 }
 
-#view p i {
+#view p #arrow-right {
     margin-left: 0.3rem;
-    font-size: 2rem;
 }
 
 #contact #get-in-touch, #project #portfolio {
@@ -540,9 +537,8 @@ p.tech {
     text-align: center;
 }
 
-#contact .together i {
+#contact .together .Move-arrow {
     color: var(--extra-color);
-    font-size: 2rem;
     margin: 1rem;
 }
 
@@ -573,9 +569,8 @@ p.tech {
     color: var(--second-color);
 }
 
-.contact-details div p i {
-    font-size: 1.3rem;
-    margin-right: 0.3rem;
+.contact-details div p .detail-icon {
+    margin-right: 0.5rem;
     color: var(--sub-text);
 }
 
@@ -653,7 +648,6 @@ p.tech {
 }
 
 #btn-arrow {
-    font-size: 1.3rem;
     margin-left: 0.4rem;
 }
 
@@ -678,8 +672,8 @@ p.tech {
     box-shadow: 0 0 0.5rem var(--extra-color);
 }
 
-#back-to-top i {
-    font-size: 2rem;
+#back-to-top #B2T {
+    color: #000;
 }
 
 footer {
@@ -770,8 +764,9 @@ footer .social-con img {
     }
 
     #menu-icon {
-        font-size: 1.3rem;
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #status {
@@ -797,8 +792,8 @@ footer .social-con img {
     }
 
     .nav-links a {
-        font-size: 0.8rem;
-        margin: 0.9rem 5%;
+        font-size: 1rem;
+        margin: 1rem 5%;
     }
 
     .nav-links.show {
@@ -806,7 +801,7 @@ footer .social-con img {
     }
 
     .name h2 {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     section {
@@ -823,9 +818,9 @@ footer .social-con img {
     }
 
     .home-div h2 {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         font-weight: 700;
-        margin-top: 0.7rem;
+        margin: 1rem 0;
     }
 
     #dev {
@@ -841,7 +836,8 @@ footer .social-con img {
 
     .home-text {
         width: 100%;
-        font-size: 0.9rem;
+        font-size: 1rem;
+        margin: 1rem 0;
     }
 
     .home-buttons {
@@ -854,8 +850,8 @@ footer .social-con img {
 
     .home-buttons button#my-work, 
     .home-buttons button#touch {
-        font-size: 0.8rem;
-        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+        padding: 0.6rem 1.6rem;
         margin-top: 1.5rem;
         margin-right: 0;
     }
@@ -865,7 +861,7 @@ footer .social-con img {
     }
 
     .heading {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         margin-bottom: 2rem;
     }
 
@@ -908,12 +904,12 @@ footer .social-con img {
     }
 
     .about-sub button {
-        font-size: 0.8rem;
+        font-size: 1rem;
+        padding: 0.6rem 0.8rem
     }
 
     #code-icon {
-        font-size: 2.3rem;
-        margin-right: 0.5rem;
+        margin-right: 0.6rem;
     }
     
     .project-container {
@@ -922,13 +918,13 @@ footer .social-con img {
     }
 
     #project #portfolio {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     #project .explore,
     .skill-text p,
     #contact .together {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .skill-text p {
@@ -944,13 +940,13 @@ footer .social-con img {
     }
 
     .btn {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         margin: 1rem 0;
         padding: 0.2rem 0.4rem;
     }
 
     .btn img {
-        width: 1.2rem;
+        width: 1.3rem;
     }
 
     .descrp {
@@ -962,12 +958,11 @@ footer .social-con img {
     }
 
     #view p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
-    #view p i {
+    #view p #arrow-right {
         margin-left: 0.3rem;
-        font-size: 1.5rem;
     }
 
     .more-projects {
@@ -975,11 +970,7 @@ footer .social-con img {
     }
 
     #back-to-top {
-        padding: 0.2rem;
-    }
-
-    #back-to-top i {
-        font-size: 1.4rem;
+        padding: 0.5rem;
     }
 
     .frontend-tech, 
@@ -1014,7 +1005,7 @@ footer .social-con img {
     .backend h3, 
     .soft-skills h3, 
     .tools h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .tech-name-con {
@@ -1046,7 +1037,7 @@ footer .social-con img {
 
     #submit-btn {
         font-size: 0.8rem;
-        font-weight: 300;
+        font-weight: 500;
         margin: 0.5rem 0;
     }
 
@@ -1081,10 +1072,6 @@ footer .social-con img {
         width: 100%;
     }
 
-    #contact .together i {
-        font-size: 1.5rem;
-    }
-
     .form form input, 
     .form form textarea {
         font-size: 0.8rem;
@@ -1112,12 +1099,12 @@ footer .social-con img {
     }
 
     footer .socials .social-con {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.6rem;
+        height: 1.6rem;
     }
 
     footer p {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         text-align: center;
     }
 }
@@ -1158,8 +1145,8 @@ footer .social-con img {
     }
 
     .nav-links a {
-        font-size: 0.9rem;
-        margin: 0.9rem 5%;
+        font-size: 1rem;
+        margin: 1rem 5%;
     }
 
     .nav-links.show {
@@ -1167,7 +1154,9 @@ footer .social-con img {
     }
 
     #menu-icon {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     #status {
@@ -1192,23 +1181,24 @@ footer .social-con img {
     }
 
     .home-div h2 {
-        font-size: 2.2rem;
+        font-size: 3rem;
         font-weight: 700;
-        margin-top: 0.7rem;
+        margin: 1.2rem 0;
     }
 
     #dev {
         width: 90%;
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin-left: 10%;
     }
 
     #dev span {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     .home-text {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
+        margin: 1.1rem 0;
     }
 
     .home-buttons {
@@ -1221,8 +1211,8 @@ footer .social-con img {
 
     .home-buttons button#my-work, 
     .home-buttons button#touch {
-        font-size: 0.8rem;
-        padding: 0.5rem 2rem;
+        font-size: 1rem;
+        padding: 0.7rem 2rem;
         margin-top: 1.5rem;
         margin-right: 0;
     }
@@ -1232,7 +1222,7 @@ footer .social-con img {
     }
 
     .heading {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
         margin-bottom: 2rem;
     }
 
@@ -1274,12 +1264,12 @@ footer .social-con img {
     }
 
     .about-sub button {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
+        padding: 0.6rem 0.8rem
     }
 
     #code-icon {
-        font-size: 2.4rem;
-        margin-right: 0.5rem;
+        margin-right: 0.7rem;
     }
     
     .project-container {
@@ -1288,13 +1278,13 @@ footer .social-con img {
     }
 
     #project #portfolio {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     #project .explore,
     .skill-text p,
     #contact .together {
-        font-size: 0.8rem;
+        font-size: 1.1rem;
     }
 
     .more-projects {
@@ -1311,7 +1301,7 @@ footer .social-con img {
     }
 
     .tech-name {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         color: #e6e6e675;
     }
 
@@ -1324,13 +1314,13 @@ footer .social-con img {
     }
 
     .btn {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         margin: 1rem 0;
-        padding: 0.2rem 0.4rem;
+        padding: 0.2rem 0.6rem;
     }
 
     .btn img {
-        width: 1.2rem;
+        width: 1.4rem;
     }
 
     .descrp {
@@ -1342,20 +1332,15 @@ footer .social-con img {
     }
 
     #view p {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
-    #view p i {
-        margin-left: 0.3rem;
-        font-size: 1.5rem;
+    #view p #arrow-right {
+        margin-left: 0.5rem;
     }
 
     #back-to-top {
-        padding: 0.2rem;
-    }
-
-    #back-to-top i {
-        font-size: 1.4rem;
+        padding: 0.5rem;
     }
 
     .frontend, .backend, .tools {
@@ -1374,7 +1359,7 @@ footer .social-con img {
     .backend h3, 
     .soft-skills h3, 
     .tools h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .sk {
@@ -1399,8 +1384,8 @@ footer .social-con img {
     }
 
     #submit-btn {
-        font-size: 0.8rem;
-        font-weight: 300;
+        font-size: 0.9rem;
+        font-weight: 500;
     }
 
     #btn-arrow {
@@ -1456,12 +1441,12 @@ footer .social-con img {
     }
 
     footer .socials .social-con {
-        width: 1.6rem;
-        height: 1.6rem;
+        width: 1.7rem;
+        height: 1.7rem;
     }
 
     footer p {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 }
 
@@ -1593,17 +1578,12 @@ footer .social-con img {
         font-size: 0.8rem;
     }
 
-    #view p i {
+    #view p #arrow-right {
         margin-left: 0.3rem;
-        font-size: 1.5rem;
     }
 
     #back-to-top {
         padding: 0.2rem;
-    }
-
-    #back-to-top i {
-        font-size: 1.4rem;
     }
 
     .frontend h3, 
@@ -1793,13 +1773,8 @@ footer .social-con img {
         font-size: 0.9rem;
     }
 
-    #view p i {
+    #view p #arrow-right {
         margin-left: 0.3rem;
-        font-size: 1.5rem;
-    }
-
-    #back-to-top i {
-        font-size: 1.5rem;
     }
 
     .sk {
