@@ -27,7 +27,7 @@ function Project() {
             </div>
 
             <div className="more-projects">
-                <a href="https://github.com/Dopetwist" id="view"> 
+                <a href="https://github.com/Dopetwist" id="view" target="blank"> 
                     <p> View more on GitHub <Icons.ArrowRight id="arrow-right"/> </p> 
                 </a>
             </div>
