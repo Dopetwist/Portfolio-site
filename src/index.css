@@ -1576,17 +1576,12 @@ footer .social-con img {
         font-size: 0.8rem;
     }
 
-    #view p i {
+    #view p #arrow-right {
         margin-left: 0.3rem;
-        font-size: 1.5rem;
     }
 
     #back-to-top {
         padding: 0.2rem;
-    }
-
-    #back-to-top i {
-        font-size: 1.4rem;
     }
 
     .frontend h3, 
@@ -1776,13 +1771,8 @@ footer .social-con img {
         font-size: 0.9rem;
     }
 
-    #view p i {
+    #view p #arrow-right {
         margin-left: 0.3rem;
-        font-size: 1.5rem;
-    }
-
-    #back-to-top i {
-        font-size: 1.5rem;
     }
 
     .sk {
