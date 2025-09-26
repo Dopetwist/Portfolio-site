@@ -34,16 +34,25 @@ function Contact() {
                 setStatus("Message sent Successfully! ✅");
                 statusElement.style.color = "#008000";
                 e.target.reset();
+                setTimeout(() => {
+                    setStatus("")
+                }, 4000)
             } else {
                 console.error("❌ Server error:", data.error);
                 setStatus(data.error);
                 statusElement.style.color = "#ff0000";
+                setTimeout(() => {
+                    setStatus("")
+                }, 4000)
             }
 
 
         } catch (error) {
             setStatus("An error occurred!");
             statusElement.style.color = "#ff0000";
+            setTimeout(() => {
+                setStatus("")
+            }, 4000)
         } finally {
             setIsDisabled(false);
         }
