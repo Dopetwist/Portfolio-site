@@ -8,6 +8,16 @@ function Nav() {
 
     useEffect(() => {
         const nav = document.querySelector(".nav-links");
+        const navBar = document.querySelector(".navbar");
+
+        const handleMousedown = (event) => {
+
+            // Close sidebar on outside click
+            if (!navBar.contains(event.target) && !nav.contains(event.target)) {
+                nav.classList.remove("show");
+            }
+
+        }
 
         if (isOpen) {
             nav.classList.add("toggle");
@@ -16,6 +26,11 @@ function Nav() {
             nav.classList.remove("toggle");
             nav.classList.remove("show");
         }
+
+        window.addEventListener("mousedown", handleMousedown);
+
+        // Cleanup 
+        return () => { window.removeEventListener("mousedown", handleMousedown); }
     }, [isOpen]);
 
     return (
