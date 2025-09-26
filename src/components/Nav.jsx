@@ -1,4 +1,5 @@
 import ThemeMode from "./ThemeMode";
+import Icons from "./Icons";
 
 function Nav() {
 
@@ -23,8 +24,12 @@ function Nav() {
 
             <ThemeMode />
             
-            <i className='bxr  bx-menu' id="menu-icon"
-            onClick={handleClick}></i>
+            <Icons.TextAlignJustify 
+            id="menu-icon"
+            onClick={handleClick}
+            />
+            {/* <i className='bxr  bx-menu' id="menu-icon"
+            onClick={handleClick}></i> */}
         </nav>
     )
 }

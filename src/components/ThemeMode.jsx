@@ -1,4 +1,5 @@
 import { useLayoutEffect, useState } from "react";
+import Icons from "./Icons";
 
 function ThemeMode() {
     const [ lightTheme, setLightTheme ] = useState(() => {
@@ -40,8 +41,10 @@ function ThemeMode() {
             <div className="mode-con"
             onClick={() => setLightTheme(!lightTheme)}
             >
-                { lightTheme ? <i className='bxr  bx-sun-bright'  id="toggle-icon"></i>
-                    :  <i className='bxr  bx-moon'  id="toggle-icon"></i> }
+                { lightTheme ? <Icons.Sun id="toggle-icon" />
+                    :  <Icons.Moon id="toggle-icon"/> }
+                {/* { lightTheme ? <i className='bxr  bx-sun-bright'  id="toggle-icon"></i>
+                    :  <i className='bxr  bx-moon'  id="toggle-icon"></i> } */}
             </div>
         </div>
     )

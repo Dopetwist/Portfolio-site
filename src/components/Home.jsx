@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
+import Icons from './Icons';
 
 function Home() {
     // Create reference to store the DOM element containing the animation
@@ -42,7 +43,8 @@ function Home() {
                     </div>
 
                     <a href="#about" id='arrow-con'>
-                        <i className='bxr  bx-chevrons-down'  id='arrow-down'></i>
+                        <Icons.ChevronsDown id='arrow-down' />
+                        {/* <i className='bxr  bx-chevrons-down'  id='arrow-down'></i> */}
                     </a> 
                 </div>
             </main>

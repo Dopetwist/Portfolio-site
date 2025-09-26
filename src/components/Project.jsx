@@ -1,5 +1,6 @@
 import Card from "./Card";
-import { projects } from "../index"
+import { projects } from "../index";
+import Icons from "./Icons";
 
 function displayCard(item) {
     return (
@@ -17,7 +18,7 @@ function displayCard(item) {
 function Project() {
     return (
         <section id="project"> 
-            <h2 className="heading" id="portfolio"><i className='bxr  bx-code-alt' id="code-icon" ></i>  Portfolio Projects </h2>
+            <h2 className="heading" id="portfolio"><Icons.CodeXml id="code-icon" />  Portfolio Projects </h2>
 
             <p className="explore"> Explore my previous projects built with various technologies! </p>
 
@@ -27,7 +28,7 @@ function Project() {
 
             <div className="more-projects">
                 <a href="https://github.com/Dopetwist" id="view"> 
-                    <p> View more on GitHub <i className='bx  bx-arrow-right-stroke'></i> </p> 
+                    <p> View more on GitHub <Icons.ArrowRight /> </p> 
                 </a>
             </div>
         </section>
