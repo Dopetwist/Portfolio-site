@@ -1,12 +1,16 @@
 import ThemeMode from "./ThemeMode";
 import Icons from "./Icons";
+import { useState } from "react";
 
 function Nav() {
+
+    // const [ menuClicked, setClicked ] = useState(false);
 
     function handleClick() {
         const menu = document.getElementById("menu-icon");
         const nav = document.querySelector(".nav-links");
 
+        // setClicked(true);
         menu.classList.toggle("bx-x");
         nav.classList.toggle("toggle");
         nav.classList.toggle("show");
@@ -24,12 +28,12 @@ function Nav() {
 
             <ThemeMode />
             
-            <Icons.TextAlignJustify 
+            <div
             id="menu-icon"
             onClick={handleClick}
-            />
-            {/* <i className='bxr  bx-menu' id="menu-icon"
-            onClick={handleClick}></i> */}
+            >
+                <Icons.TextAlignJustify />
+            </div>
         </nav>
     )
 }

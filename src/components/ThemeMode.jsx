@@ -43,8 +43,6 @@ function ThemeMode() {
             >
                 { lightTheme ? <Icons.Sun id="toggle-icon" />
                     :  <Icons.Moon id="toggle-icon"/> }
-                {/* { lightTheme ? <i className='bxr  bx-sun-bright'  id="toggle-icon"></i>
-                    :  <i className='bxr  bx-moon'  id="toggle-icon"></i> } */}
             </div>
         </div>
     )

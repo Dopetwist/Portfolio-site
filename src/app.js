@@ -16,6 +16,7 @@ window.addEventListener("scroll", () => {
     nav.classList.remove("show");
 });
 
+// Close sidebar on outside click
 document.addEventListener("mousedown", (event) => {
     const menu = document.getElementById("menu-icon");
     const navBar = document.querySelector(".navbar");
