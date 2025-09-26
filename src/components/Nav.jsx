@@ -15,6 +15,7 @@ function Nav() {
             // Close sidebar on outside click
             if (!navBar.contains(event.target) && !nav.contains(event.target)) {
                 nav.classList.remove("show");
+                setIsOpen(false);
             }
 
         }
