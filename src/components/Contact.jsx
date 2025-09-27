@@ -62,8 +62,8 @@ function Contact() {
 
     return (
         <section id="contact">
-            <h2 className="heading" id="get-in-touch"> Get in Touch </h2>
-            <p className="together"><Icons.MoveRight size={30} className="Move-arrow" /> Let's work together to bring your amazing ideas to life! <Icons.MoveLeft size={30} className="Move-arrow" /> </p>
+            <h2 className="heading" id="get-in-touch"> Get in <span>Touch</span> </h2>
+            <p className="together"><Icons.MoveRight size={40} className="Move-arrow" /> Let's work together to bring your amazing ideas to life! <Icons.MoveLeft size={40} className="Move-arrow" /> </p>
 
             <div className="gen-con">
                 <div className="form">
@@ -112,6 +112,7 @@ function Contact() {
                         <div className="address">
                             <p className="p-icon"><Icons.MapPin size={22} className="detail-icon" />  Address: </p>
                             <p className="p-color"> Abuja, Nigeria. </p>
+                            <p className="p-color available"> Available to work remotely worldwide. </p>
                         </div>
                     </div>
                 </div>

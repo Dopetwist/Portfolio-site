@@ -22,7 +22,7 @@ export default async function handler(req, res) {
 
         // Send email
         await transporter.sendMail({
-            from: `${name} ${email}`,
+            from: email,
             to: process.env.RECEIVER_EMAIL,
             subject: `New Portfolio Message: ${name}`,
             text: message,

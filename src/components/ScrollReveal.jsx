@@ -8,16 +8,14 @@ const ScrollWrapper = () => {
             duration: 1500,
             easing: 'ease-in-out',
             origin: 'left',
-            delay: 100,
-            reset: true
+            delay: 100
         }),
         ScrollReveal().reveal('.home-text', {
             distance: '10rem',
             duration: 2000,
             easing: 'ease-in-out',
             origin: 'right',
-            delay: 100,
-            reset: true
+            delay: 100
         }),
         ScrollReveal().reveal('#about-img', {
             distance: '5rem',

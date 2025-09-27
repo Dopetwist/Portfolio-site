@@ -29,9 +29,13 @@ function Nav() {
         }
 
         window.addEventListener("mousedown", handleMousedown);
+        window.addEventListener("scroll", setIsOpen(false));
 
         // Cleanup 
-        return () => { window.removeEventListener("mousedown", handleMousedown); }
+        return () => { 
+            window.removeEventListener("mousedown", handleMousedown); 
+            window.removeEventListener("scroll", setIsOpen(false));
+        }
     }, [isOpen]);
 
     return (
