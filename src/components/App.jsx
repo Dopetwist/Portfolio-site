@@ -7,6 +7,8 @@ import Skill from "./Skill";
 import Contact from "./Contact";
 import BackToTop from "./BackToTop";
 import ScrollWrapper from "./ScrollReveal.jsx";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import '../app.js';
 
 
@@ -14,6 +16,8 @@ function App() {
 
   return (
     <>
+      <SpeedInsights />
+      <Analytics />
       <ScrollWrapper />
       <BackToTop />
       <Header />

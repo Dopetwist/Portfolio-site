@@ -3,10 +3,10 @@ import { frontend, backend, tools } from "../index";
 function Skill() {
     return (
         <section id="skill">
-            <h2 className="heading"> Tech Skills </h2>
+            <h2 className="heading"> My Tech <span id="skill-span">Skills</span> & Tools </h2>
 
             <div className="skill-text">
-                <p> With extensive knowledge in modern technologies, i transform ideas into functional and interactive digital experiences satisfying users needs. </p>
+                <p> With extensive knowledge in modern technologies, i transform ideas into functional and interactive applications focused on users satisfaction. </p>
             </div>
 
             

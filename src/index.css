@@ -504,6 +504,10 @@ p.tech {
     text-align: center;
 }
 
+#skill-span {
+    color: var(--extra-color);
+}
+
 .more-projects {
     display: flex;
     justify-content: right;
@@ -522,6 +526,10 @@ p.tech {
 
 #view p #arrow-right {
     margin-left: 0.3rem;
+}
+
+#get-in-touch span {
+    color: var(--extra-color);
 }
 
 #contact #get-in-touch, #project #portfolio {
@@ -583,6 +591,11 @@ p.tech {
 .p-icon {
     display: flex;
     align-items: center;
+}
+
+.available {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
 }
 
 .info h2 {
@@ -830,7 +843,7 @@ footer .social-con img {
     }
 
     #dev span {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         margin-right: 0;
     }
 
@@ -940,7 +953,7 @@ footer .social-con img {
     }
 
     .btn {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         margin: 1rem 0;
         padding: 0.2rem 0.4rem;
     }
@@ -1057,7 +1070,7 @@ footer .social-con img {
     #contact .gen-con .form, 
     #contact .gen-con .info {
         width: 80%;
-        padding: 1.5rem 1rem;
+        padding: 1.5rem 1.4rem;
     }
 
     .contact-details div p {
@@ -1081,6 +1094,10 @@ footer .social-con img {
     .form h2, .info h2 {
         font-size: 1rem;
         font-weight: 400;
+    }
+
+    .available {
+        font-size: 0.8rem;
     }
 
     footer {
@@ -1423,6 +1440,10 @@ footer .social-con img {
     .form h2, .info h2 {
         font-size: 1rem;
         font-weight: 400;
+    }
+
+    .available {
+        font-size: 0.8rem;
     }
 
     footer {

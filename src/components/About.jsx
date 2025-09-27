@@ -3,7 +3,7 @@ import Icons from "./Icons";
 function About() {
     return (
         <section id="about">
-            <h2 className="heading">About Me</h2>
+            <h2 className="heading">Who am i ?</h2>
 
             <div className="about-content">
                 <div className="about-sub">
