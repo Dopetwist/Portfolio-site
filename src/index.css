@@ -1764,6 +1764,10 @@ footer .social-con img {
         font-size: 1.1rem;
     }
 
+    .skill-text p {
+        width: 90%;
+    }
+
     .card {
         width: 20rem;
     }

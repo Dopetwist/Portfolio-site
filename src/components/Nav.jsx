@@ -20,6 +20,12 @@ function Nav() {
 
         }
 
+        const removeX = () => {
+            setIsOpen(false)
+        }
+
+        window.addEventListener("scroll", removeX);
+
         if (isOpen) {
             nav.classList.add("toggle");
             nav.classList.add("show");
@@ -29,12 +35,11 @@ function Nav() {
         }
 
         window.addEventListener("mousedown", handleMousedown);
-        window.addEventListener("scroll", setIsOpen(false));
 
         // Cleanup 
         return () => { 
-            window.removeEventListener("mousedown", handleMousedown); 
-            window.removeEventListener("scroll", setIsOpen(false));
+            window.removeEventListener("mousedown", handleMousedown)
+            window.removeEventListener("scroll", removeX);
         }
     }, [isOpen]);
 
