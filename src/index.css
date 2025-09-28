@@ -769,6 +769,7 @@ footer .social-con img {
 
     .mode-con {
         background-color: transparent;
+        margin-left: 0;
     }
 
     #toggle-icon {
@@ -1069,7 +1070,7 @@ footer .social-con img {
 
     #contact .gen-con .form, 
     #contact .gen-con .info {
-        width: 80%;
+        width: 90%;
         padding: 1.5rem 1.4rem;
     }
 
@@ -1087,7 +1088,7 @@ footer .social-con img {
 
     .form form input, 
     .form form textarea {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         padding: 0.4rem 0.6rem;
     }
 
@@ -1136,6 +1137,7 @@ footer .social-con img {
 
     .mode-con {
         background-color: transparent;
+        margin-left: 0;
     }
 
     #toggle-icon {
@@ -1762,6 +1764,10 @@ footer .social-con img {
     .skill-text p,
     #contact .together {
         font-size: 1.1rem;
+    }
+
+    .skill-text p {
+        width: 90%;
     }
 
     .card {
