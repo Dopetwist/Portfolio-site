@@ -787,7 +787,7 @@ footer .social-con img {
 
     .navbar .nav-links {
         background-color: var(--sideBar-color);
-        width: 80%;
+        width: 75%;
         height: calc(100vh - 3rem);
         position: fixed;
         top: 4rem;
@@ -1155,7 +1155,7 @@ footer .social-con img {
 
     .navbar .nav-links {
         background-color: var(--sideBar-color);
-        width: 80%;
+        width: 75%;
         height: calc(100vh - 3rem);
         position: fixed;
         top: 4rem;
