@@ -2,6 +2,7 @@ import { useLayoutEffect, useState } from "react";
 import Icons from "./Icons";
 
 function ThemeMode() {
+    // Store theme to localStorage
     const [ lightTheme, setLightTheme ] = useState(() => {
         const savedTheme = localStorage.getItem("theme");
         return savedTheme === "light";
@@ -34,7 +35,7 @@ function ThemeMode() {
     return (
         <div>
             <div className="mode-con"
-            onClick={() => setLightTheme(!lightTheme)}
+            onClick={() => setLightTheme(!lightTheme)} // Toggle theme
             >
                 { lightTheme ? <Icons.Moon id="toggle-icon"/>
                     : <Icons.Sun id="toggle-icon" /> }
