@@ -5,6 +5,7 @@ function BackToTop() {
     const [ showButton, setShowButton ] = useState(false);
 
     useEffect(() => {
+        // Display back-to-top button on scroll
         const handleScroll = () => {
             if (window.scrollY > 900) {
                 setShowButton(true);
@@ -19,6 +20,7 @@ function BackToTop() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
+    // Reset scroll to default
     const scrollTop = () => {
         window.scrollTo({ top: 0 });
     };

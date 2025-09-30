@@ -838,7 +838,7 @@ footer .social-con img {
     #dev {
         width: 100%;
         font-size: 0.9rem;
-        margin-left: 3%;
+        margin-left: 0;
     }
 
     #dev span {
