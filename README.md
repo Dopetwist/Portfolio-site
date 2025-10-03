@@ -1,6 +1,15 @@
 ## My Personal Portfolio
 
-This web app consists of my experiences, skills and other personal information.  
+Built a portfolio which consists of my projects, experiences, skills and other personal information.  
+
+## Key Highlights:
+
+✅ Smooth animations and micro-interactions  
+✅ Dark/Light theme toggle  
+✅ Typed JavaScript integration  
+✅ Dynamic Back-to-Top button  
+✅ Hover effects that feel alive  
+✅ Fully responsive and user-friendly
 
 ## Tech stack:
 
@@ -8,3 +17,4 @@ This web app consists of my experiences, skills and other personal information.
 *  JavaScript
 *  CSS
 *  HTML
+
