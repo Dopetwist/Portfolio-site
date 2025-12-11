@@ -106,7 +106,7 @@ function Contact() {
 
                         <div className="phone">
                             <p className="p-icon"><Icons.Phone size={22} className="detail-icon" />  Phone: </p>
-                            <p className="p-color"> +234-805-858-6681 </p>
+                            <p className="p-color"> +234-906-969-2078 </p>
                         </div>
 
                         <div className="address">
