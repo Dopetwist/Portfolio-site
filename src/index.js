@@ -18,6 +18,14 @@ const projects = [
     },
     {
         id: 3,
+        title: "KwikScan",
+        description: "Designed and built a react app that generates and scans QR Codes efficiently according to users preferences. It converts URLs and mobile numbers to QR codes for easy access.",
+        img: "/images/projects/kwikscan.png",
+        github: "https://github.com/Dopetwist/KwikScan.git",
+        tech: [ "React + Vite | ", "JavaScript | ", "HTML | ", "CSS" ]
+    },
+    {
+        id: 4,
         title: "GeoMindz",
         description: "Developed a simple and interactive full stack quiz application that challenges users to match countries with their capitals. It was built with a focus on a clean, responsive UI and smooth quiz experience.",
         img: "/images/projects/geomindz.png",
@@ -25,7 +33,7 @@ const projects = [
         tech: [ "React.js + Vite | ", "Node.js | ", "PostgreSQL | ", "JavaScript | ", "Express.js | ", "HTML | ", "CSS" ]
     },
     {
-        id: 4,
+        id: 5,
         title: "PS4 Controller",
         description: "I designed and built a complete Gamepad with code. Flexed my fundamental skills on this project for an amazing output.",
         img: "/images/projects/gamepad.png",
@@ -33,7 +41,7 @@ const projects = [
         tech: [ "HTML | ", "CSS" ]
     },
     {
-        id: 5,
+        id: 6,
         title: "Sleek Unisex Salon",
         description: "This website showcases awesome male and female hairstyles, services and products.",
         img: "/images/projects/sleek.png",
