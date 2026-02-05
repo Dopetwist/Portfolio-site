@@ -1,8 +1,8 @@
-## My Personal Portfolio
+## My Personal Portfolio 👨🏻‍💼
 
-Built a portfolio which consists of my projects, experiences, skills and other personal information.  
+Built a portfolio website which consists of my projects, skills and other features.
 
-## Key Highlights:
+## 📍 Key Highlights:
 
 ✅ Smooth animations and micro-interactions  
 ✅ Dark/Light theme toggle  
@@ -11,10 +11,11 @@ Built a portfolio which consists of my projects, experiences, skills and other p
 ✅ Hover effects that feel alive  
 ✅ Fully responsive and user-friendly
 
-## Tech stack:
+## 💻 Tech stack:
 
 *  React.js + Vite
 *  JavaScript
 *  CSS
 *  HTML
+
 
