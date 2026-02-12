@@ -569,6 +569,15 @@ p.tech {
     color: var(--sub-text);
 }
 
+.form label {
+    color: #fff;
+    margin-bottom: 0.3rem;
+}
+
+.form .asterix {
+    color: #ff0000;
+}
+
 .contact-details div {
     margin: 2rem 0;
 }
