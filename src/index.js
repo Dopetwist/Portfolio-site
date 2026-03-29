@@ -3,52 +3,56 @@ const projects = [
     {
         id: 1,
         title: "BookHive",
-        description: "Built a Node.js web app with secured authentication and profile pages that helps users document individual reading history seamlessly by storing personal notes, summaries and books ratings.",
+        description: "Built a full-stack centralized system with secured authentication and profile dashboards designed to help readers capture, organize and revisit their thoughts and key insights on books, all in one place.",
         img: "/images/projects/bookhive.png",
         github: "https://github.com/Dopetwist/BookHive.git",
-        tech: [ "Node.js | ", "Express.js | ", "JavaScript | ", "PostgreSQL | ", "HTML | ", "CSS | ", "EJS" ]
+        tech: [ "Node.js | ", "Express.js | ", "JavaScript | ", "PostgreSQL | ", "HTML | ", "CSS | ", "EJS" ],
+        live: "https://bookhive-lq65.onrender.com"
     },
     {
         id: 2,
-        title: "Foreign Recipes Project",
-        description: "This project fetches meal data from a public API, allows users to explore and search varieties of foreign dishes all over the world with preparation instructions.",
-        img: "/images/projects/recipe.png",
-        github: "https://github.com/Dopetwist/Foreign-recipes-project.git",
-        tech: [ "REST API | ", "Node.js | ", "JavaScript | ", "EJS | ", "Express.js | ", "HTML | ", "CSS" ]
+        title: "Sleek Unisex Salon",
+        description: "I designed and built a responsive salon website with a seamless cart checkout system that allows clients to schedule appointments and purchase hair products online.",
+        img: "/images/projects/sleek.png",
+        github: "https://github.com/Dopetwist/Sleek-salon.git",
+        tech: [ "React.js + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
+        live: "https://sleek-salon.vercel.app"
     },
     {
         id: 3,
-        title: "KwikScan",
-        description: "Designed and built a react app that generates and scans QR Codes efficiently according to users preferences. It converts URLs and mobile numbers to QR codes for easy access.",
-        img: "/images/projects/kwikscan.png",
-        github: "https://github.com/Dopetwist/KwikScan.git",
-        tech: [ "React + Vite | ", "JavaScript | ", "HTML | ", "CSS" ]
+        title: "Foreign Recipes Project",
+        description: "Many restaurants struggle to access international recipes. I built a solution that allows users to explore and search varieties of foreign dishes worldwide with preparation instructions and video guides.",
+        img: "/images/projects/recipe.png",
+        github: "https://github.com/Dopetwist/Foreign-recipes-project.git",
+        tech: [ "REST API | ", "Node.js | ", "JavaScript | ", "EJS | ", "Express.js | ", "HTML | ", "CSS" ],
+        live: "https://foreign-recipes.onrender.com"
     },
     {
         id: 4,
-        title: "GeoMindz",
-        description: "Developed a simple and interactive full stack quiz application that challenges users to match countries with their capitals. It was built with a focus on a clean, responsive UI and smooth quiz experience.",
-        img: "/images/projects/geomindz.png",
-        github: "https://github.com/Dopetwist/GeoMindz.git",
-        tech: [ "React.js + Vite | ", "Node.js | ", "PostgreSQL | ", "JavaScript | ", "Express.js | ", "HTML | ", "CSS" ]
+        title: "KwikScan",
+        description: "Developed a web app that generates and scans QR Codes efficiently according to users preferences. It converts URLs and mobile numbers to QR codes for easy access.",
+        img: "/images/projects/kwikscan.png",
+        github: "https://github.com/Dopetwist/KwikScan.git",
+        tech: [ "React + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
+        live: "https://kwik-scan.vercel.app"
     },
     {
         id: 5,
-        title: "PS4 Controller",
-        description: "I designed and built a complete Gamepad with code. Flexed my fundamental skills on this project for an amazing output.",
-        img: "/images/projects/gamepad.png",
-        github: "https://github.com/Dopetwist/PS4_Controller.git",
-        tech: [ "HTML | ", "CSS" ]
+        title: "GeoMindz",
+        description: "This project is a simple and interactive full stack quiz application that challenges users to match countries with their capitals. It was built with a focus on a clean, responsive UI and smooth quiz experience.",
+        img: "/images/projects/geomindz.png",
+        github: "https://github.com/Dopetwist/GeoMindz.git",
+        tech: [ "React.js + Vite | ", "Node.js | ", "PostgreSQL | ", "JavaScript | ", "Express.js | ", "HTML | ", "CSS" ],
+        live: "https://geomindz.onrender.com"
     },
     {
         id: 6,
-        title: "Sleek Unisex Salon",
-        description: "This website showcases awesome male and female hairstyles, services and products.",
-        img: "/images/projects/sleek.png",
-        github: "https://github.com/Dopetwist/Sleek-salon.git",
-        tech: [ "React.js + Vite | ", "JavaScript | ", "HTML | ", "CSS" ]
+        title: "PS4 Controller",
+        description: "I designed and built a complete Gamepad with code. Flexed my fundamental skills on this project for an amazing result.",
+        img: "/images/projects/gamepad.png",
+        github: "https://github.com/Dopetwist/PS4_Controller.git",
+        tech: [ "HTML | ", "CSS" ]
     }
-    
 ]
 
 
