@@ -388,6 +388,7 @@ p.tech {
 .btn {
     background: linear-gradient(100deg, var(--second-main), var(--main-color));
     color: #fff;
+    font-size: 0.9rem;
     margin: 2rem 0;
     display: flex;
     justify-content: center;

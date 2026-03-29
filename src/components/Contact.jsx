@@ -71,13 +71,13 @@ function Contact() {
                     <p className="respond"> I respond as soon as possible. </p>
 
                     <form onSubmit={handleSubmit}>
-                        <label htmlFor="name">Name: <span className="asterix">*</span></label>
+                        <label htmlFor="name">Name <span className="asterix">*</span></label>
                         <input type="text" name="name" id="name" placeholder="Enter your name" required />
 
-                        <label htmlFor="email">Email: <span className="asterix">*</span></label>
+                        <label htmlFor="email">Email <span className="asterix">*</span></label>
                         <input type="email" name="email" id="email" placeholder="Enter your email" required />
 
-                        <label htmlFor="msg">Message: <span className="asterix">*</span></label>
+                        <label htmlFor="msg">Message <span className="asterix">*</span></label>
                         <textarea name="message" id="msg" placeholder="Write a Message..." rows={7} required></textarea>
 
                         <button 
