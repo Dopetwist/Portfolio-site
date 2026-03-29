@@ -367,6 +367,24 @@ p.tech {
     margin: 1rem 0;
 }
 
+.links {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link-icon {
+    color: #fff;
+    margin-left: 0.4rem;
+}
+
 .btn {
     background: linear-gradient(100deg, var(--second-main), var(--main-color));
     color: #fff;
@@ -387,10 +405,10 @@ p.tech {
 }
 
 .btn img {
-    width: 1.5rem;
-    margin-right: 0.5rem;
+    width: 1.3rem;
+    margin-left: 0.5rem;
     background-color: #fff;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
 }
 
 .tech {

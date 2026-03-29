@@ -1,4 +1,4 @@
-
+import { ExternalLink } from "lucide-react";
 
 function Card(props) {
     return (
@@ -10,9 +10,16 @@ function Card(props) {
             <div className="details">
                 <h2 className="title"> {props.title} </h2>
                 <p className="descrp"> {props.descrp} </p>
-                <a href={props.link} target="blank">
-                    <button className="btn"><img src="/images/svgs/github-small.svg" alt="Github Icon" /> View Code </button>
-                </a>
+                <div className="links">
+                    <a href={props.link} target="blank">
+                        <button className="btn"> View Code <img src="/images/svgs/github-small.svg" alt="Github Icon" /> </button>
+                    </a>
+                    {props.live && (
+                        <a href={props.live} target="blank">
+                            <button className="btn link-btn"> Live Demo <ExternalLink size={20} id="link-icon" /> </button>
+                        </a>
+                    )}
+                </div>
                 <p className="tech"> {props.tech} </p>
             </div>
         </div>

@@ -11,6 +11,7 @@ function displayCard(item) {
             image={item.img}
             link={item.github}
             tech={item.tech}
+            live={item.live}
         />
     )
 }
