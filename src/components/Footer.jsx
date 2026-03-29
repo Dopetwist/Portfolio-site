@@ -5,7 +5,7 @@ function Footer() {
 
     return (
         <footer id="footer">
-            <p> &copy; {currentYear}, Jonathan Afugwobi | All rights reserved. </p>
+            <p> &copy; {currentYear}, Jonathan Afugwobi. All rights reserved. </p>
 
             <div className="socials">
                 

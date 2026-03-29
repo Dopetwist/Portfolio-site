@@ -11,12 +11,12 @@ function Card(props) {
                 <h2 className="title"> {props.title} </h2>
                 <p className="descrp"> {props.descrp} </p>
                 <div className="links">
-                    <a href={props.link} target="blank">
-                        <button className="btn"> View Code <img src="/images/svgs/github-small.svg" alt="Github Icon" /> </button>
+                    <a href={props.link} target="_blank" rel="noopener noreferrer" className="btn">
+                        View Code <img src="/images/svgs/github-small.svg" alt="Github Icon" />
                     </a>
                     {props.live && (
-                        <a href={props.live} target="blank">
-                            <button className="btn link-btn"> Live Demo <ExternalLink size={20} id="link-icon" /> </button>
+                        <a href={props.live} target="_blank" rel="noopener noreferrer" className="btn link-btn">
+                            Live Demo <ExternalLink size={20} id="link-icon" />
                         </a>
                     )}
                 </div>
