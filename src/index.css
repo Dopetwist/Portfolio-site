@@ -314,12 +314,18 @@ section#about {
 
 .project-container {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.project-box {
+    width: 80%;
+    display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 5rem;
-    margin-top: 4rem;
-    padding-left: 13%;
 }
 
 #code-icon {
@@ -335,10 +341,6 @@ section#about {
     border: 0.15rem solid transparent;
     box-shadow: 0 0 0.2rem var(--second-main);
     overflow: hidden;
-}
-
-.card:hover {
-    cursor: pointer;
 }
 
 .card figure img {
@@ -951,10 +953,9 @@ footer .social-con img {
     #code-icon {
         margin-right: 0.6rem;
     }
-    
-    .project-container {
-        flex-direction: column;
-        padding-left: 0;
+
+    .project-box {
+        width: 90%;
     }
 
     #project #portfolio {
@@ -969,10 +970,6 @@ footer .social-con img {
 
     .skill-text p {
         width: 100%;
-    }
-
-    .card {
-        width: 80%;
     }
 
     h2.title {
@@ -1319,10 +1316,9 @@ footer .social-con img {
     #code-icon {
         margin-right: 0.6rem;
     }
-    
-    .project-container {
-        flex-direction: column;
-        padding-left: 0;
+
+    .project-box {
+        width: 100%;
     }
 
     #project #portfolio {
@@ -1684,10 +1680,9 @@ footer .social-con img {
     #code-icon {
         margin-right: 0.7rem;
     }
-    
-    .project-container {
-        flex-direction: column;
-        padding-left: 0;
+
+    .project-box {
+        width: 100%;
     }
 
     #project #portfolio {
@@ -1949,9 +1944,9 @@ footer .social-con img {
     #code-icon {
         font-size: 2.4rem;
     }
-    
-    .project-container {
-        padding-left: 12%;
+
+    .project-box {
+        width: 100%;
         gap: 3.5rem;
     }
 
@@ -2146,8 +2141,8 @@ footer .social-con img {
         font-size: 2.5rem;
     }
 
-    .project-container {
-        padding-left: 13%;
+    .project-box {
+       width: 100%;
     }
 
     #project #portfolio {
@@ -2243,5 +2238,11 @@ footer .social-con img {
 /* Desktops ===================================================================== */
 
 @media (min-width: 1200px) {
-    
+    .project-container {
+        padding: 0 5%;
+    }
+
+    .project-box {
+        width: 100%;
+    }
 }
