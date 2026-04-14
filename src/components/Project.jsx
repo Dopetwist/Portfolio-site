@@ -24,7 +24,9 @@ function Project() {
             <p className="explore"> Explore my previous projects built with various technologies! </p>
 
             <div className="project-container">
-                {projects.map(displayCard)}
+                <div className="project-box">
+                    {projects.map(displayCard)}
+                </div>
             </div>
 
             <div className="more-projects">

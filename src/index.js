@@ -7,7 +7,7 @@ const projects = [
         img: "/images/projects/bookhive.png",
         github: "https://github.com/Dopetwist/BookHive.git",
         tech: [ "Node.js | ", "Express.js | ", "JavaScript | ", "PostgreSQL | ", "HTML | ", "CSS | ", "EJS" ],
-        live: "https://bookhive-lq65.onrender.com"
+        /* live: "https://bookhive-lq65.onrender.com" */
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ const projects = [
         img: "/images/projects/recipe.png",
         github: "https://github.com/Dopetwist/Foreign-recipes-project.git",
         tech: [ "REST API | ", "Node.js | ", "JavaScript | ", "EJS | ", "Express.js | ", "HTML | ", "CSS" ],
-        live: "https://foreign-recipes.onrender.com"
+        /* live: "https://foreign-recipes.onrender.com" */
     },
     {
         id: 4,
@@ -43,7 +43,7 @@ const projects = [
         img: "/images/projects/geomindz.png",
         github: "https://github.com/Dopetwist/GeoMindz.git",
         tech: [ "React.js + Vite | ", "Node.js | ", "PostgreSQL | ", "JavaScript | ", "Express.js | ", "HTML | ", "CSS" ],
-        live: "https://geomindz.onrender.com"
+        /* live: "https://geomindz.onrender.com" */
     },
     {
         id: 6,
