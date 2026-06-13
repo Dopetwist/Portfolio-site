@@ -2,17 +2,17 @@
 const projects = [
     {
         id: 1,
-        title: "BookHive",
-        description: "Built a full-stack centralized system with secured authentication and profile dashboards designed to help readers capture, organize and revisit their thoughts and key insights on books, all in one place.",
-        img: "/images/projects/bookhive.png",
-        github: "https://github.com/Dopetwist/BookHive.git",
-        tech: [ "Node.js | ", "Express.js | ", "JavaScript | ", "PostgreSQL | ", "HTML | ", "CSS | ", "EJS" ],
-        /* live: "https://bookhive-lq65.onrender.com" */
+        title: "MyLux Gold Collection — Premium Gold Jewelry eCommerce Website",
+        description: "I designed and developed a modern eCommerce platform to showcase and sell luxury gold jewelry through a modern, elegant, and conversion-focused shopping experience.",
+        img: "/images/projects/mylux.png",
+        github: "https://github.com/Dopetwist/MGC.git",
+        tech: [ "React + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
+        live: "https://mylux-gold-collection.vercel.app"
     },
     {
         id: 2,
         title: "Sleek Unisex Salon",
-        description: "I designed and built a responsive salon website with a seamless cart checkout system that allows clients to schedule appointments and purchase hair products online.",
+        description: "I built a responsive salon website with a seamless cart checkout system that allows clients to schedule appointments and purchase hair products online.",
         img: "/images/projects/sleek.png",
         github: "https://github.com/Dopetwist/Sleek-salon.git",
         tech: [ "React.js + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
@@ -25,10 +25,19 @@ const projects = [
         img: "/images/projects/recipe.png",
         github: "https://github.com/Dopetwist/Foreign-recipes-project.git",
         tech: [ "REST API | ", "Node.js | ", "JavaScript | ", "EJS | ", "Express.js | ", "HTML | ", "CSS" ],
-        /* live: "https://foreign-recipes.onrender.com" */
+        live: "https://foreign-recipes.onrender.com"
     },
     {
         id: 4,
+        title: "BookHive",
+        description: "Built a full-stack centralized system with secured authentication and profile dashboards designed to help readers capture, organize and revisit their thoughts and key insights on books, all in one place.",
+        img: "/images/projects/bookhive.png",
+        github: "https://github.com/Dopetwist/BookHive.git",
+        tech: [ "Node.js | ", "Express.js | ", "JavaScript | ", "PostgreSQL | ", "HTML | ", "CSS | ", "EJS" ],
+        /* live: "https://bookhive-lq65.onrender.com" */
+    },
+    {
+        id: 5,
         title: "KwikScan",
         description: "Developed a web app that generates and scans QR Codes efficiently according to users preferences. It converts URLs and mobile numbers to QR codes for easy access.",
         img: "/images/projects/kwikscan.png",
@@ -37,21 +46,13 @@ const projects = [
         live: "https://kwik-scan.vercel.app"
     },
     {
-        id: 5,
+        id: 6,
         title: "GeoMindz",
         description: "This project is a simple and interactive full stack quiz application that challenges users to match countries with their capitals. It was built with a focus on a clean, responsive UI and smooth quiz experience.",
         img: "/images/projects/geomindz.png",
         github: "https://github.com/Dopetwist/GeoMindz.git",
         tech: [ "React.js + Vite | ", "Node.js | ", "PostgreSQL | ", "JavaScript | ", "Express.js | ", "HTML | ", "CSS" ],
         /* live: "https://geomindz.onrender.com" */
-    },
-    {
-        id: 6,
-        title: "PS4 Controller",
-        description: "I designed and built a complete Gamepad with code. Flexed my fundamental skills on this project for an amazing result.",
-        img: "/images/projects/gamepad.png",
-        github: "https://github.com/Dopetwist/PS4_Controller.git",
-        tech: [ "HTML | ", "CSS" ]
     }
 ]
 
