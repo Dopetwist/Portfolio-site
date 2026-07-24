@@ -365,6 +365,7 @@ p.tech {
 }
 
 .descrp {
+    font-size: 0.9rem;
     color: var(--sub-text);
     margin: 1rem 0;
 }
@@ -391,7 +392,7 @@ p.tech {
     background: linear-gradient(100deg, var(--second-main), var(--main-color));
     color: #fff;
     font-size: 0.9rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -2,6 +2,15 @@
 const projects = [
     {
         id: 1,
+        title: "Kraft Konceptz LTD — Corporate Fabrication Website",
+        description: "Designed and built a premium website for Kraft Konceptz LTD, a leading fabrication company, to showcase their services and portfolio. The website features a clean, responsive design with smooth animations and an intuitive user interface.",
+        img: "/images/projects/kraft-konceptz.png",
+        github: "https://github.com/Dopetwist/KKZ-site.git",
+        tech: [ "React + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
+        live: "https://kkz-company.vercel.app"
+    },
+    {
+        id: 2,
         title: "MyLux Gold Collection — Premium Gold Jewelry eCommerce Website",
         description: "I designed and developed a modern eCommerce platform to showcase and sell luxury gold jewelry through a modern, elegant, and conversion-focused shopping experience.",
         img: "/images/projects/mylux.png",
@@ -10,7 +19,7 @@ const projects = [
         live: "https://mylux-gold-collection.vercel.app"
     },
     {
-        id: 2,
+        id: 3,
         title: "Sleek Unisex Salon",
         description: "I built a responsive salon website with a seamless cart checkout system that allows clients to schedule appointments and purchase hair products online.",
         img: "/images/projects/sleek.png",
@@ -19,7 +28,7 @@ const projects = [
         live: "https://sleek-salon.vercel.app"
     },
     {
-        id: 3,
+        id: 4,
         title: "Foreign Recipes Project",
         description: "Many restaurants struggle to access international recipes. I built a solution that allows users to explore and search varieties of foreign dishes worldwide with preparation instructions and video guides.",
         img: "/images/projects/recipe.png",
@@ -28,7 +37,7 @@ const projects = [
         live: "https://foreign-recipes.onrender.com"
     },
     {
-        id: 4,
+        id: 5,
         title: "BookHive",
         description: "Built a full-stack centralized system with secured authentication and profile dashboards designed to help readers capture, organize and revisit their thoughts and key insights on books, all in one place.",
         img: "/images/projects/bookhive.png",
@@ -37,22 +46,13 @@ const projects = [
         /* live: "https://bookhive-lq65.onrender.com" */
     },
     {
-        id: 5,
+        id: 6,
         title: "KwikScan",
         description: "Developed a web app that generates and scans QR Codes efficiently according to users preferences. It converts URLs and mobile numbers to QR codes for easy access.",
         img: "/images/projects/kwikscan.png",
         github: "https://github.com/Dopetwist/KwikScan.git",
         tech: [ "React + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
         live: "https://kwik-scan.vercel.app"
-    },
-    {
-        id: 6,
-        title: "GeoMindz",
-        description: "This project is a simple and interactive full stack quiz application that challenges users to match countries with their capitals. It was built with a focus on a clean, responsive UI and smooth quiz experience.",
-        img: "/images/projects/geomindz.png",
-        github: "https://github.com/Dopetwist/GeoMindz.git",
-        tech: [ "React.js + Vite | ", "Node.js | ", "PostgreSQL | ", "JavaScript | ", "Express.js | ", "HTML | ", "CSS" ],
-        /* live: "https://geomindz.onrender.com" */
     }
 ]
 
