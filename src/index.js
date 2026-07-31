@@ -6,7 +6,7 @@ const projects = [
         description: "Designed and built a premium website for Kraft Konceptz LTD, a leading fabrication company, to showcase their services and portfolio. The website features a clean, responsive design with smooth animations and an intuitive user interface.",
         img: "/images/projects/kraft-konceptz.png",
         github: "https://github.com/Dopetwist/KKZ-site.git",
-        tech: [ "React + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
+        tech: [ "React + Vite | ", "Node.js | ", "Express.js | ", "JavaScript | ", "HTML | ", "CSS" ],
         live: "https://kkz-company.vercel.app"
     },
     {
