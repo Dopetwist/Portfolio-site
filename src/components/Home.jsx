@@ -8,7 +8,7 @@ function Home() {
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['Full Stack Developer', 'Graphic Designer'],
+            strings: ['Full Stack Engineer', 'Graphic Designer'],
             typeSpeed: 80,
             backSpeed: 80,
             backDelay: 1000,
@@ -25,12 +25,28 @@ function Home() {
         <section id="home">
             <main>
                 <div className="home-div">
-                    <h3> Hello! I'm </h3>
                     <h2 id='main-name'> Jonathan Afugwobi </h2>
-                    <p id="dev">And i'm a <span ref={el}/> </p> 
+                    <p id="dev"> <span ref={el} /> </p> 
 
                     <div className="tagline">
                         <p className="home-text"> Building Innovative Solutions and digital experiences with performance and precision. </p>
+                    </div>
+
+                    <div className="stats">
+                        <div className='stats-box'>
+                            <span>3 Years +</span>
+                            <p>Experience</p>
+                        </div>
+
+                        <div className='stats-box'>
+                            <span>10+</span>
+                            <p>Trusted Clients</p>
+                        </div>
+
+                        <div className='stats-box'>
+                            <span>20+</span>
+                            <p>Built Projects</p>
+                        </div>
                     </div>
 
                     <div className="home-buttons">

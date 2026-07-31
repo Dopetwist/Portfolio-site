@@ -105,9 +105,33 @@ header {
     position: relative;
 }
 
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.name figure {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 0.2rem solid var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.name figure img {
+    width: 100%;
+    display: block;
+}
+
 .name h2 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
+    line-height: 1.2;
 }
 
 .name, .navbar a {
@@ -133,7 +157,7 @@ header {
 #dev {
     font-size: 1.5rem;
     margin: 1rem 0;
-    margin-left: 17%;
+    margin-left: 28%;
     text-align: left !important;
 }
 
@@ -250,6 +274,30 @@ header {
     background-color: #a09c9c83;
     color: var(--text);
     cursor: pointer;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.stats .stats-box {
+    margin: 0 2rem;
+}
+
+.stats .stats-box span {
+    color: var(--second-main);
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.stats .stats-box p {
+    color: var(--second-color);
+    font-size: 1.1rem;
 }
 
 section#about {
