@@ -592,7 +592,7 @@ p.tech {
 }
 
 .form label {
-    color: #fff;
+    color: var(--second-color);
     margin-bottom: 0.3rem;
 }
 
