@@ -1,0 +1,132 @@
+/* Slider.css */
+
+:root {
+    --slider-color: #0e0f12;
+    --slider-title: #fff;
+}
+
+html.light-mode {
+    --slider-color: transparent;
+    --slider-title: #000;
+}
+
+.slider-section {
+    padding: 3rem 0;
+    background: var(--slider-color); /* dark professional look */
+    text-align: center;
+    overflow: hidden;
+}
+
+.slider-title {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--slider-title);
+    margin-bottom: 3rem;
+}
+
+/* Slider container */
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Track that moves */
+.slide-track {
+    display: flex;
+    gap: 4rem;
+    width: calc(200px * 12); /* 6 logos × 2 */
+    animation: scroll 20s linear infinite;
+}
+
+/* Pause on hover */
+/* .slider:hover .slide-track {
+  animation-play-state: paused;
+} */
+
+/* Individual slide */
+.tech-slide {
+    width: 25rem;
+    height: 13rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-slide img {
+    max-width: 7rem;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.tech-slide img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.slider::before,
+.slider::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.slider::before {
+    left: 0;
+    background: linear-gradient(to right, transparent);
+}
+
+.slider::after {
+    right: 0;
+    background: linear-gradient(to left, transparent);
+}
+
+/* Animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 1024px) {
+  .tech-slide {
+        width: 180px;
+        height: 10rem;
+  }
+
+  .slide-track {
+        width: calc(180px * 12);
+  }
+}
+
+@media (max-width: 768px) {
+  .tech-slide {
+        width: 140px;
+        height: 10rem;
+  }
+
+  .slide-track {
+        width: calc(140px * 12);
+  }
+}
+
+@media (max-width: 576px) {
+  .tech-slide {
+        width: 120px;
+        height: 9rem;
+  }
+
+  .tech-slide img {
+        max-width: 5.5rem;
+    }
+
+  .slide-track {
+        width: calc(120px * 12);
+  }
+}
