@@ -1,8 +1,9 @@
+import { useEffect, useState } from "react";
+import { HashLink } from "react-router-hash-link";
 import ThemeMode from "./ThemeMode";
 import Icons from "./Icons";
-import { useEffect, useState } from "react";
 
-function Nav() {
+function Nav({ lightTheme, setLightTheme }) {
 
     const [ isOpen, setIsOpen ] = useState(false);
 
@@ -46,14 +47,17 @@ function Nav() {
     return (
         <nav className="navbar">
             <div className="nav-links">
-                <a href="#home" className="home-nav">Home</a>
-                <a href="#about">About</a>
-                <a href="#project">Projects</a>
-                <a href="#skill">Skills</a>
-                <a href="#contact">Contact</a>
+                <HashLink smooth to="/#home" className="home-nav"> Home </HashLink>
+                <HashLink smooth to="/#about"> About </HashLink>
+                <HashLink smooth to="/#project"> Projects </HashLink>
+                <HashLink smooth to="/#skill"> Skills </HashLink>
+                <HashLink smooth to="/#contact"> Contact </HashLink>
             </div>
 
-            <ThemeMode />
+            <ThemeMode
+                lightTheme={lightTheme} 
+                setLightTheme={setLightTheme}
+            />
             
             <div
             id="menu-icon"

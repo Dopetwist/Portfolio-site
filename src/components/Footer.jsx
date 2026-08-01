@@ -1,6 +1,6 @@
 import { HashLink } from "react-router-hash-link";
 
-function Footer() {
+function Footer({ lightTheme, setLightTheme }) {
     const currentYear = new Date().getFullYear();
 
     return (
@@ -10,7 +10,7 @@ function Footer() {
                     <div className="footer-logo-container">
                         <div className="name-logo">
                             <figure>
-                                <img src="/JA-Logo.png" alt="Logo" />
+                                <img src={lightTheme ? "/JA-Logo2.png" : "/JA-Logo.png"} alt="Jonathan's Logo" />
                             </figure>
                             <h2> Jonathan Afugwobi </h2>
                         </div>
