@@ -1,16 +1,19 @@
 import Nav from "./Nav";
 
-function Header() {
+function Header({ lightTheme, setLightTheme }) {
     return (
         <header id="header">
             <a href="#home" className="name">
                 <figure>
-                    <img src="/JA-Logo.png" alt="Logo" />
+                    <img src={lightTheme ? "/JA-Logo2.png" : "/JA-Logo.png"} alt="Jonathan's Logo" />
                 </figure>
                 <h2> Jonathan <br /> Afugwobi </h2>
             </a> 
 
-            <Nav />
+            <Nav 
+                lightTheme={lightTheme} 
+                setLightTheme={setLightTheme}
+            />
         </header>
     )
 }

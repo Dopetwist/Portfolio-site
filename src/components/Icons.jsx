@@ -13,8 +13,8 @@ import {
     MoveLeft,
     Mail,
     Phone,
-    MapPin
-
+    MapPin,
+    ExternalLink
 } from "lucide-react";
 
 
@@ -33,7 +33,8 @@ const Icons = {
     MoveLeft,
     Mail,
     Phone,
-    MapPin
+    MapPin,
+    ExternalLink
 }
 
 export default Icons;

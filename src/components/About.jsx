@@ -24,8 +24,8 @@ function About() {
                             <button><Icons.Download id="download-icon"/>  Download CV </button>
                         </a>
 
-                        <a href="" target="_blank">
-                            <button><Icons.Download id="download-icon"/>  DEV Cert </button>
+                        <a href="https://drive.google.com/file/d/1Tw7kwfaQ0VRoj1ria4pPSMcuuMfdhzyI/view?usp=drive_link" target="_blank">
+                            <button><Icons.ExternalLink id="link-icon"/>  DEV Cert </button>
                         </a>
                     </div>
                 </div>

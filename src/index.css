@@ -22,6 +22,7 @@
     --second-color: #e6e6e6;
     --boarder-color: #bebebe;
     --sideBar-color: #272727;
+    --nav-height: 4rem;
 }
 
 html.light-mode {
@@ -29,6 +30,11 @@ html.light-mode {
     --text: #000;
     --second-color: #504d4d;
     --sideBar-color: #f1f1f1;
+}
+
+/* Add scroll margin to sections for smooth scrolling with sticky header */
+[id] {
+  scroll-margin-top: var(--nav-height);
 }
 
 body {
@@ -105,14 +111,20 @@ header {
     position: relative;
 }
 
-.name {
+.name, .name-logo {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
 }
 
-.name figure {
+.name-logo {
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.name figure,
+.name-logo figure {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
@@ -123,7 +135,8 @@ header {
     padding: 0.5rem;
 }
 
-.name figure img {
+.name figure img,
+.name-logo figure img {
     width: 100%;
     display: block;
 }
@@ -134,9 +147,15 @@ header {
     line-height: 1.2;
 }
 
-.name, .navbar a {
+.name, .navbar a, .name-logo h2 {
     text-decoration: none;
     color: var(--text);
+}
+
+.name-logo h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .navbar a::after {
@@ -371,7 +390,8 @@ section#about {
     cursor: pointer;
 }
 
-.about-sub button #download-icon {
+.about-sub button #download-icon,
+.about-sub button #link-icon {
     font-size: 1.3rem;
     margin-right: 0.5rem;
 }
@@ -685,7 +705,7 @@ p.tech {
 
 .contact-details div p .detail-icon {
     margin-right: 0.5rem;
-    color: var(--sub-text);
+    color: var(--extra-color);
 }
 
 .contact-details .email .p-color,
@@ -799,13 +819,21 @@ footer {
     width: 100%;
     padding: 2rem;
     border-top: 0.1rem solid var(--boarder-color);
+}
+
+footer .footer-container {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    gap: 2rem;
 }
 
 footer p {
     font-size: 0.9rem;
     color: var(--second-color);
+}
+
+footer p.copyright {
+    text-align: center;
 }
 
 footer .socials {
@@ -822,6 +850,52 @@ footer .socials .social-con {
     height: 2rem;
     border-radius: 0.5rem;
     overflow: hidden;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-email span {
+    color: var(--extra-color);
+    font-weight: 600;
+}
+
+.quick-links {
+    margin-left: 7rem;
+}
+
+.quick-links h2, .footer-services h2 {
+    font-size: 1.2rem;
+    color: var(--extra-color);
+    margin-bottom: 1rem;
+}
+
+.quick-links ul li .footer-link, 
+.footer-services ul li {
+    font-size: 0.9rem;
+    color: var(--second-color);
+    list-style: none;
+    margin: 0.3rem 0;
+}
+
+.quick-links ul li .footer-link:hover {
+    color: var(--extra-color);
+}
+
+.copyright-container {
+    border-top: 0.1rem solid var(--boarder-color);
+    padding-top: 2rem;
+    margin-top: 3rem;
+}
+
+.copyright-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
 }
 
 .linkedin {
@@ -846,6 +920,15 @@ footer .socials .github:hover {
 
 footer .socials .instagram:hover {
     transform: rotate(20deg) scale(1.2);
+}
+
+.footer-logo-container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .X {
