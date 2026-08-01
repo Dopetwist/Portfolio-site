@@ -62,6 +62,10 @@ function Contact() {
 
     return (
         <section id="contact">
+            <div className="page-pill">
+                <span>Contact</span>
+            </div>
+           
             <h2 className="heading" id="get-in-touch"> Get in <span>Touch</span> </h2>
             <p className="together"><Icons.MoveRight size={40} className="Move-arrow" /> Let's work together to bring your amazing ideas to life! <Icons.MoveLeft size={40} className="Move-arrow" /> </p>
 

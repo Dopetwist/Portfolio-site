@@ -3,6 +3,10 @@ import { frontend, backend, tools } from "../index";
 function Skill() {
     return (
         <section id="skill">
+            <div className="page-pill">
+                <span>Technologies</span>
+            </div>
+
             <h2 className="heading"> My Tech <span id="skill-span">Skills</span> & Tools </h2>
 
             <div className="skill-text">

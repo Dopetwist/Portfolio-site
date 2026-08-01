@@ -7,6 +7,7 @@ import Skill from "./Skill";
 import Contact from "./Contact";
 import BackToTop from "./BackToTop";
 import ScrollWrapper from "./ScrollReveal.jsx";
+import Slider from "./Slider.jsx";
 import '../app.js';
 
 
@@ -18,6 +19,7 @@ function App() {
       <BackToTop />
       <Header />
       <Home />
+      <Slider />
       <About />
       <Project />
       <Skill />

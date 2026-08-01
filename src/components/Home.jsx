@@ -58,7 +58,7 @@ function Home() {
                         </a>
                     </div>
 
-                    <a href="#about" id='arrow-con'>
+                    <a href="#slider-main" id='arrow-con'>
                         <Icons.ChevronsDown size={30} id='arrow-down' />
                     </a> 
                 </div>

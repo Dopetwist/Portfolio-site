@@ -19,6 +19,10 @@ function displayCard(item) {
 function Project() {
     return (
         <section id="project"> 
+            <div className="page-pill">
+                <span>My Work</span>
+            </div>
+            
             <h2 className="heading" id="portfolio"><Icons.CodeXml size={40} id="code-icon" />  Featured Projects </h2>
 
             <p className="explore"> Explore my previous projects built with various technologies! </p>
