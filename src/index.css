@@ -38,7 +38,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 8rem 6% 5rem;
+    padding: 7rem 6% 5rem;
     overflow: hidden;
 }
 
@@ -300,6 +300,27 @@ header {
     font-size: 1.1rem;
 }
 
+.page-pill {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.page-pill span {
+    background: #02ced133;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--extra-color);
+    border: 0.1rem solid var(--extra-color);
+    border-radius: 2rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    padding: 0.3rem 0.7rem;
+}
+
 section#about {
     background: linear-gradient(300deg, var(--background-one), var(--background-one), var(--main-color));
 }
@@ -324,6 +345,12 @@ section#about {
 .about-sub a {
     width: max-content;
     display: block;
+}
+
+.about-btns {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .about-sub button {

@@ -3,6 +3,9 @@ import Icons from "./Icons";
 function About() {
     return (
         <section id="about">
+            <div className="page-pill">
+                <span>About</span>
+            </div>
             <h2 className="heading">Who am i ?</h2>
 
             <div className="about-content">
@@ -16,9 +19,15 @@ function About() {
                         </p>
                     </div>
 
-                    <a href="/JonathanA-resume.pdf" target="blank">
-                        <button><Icons.Download id="download-icon"/>  Download CV </button>
-                    </a>
+                    <div className="about-btns">
+                        <a href="/JonathanA-resume.pdf" target="_blank">
+                            <button><Icons.Download id="download-icon"/>  Download CV </button>
+                        </a>
+
+                        <a href="" target="_blank">
+                            <button><Icons.Download id="download-icon"/>  DEV Cert </button>
+                        </a>
+                    </div>
                 </div>
 
                 <figure id="about-img">

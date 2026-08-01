@@ -3,11 +3,13 @@
 :root {
     --slider-color: #0e0f12;
     --slider-title: #fff;
+    --slider-edge: #0e1015;
 }
 
 html.light-mode {
     --slider-color: transparent;
     --slider-title: #000;
+    --slider-edge: #eaeaea;
 }
 
 .slider-section {
@@ -55,12 +57,11 @@ html.light-mode {
 
 .tech-slide img {
     max-width: 7rem;
-    opacity: 0.8;
+    opacity: 1;
     transition: 0.3s;
 }
 
 .tech-slide img:hover {
-    opacity: 1;
     transform: scale(1.05);
 }
 
@@ -76,12 +77,12 @@ html.light-mode {
 
 .slider::before {
     left: 0;
-    background: linear-gradient(to right, transparent);
+    background: linear-gradient(to right, var(--slider-edge), transparent);
 }
 
 .slider::after {
     right: 0;
-    background: linear-gradient(to left, transparent);
+    background: linear-gradient(to left, var(--slider-edge), transparent);
 }
 
 /* Animation */

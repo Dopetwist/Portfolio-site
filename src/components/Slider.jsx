@@ -15,7 +15,7 @@ const techStack = [
 
 function Slider() {
     return (
-        <div className="slider-section">
+        <div id="slider-main" className="slider-section">
             <h1 className="slider-title">I work with Modern Technologies and Platforms</h1>
 
             <div className="slider">
