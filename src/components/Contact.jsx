@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { SocialIcon } from "react-social-icons";
 import Icons from "./Icons";
 import "../spinner.css";
 
@@ -116,6 +117,27 @@ function Contact() {
                         <div className="phone">
                             <p className="p-icon"><Icons.Phone size={22} className="detail-icon" />  Phone: </p>
                             <p className="p-color"> +234-906-969-2078 </p>
+                        </div>
+
+                        <div className="social-link">
+                            <SocialIcon url="https://github.com/Dopetwist" style={{ height: 30, width: 30 }} aria-label="Jonathan's github" />
+                            <a href="https://github.com/Dopetwist" target="_blank">
+                                <p className="p-icon social-link-path"> GitHub: Jonathan Afugwobi </p>
+                            </a>
+                        </div>
+
+                        <div className="social-link">
+                            <SocialIcon url="https://www.linkedin.com/in/jonathan-afugwobi-b960a0264" style={{ height: 30, width: 30 }} aria-label="Jonathan's linkedin" />
+                            <a href="https://www.linkedin.com/in/jonathan-afugwobi-b960a0264" target="_blank">
+                                <p className="p-icon social-link-path"> LinkedIn: Jonathan Afugwobi </p>
+                            </a>
+                        </div>
+
+                        <div className="social-link">
+                            <SocialIcon url="https://x.com/dopetwist001" style={{ height: 30, width: 30 }} aria-label="Jonathan's X (twitter)" />
+                            <a href="https://x.com/dopetwist001" target="_blank">
+                                <p className="p-icon social-link-path"> X: @dopetwist001 </p>
+                            </a>
                         </div>
 
                         <div className="address">

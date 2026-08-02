@@ -173,6 +173,21 @@ header {
     width: 100%;
 }
 
+#hire-link {
+    width: 100%;
+}
+
+#hire-btn {
+    width: 90%;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 0.5rem;
+}
+
 #dev {
     font-size: 1.5rem;
     margin: 1rem 0;
@@ -330,7 +345,7 @@ header {
 
 .page-pill span {
     background: #02ced133;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 600;
     color: var(--extra-color);
     border: 0.1rem solid var(--extra-color);
@@ -898,6 +913,17 @@ footer ul {
     margin-top: 1rem;
 }
 
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.social-link-path:hover {
+    cursor: pointer;
+    color: var(--extra-color);
+}
+
 .linkedin {
     transition: .2s ease;
 }
@@ -976,18 +1002,17 @@ footer .social-con img {
 
     .navbar .nav-links {
         background-color: var(--sideBar-color);
-        width: 75%;
-        height: calc(100vh - 3rem);
+        width: 85%;
+        height: calc(100vh);
         position: fixed;
-        top: 4rem;
+        top: 0;
         left: -100%;
-        border-top-right-radius: 1rem;
         box-shadow: 0 0 0.1rem var(--sub-text);
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: start;
-        padding: 1rem 0.5rem;
+        padding: 3rem 0.5rem;
         z-index: 100;
         transition: left .3s ease-in-out;
     }
@@ -1001,8 +1026,20 @@ footer .social-con img {
         left: 0;
     }
 
+    .name-logo h2 {
+        font-size: 1.3rem;
+    }
+
     .name h2 {
         font-size: 0.9rem;
+    }
+
+    #navlink-box h2 {
+        font-size: 1.2rem;
+    }
+
+    #navlink-box .name {
+        margin-bottom: 2rem;
     }
 
     section {
@@ -1027,12 +1064,28 @@ footer .social-con img {
     #dev {
         width: 100%;
         font-size: 0.9rem;
-        margin-left: 0;
+        margin-left: 15%;
     }
 
     #dev span {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         margin-right: 0;
+    }
+
+    .stats {
+        flex-wrap: wrap;
+    }
+
+    .stats .stats-box {
+        margin: 0 1rem;
+    }
+
+    .stats .stats-box span {
+        font-size: 1.3rem;
+    }
+
+    .stats .stats-box p {
+        font-size: 0.9rem;
     }
 
     .home-text {
@@ -1283,6 +1336,24 @@ footer .social-con img {
         font-size: 0.8rem;
     }
 
+    .quick-links {
+        margin-left: 0;
+    }
+
+    .copyright-box {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .footer-email {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .quick-links h2, .footer-services h2 {
+        font-size: 1.1rem;
+    }
+
     footer {
         justify-content: center;
         align-items: center;
@@ -1290,7 +1361,6 @@ footer .social-con img {
     }
 
     footer .socials {
-        margin-bottom: 2rem;
         margin-right: 0;
     }
 
@@ -1305,7 +1375,10 @@ footer .social-con img {
 
     footer p {
         font-size: 0.8rem;
-        text-align: center;
+    }
+
+    footer .footer-container {
+       flex-direction: column;
     }
 }
 
@@ -1339,18 +1412,17 @@ footer .social-con img {
 
     .navbar .nav-links {
         background-color: var(--sideBar-color);
-        width: 75%;
-        height: calc(100vh - 3rem);
+        width: 85%;
+        height: calc(100vh);
         position: fixed;
-        top: 4rem;
+        top: 0;
         left: -100%;
-        border-top-right-radius: 1rem;
         box-shadow: 0 0 0.1rem var(--sub-text);
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: start;
-        padding: 1rem 0.5rem;
+        padding: 3rem 0.5rem;
         z-index: 100;
         transition: left .3s ease-in-out;
     }
@@ -1364,8 +1436,20 @@ footer .social-con img {
         left: 0;
     }
 
+    .name-logo h2 {
+        font-size: 1.3rem;
+    }
+
     .name h2 {
         font-size: 0.9rem;
+    }
+
+    #navlink-box h2 {
+        font-size: 1.2rem;
+    }
+
+    #navlink-box .name {
+        margin-bottom: 2rem;
     }
 
     section {
@@ -1390,12 +1474,28 @@ footer .social-con img {
     #dev {
         width: 100%;
         font-size: 0.9rem;
-        margin-left: 5%;
+        margin-left: 15%;
     }
 
     #dev span {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         margin-right: 0;
+    }
+
+    .stats {
+        flex-wrap: wrap;
+    }
+
+    .stats .stats-box {
+        margin: 0 1rem;
+    }
+
+    .stats .stats-box span {
+        font-size: 1.3rem;
+    }
+
+    .stats .stats-box p {
+        font-size: 0.9rem;
     }
 
     .home-text {
@@ -1650,6 +1750,24 @@ footer .social-con img {
         font-size: 0.8rem;
     }
 
+    .quick-links {
+        margin-left: 0;
+    }
+
+    .copyright-box {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .footer-email {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .quick-links h2, .footer-services h2 {
+        font-size: 1.1rem;
+    }
+
     footer {
         justify-content: center;
         align-items: center;
@@ -1657,7 +1775,6 @@ footer .social-con img {
     }
 
     footer .socials {
-        margin-bottom: 2rem;
         margin-right: 0;
     }
 
@@ -1672,7 +1789,10 @@ footer .social-con img {
 
     footer p {
         font-size: 0.8rem;
-        text-align: center;
+    }
+
+    footer .footer-container {
+       flex-direction: column;
     }
 }
 
@@ -1697,17 +1817,16 @@ footer .social-con img {
     .navbar .nav-links {
         background-color: var(--sideBar-color);
         width: 70%;
-        height: calc(100vh - 3rem);
+        height: calc(100vh);
         position: fixed;
-        top: 4rem;
+        top: 0;
         left: -100%;
-        border-top-right-radius: 1rem;
         box-shadow: 0 0 0.1rem var(--sub-text);
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: start;
-        padding: 1rem 0.5rem;
+        padding: 3rem 0.5rem;
         z-index: 100;
         transition: left .3s ease-in-out;
     }
@@ -1729,6 +1848,14 @@ footer .social-con img {
 
     #status {
         font-size: 0.7rem;
+    }
+
+    #navlink-box h2 {
+        font-size: 1.2rem;
+    }
+
+    #navlink-box .name {
+        margin-bottom: 2rem;
     }
 
     .name h2 {
@@ -1757,11 +1884,23 @@ footer .social-con img {
     #dev {
         width: 90%;
         font-size: 1rem;
-        margin-left: 10%;
+        margin-left: 23%;
     }
 
     #dev span {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
+    }
+
+    .stats .stats-box {
+        margin: 0 1rem;
+    }
+
+    .stats .stats-box span {
+        font-size: 1.3rem;
+    }
+
+    .stats .stats-box p {
+        font-size: 0.9rem;
     }
 
     .home-text {
@@ -1996,6 +2135,20 @@ footer .social-con img {
         font-size: 0.8rem;
     }
 
+    .quick-links {
+        margin-left: 0;
+    }
+
+    .copyright-box {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .footer-email {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
     footer {
         justify-content: center;
         align-items: center;
@@ -2003,7 +2156,6 @@ footer .social-con img {
     }
 
     footer .socials {
-        margin-bottom: 2rem;
         margin-right: 0;
     }
 
@@ -2019,11 +2171,16 @@ footer .social-con img {
     footer p {
         font-size: 0.9rem;
     }
+
+    footer .footer-container {
+       flex-direction: column;
+    }
 }
 
 /* Landscape Tablet ===================================================================== */
 
 @media (min-width: 768px) and (max-width: 1023px) {
+
     .name h2 {
         font-size: 1rem;
     }
@@ -2206,6 +2363,18 @@ footer .social-con img {
     .form h2, .info h2 {
         font-size: 1.2rem;
         font-weight: 400;
+    }
+
+    .quick-links {
+        margin-left: 4rem;
+    }
+
+    .footer-content {
+        width: 50%;
+    }
+
+    .footer-logo-container .name-logo {
+        align-items: flex-start;
     }
 
     footer .socials {
