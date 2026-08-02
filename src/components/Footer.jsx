@@ -30,6 +30,9 @@ function Footer({ lightTheme, setLightTheme }) {
                             Backend Development
                         </li>
                         <li>
+                            Website Maintenance & Support
+                        </li>
+                        <li>
                             Frontend Development
                         </li>
                         <li>

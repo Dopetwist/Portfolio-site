@@ -46,12 +46,29 @@ function Nav({ lightTheme, setLightTheme }) {
 
     return (
         <nav className="navbar">
-            <div className="nav-links">
+            <div className="nav-links" id="navlink-box">
+                {isOpen && (
+                    <a href="#home" className="name">
+                        <figure>
+                            <img src={lightTheme ? "/JA-Logo2.png" : "/JA-Logo.png"} alt="Jonathan's Logo" />
+                        </figure>
+                        <h2> Jonathan Afugwobi </h2>
+                    </a>
+                )}
+
                 <HashLink smooth to="/#home" className="home-nav"> Home </HashLink>
                 <HashLink smooth to="/#about"> About </HashLink>
                 <HashLink smooth to="/#project"> Projects </HashLink>
                 <HashLink smooth to="/#skill"> Skills </HashLink>
                 <HashLink smooth to="/#contact"> Contact </HashLink>
+
+                {isOpen && (
+                    <HashLink smooth to="/#contact" id="hire-link">
+                        <button type="button" id="hire-btn">
+                            Hire Me
+                        </button>
+                    </HashLink>
+                )}
             </div>
 
             <ThemeMode

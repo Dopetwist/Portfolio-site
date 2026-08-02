@@ -34,7 +34,7 @@ function Home() {
 
                     <div className="stats">
                         <div className='stats-box'>
-                            <span>3 Years +</span>
+                            <span>3 Years+</span>
                             <p>Experience</p>
                         </div>
 
