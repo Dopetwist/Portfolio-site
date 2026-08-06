@@ -149,12 +149,4 @@ html.light-mode {
     .slider-title {
         font-size: 1.2rem;
     }
-
-    .slider::before {
-        background: linear-gradient(to right, transparent);
-    }
-
-    .slider::after {
-        background: linear-gradient(to left, transparent);
-    }
 }

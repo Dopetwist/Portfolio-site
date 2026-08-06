@@ -25,7 +25,7 @@ function Project() {
             
             <h2 className="heading" id="portfolio"><Icons.CodeXml size={40} id="code-icon" />  Featured Projects </h2>
 
-            <p className="explore"> Explore my previous projects built with various technologies! </p>
+            <p className="explore"> Explore my previous projects built with modern technologies! </p>
 
             <div className="project-container">
                 <div className="project-box">
