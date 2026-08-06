@@ -12,7 +12,7 @@ const projects = [
     {
         id: 2,
         title: "MyLux Gold Collection — Premium Gold Jewelry eCommerce Website",
-        description: "I designed and developed a modern eCommerce platform to showcase and sell luxury gold jewelry through a modern, elegant, and conversion-focused shopping experience.",
+        description: "Developed a modern eCommerce platform to showcase and sell luxury gold jewelry through a modern, elegant, and conversion-focused shopping experience.",
         img: "/images/projects/mylux.png",
         github: "https://github.com/Dopetwist/MGC.git",
         tech: [ "React + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
@@ -20,12 +20,12 @@ const projects = [
     },
     {
         id: 3,
-        title: "Sleek Unisex Salon",
-        description: "I built a responsive salon website with a seamless cart checkout system that allows clients to schedule appointments and purchase hair products online.",
-        img: "/images/projects/sleek.png",
-        github: "https://github.com/Dopetwist/Sleek-salon.git",
-        tech: [ "React.js + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
-        live: "https://sleek-salon.vercel.app"
+        title: "VIP Beauty Studio — Luxury Beauty Booking Website",
+        description: "Designed and built a responsive beauty service booking system that allows customers to browse services and schedule appointments online. A multi-step appointment booking platform for selecting specific services, preferred dates, and available time slots.",
+        img: "/images/projects/vip.png",
+        github: "https://github.com/Dopetwist/VIP.git",
+        tech: [ "React + Vite | ", "Context API | ","JavaScript | ", "HTML | ", "CSS" ],
+        live: "https://vip-beauty-studio.vercel.app"
     },
     {
         id: 4,
@@ -38,6 +38,15 @@ const projects = [
     },
     {
         id: 5,
+        title: "Sleek Unisex Salon",
+        description: "I built a responsive salon website with a seamless cart checkout system that allows clients to schedule appointments and purchase hair products online.",
+        img: "/images/projects/sleek.png",
+        github: "https://github.com/Dopetwist/Sleek-salon.git",
+        tech: [ "React.js + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
+        live: "https://sleek-salon.vercel.app"
+    },
+    {
+        id: 6,
         title: "BookHive",
         description: "Built a full-stack centralized system with secured authentication and profile dashboards designed to help readers capture, organize and revisit their thoughts and key insights on books, all in one place.",
         img: "/images/projects/bookhive.png",
@@ -46,7 +55,7 @@ const projects = [
         /* live: "https://bookhive-lq65.onrender.com" */
     },
     {
-        id: 6,
+        id: 7,
         title: "KwikScan",
         description: "Developed a web app that generates and scans QR Codes efficiently according to users preferences. It converts URLs and mobile numbers to QR codes for easy access.",
         img: "/images/projects/kwikscan.png",
