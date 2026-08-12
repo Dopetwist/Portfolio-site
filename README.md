@@ -1,6 +1,6 @@
-## My Personal Portfolio 👨🏻‍💼
+## Personal Portfolio 👨🏻‍💼
 
-Built a portfolio website which consists of my projects, skills and other features.
+Built a clean and user-friendly portfolio website which consists of personal projects, skills, resume and other components.
 
 ## 📍 Key Highlights:
 
@@ -18,4 +18,6 @@ Built a portfolio website which consists of my projects, skills and other featur
 *  CSS
 *  HTML
 
+## Contributions 🤝
 
+All improvements/fixes are welcome.
