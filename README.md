@@ -1,6 +1,6 @@
 ## Personal Portfolio 👨🏻‍💼
 
-Built a clean and user-friendly portfolio website which consists of personal projects, skills, resume and other components.
+Built a clean and user-friendly portfolio website that showcases personal projects, skills, resume and other professional components.
 
 ## 📍 Key Highlights:
 
