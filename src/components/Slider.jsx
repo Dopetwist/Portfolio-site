@@ -5,12 +5,16 @@ import "../../src/slider.css";
 const techStack = [
     "/images/slider/Git-Logo-Vector.jpg",
     "/images/tech/react.png",
+    "/images/slider/openai.jpg",
+    "/images/slider/claude.png",
     "/images/slider/vercel.jpg",
     "/images/slider/node.png",
     "/images/svgs/postman.svg",
     "/images/svgs/vs-code.svg",
+    "/images/slider/npm.jpg",
     "/images/svgs/github-icon.svg",
-    "/images/tech/postgresql.png"
+    "/images/tech/postgresql.png",
+    "/images/slider/copilot.jpg"
 ];
 
 function Slider() {

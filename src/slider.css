@@ -56,7 +56,7 @@ html.light-mode {
 }
 
 .tech-slide img {
-    max-width: 7rem;
+    max-width: 5rem;
     opacity: 1;
     transition: 0.3s;
 }
@@ -111,11 +111,7 @@ html.light-mode {
         width: 140px;
         height: 10rem;
     }
-
-    .slide-track {
-        width: calc(140px * 12);
-    }
-
+    
     .slider-title {
         font-size: 1.4rem;
     }
@@ -132,7 +128,7 @@ html.light-mode {
     }
 
     .tech-slide img {
-        max-width: 5.5rem;
+        max-width: 5rem;
     }
 }
 
@@ -148,5 +144,9 @@ html.light-mode {
 
     .slider-title {
         font-size: 1.2rem;
+    }
+
+    .slide-track {
+        gap: 3rem;
     }
 }
