@@ -8,7 +8,7 @@ function Home() {
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['Full Stack Engineer', 'Graphic Designer'],
+            strings: ['Full Stack Developer', 'Graphic Designer'],
             typeSpeed: 80,
             backSpeed: 80,
             backDelay: 1000,
@@ -34,7 +34,7 @@ function Home() {
 
                     <div className="stats">
                         <div className='stats-box'>
-                            <span>3+ Years</span>
+                            <span>2+ Years</span>
                             <p>Experience</p>
                         </div>
 

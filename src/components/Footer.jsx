@@ -17,7 +17,7 @@ function Footer({ lightTheme, setLightTheme }) {
 
                         <div className="footer-descrip">
                             <p>
-                                A passionate software engineer dedicated to crafting seamless and engaging digital experiences.
+                                A passionate software developer dedicated to crafting seamless and engaging digital experiences.
                             </p>
                         </div>
                     </div>
