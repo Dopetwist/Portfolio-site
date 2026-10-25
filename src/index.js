@@ -3,7 +3,7 @@ const projects = [
     {
         id: 1,
         title: "TenTraq | Tenant Management & Tracking System",
-        description: "Built a full-stack tenant and property management web application that helps landlords and property managers organize properties, tenant records, and tenancy information from one dashboard. Features include authentication, property and tenant CRUD operations, a responsive React.js interface, REST API development with Node.js and Express.js, and a PostgreSQL relational database.",
+        description: "Built a full-stack tenant and property management web application with secure authentication that helps landlords and property managers organize properties, tenant records, and tenancy information from one intuitive dashboard.",
         img: "/images/projects/tentraq.png",
         github: "https://github.com/Dopetwist/TenTraq.git",
         tech: [ "Node.js | ", "Express.js | ", "React + Vite | ", "JavaScript | ", "PostgreSQL | ", "CSS" ],
@@ -62,15 +62,6 @@ const projects = [
         github: "https://github.com/Dopetwist/BookHive.git",
         tech: [ "Node.js | ", "Express.js | ", "JavaScript | ", "PostgreSQL | ", "HTML | ", "CSS | ", "EJS" ],
         /* live: "https://bookhive-lq65.onrender.com" */
-    },
-    {
-        id: 8,
-        title: "Sleek Unisex Salon",
-        description: "I built a responsive salon website with a seamless cart checkout system that allows clients to schedule appointments and purchase hair products online.",
-        img: "/images/projects/sleek.png",
-        github: "https://github.com/Dopetwist/Sleek-salon.git",
-        tech: [ "React.js + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
-        live: "https://sleek-salon.vercel.app"
     }
 ]
 
