@@ -2,7 +2,16 @@
 const projects = [
     {
         id: 1,
-        title: "Kraft Konceptz LTD — Corporate Fabrication Website",
+        title: "TenTraq | Tenant Management & Tracking System",
+        description: "Built a full-stack tenant and property management web application that helps landlords and property managers organize properties, tenant records, and tenancy information from one dashboard. Features include authentication, property and tenant CRUD operations, a responsive React.js interface, REST API development with Node.js and Express.js, and a PostgreSQL relational database.",
+        img: "/images/projects/tentraq.png",
+        github: "https://github.com/Dopetwist/TenTraq.git",
+        tech: [ "Node.js | ", "Express.js | ", "React + Vite | ", "JavaScript | ", "PostgreSQL | ", "CSS" ],
+        live: "https://tentraq.top"
+    },
+    {
+        id: 2,
+        title: "Kraft Konceptz LTD | Corporate Fabrication Website",
         description: "Designed and built a premium website for Kraft Konceptz LTD, a leading fabrication company, to showcase their services and portfolio. The website features a clean, responsive design with smooth animations and an intuitive user interface.",
         img: "/images/projects/kraft-konceptz.png",
         github: "https://github.com/Dopetwist/KKZ-site.git",
@@ -10,8 +19,8 @@ const projects = [
         live: "https://kkz-company.vercel.app"
     },
     {
-        id: 2,
-        title: "MyLux Gold Collection — Premium Gold Jewelry eCommerce Website",
+        id: 3,
+        title: "MyLux Gold Collection | Premium Gold Jewelry eCommerce Website",
         description: "Developed a modern eCommerce platform to showcase and sell luxury gold jewelry through a modern, elegant, and conversion-focused shopping experience.",
         img: "/images/projects/mylux.png",
         github: "https://github.com/Dopetwist/MGC.git",
@@ -19,8 +28,8 @@ const projects = [
         live: "https://mylux-gold-collection.vercel.app"
     },
     {
-        id: 3,
-        title: "VIP Beauty Studio — Luxury Beauty Booking Website",
+        id: 4,
+        title: "VIP Beauty Studio | Luxury Beauty Booking Website",
         description: "Designed and built a responsive beauty service booking system that allows customers to browse services and schedule appointments online. A multi-step appointment booking platform for selecting specific services, preferred dates, and available time slots.",
         img: "/images/projects/vip.png",
         github: "https://github.com/Dopetwist/VIP.git",
@@ -28,7 +37,7 @@ const projects = [
         live: "https://vip-beauty-studio.vercel.app"
     },
     {
-        id: 4,
+        id: 5,
         title: "Foreign Recipes Project",
         description: "Many restaurants struggle to access international recipes. I built a solution that allows users to explore and search varieties of foreign dishes worldwide with preparation instructions and video guides.",
         img: "/images/projects/recipe.png",
@@ -37,16 +46,16 @@ const projects = [
         live: "https://foreign-recipes.onrender.com"
     },
     {
-        id: 5,
-        title: "Sleek Unisex Salon",
-        description: "I built a responsive salon website with a seamless cart checkout system that allows clients to schedule appointments and purchase hair products online.",
-        img: "/images/projects/sleek.png",
-        github: "https://github.com/Dopetwist/Sleek-salon.git",
-        tech: [ "React.js + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
-        live: "https://sleek-salon.vercel.app"
+        id: 6,
+        title: "KwikScan",
+        description: "Developed a web app that generates and scans QR Codes efficiently according to users preferences. It converts URLs and mobile numbers to QR codes for easy access.",
+        img: "/images/projects/kwikscan.png",
+        github: "https://github.com/Dopetwist/KwikScan.git",
+        tech: [ "React + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
+        live: "https://kwik-scan.vercel.app"
     },
     {
-        id: 6,
+        id: 7,
         title: "BookHive",
         description: "Built a full-stack centralized system with secured authentication and profile dashboards designed to help readers capture, organize and revisit their thoughts and key insights on books, all in one place.",
         img: "/images/projects/bookhive.png",
@@ -55,13 +64,13 @@ const projects = [
         /* live: "https://bookhive-lq65.onrender.com" */
     },
     {
-        id: 7,
-        title: "KwikScan",
-        description: "Developed a web app that generates and scans QR Codes efficiently according to users preferences. It converts URLs and mobile numbers to QR codes for easy access.",
-        img: "/images/projects/kwikscan.png",
-        github: "https://github.com/Dopetwist/KwikScan.git",
-        tech: [ "React + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
-        live: "https://kwik-scan.vercel.app"
+        id: 8,
+        title: "Sleek Unisex Salon",
+        description: "I built a responsive salon website with a seamless cart checkout system that allows clients to schedule appointments and purchase hair products online.",
+        img: "/images/projects/sleek.png",
+        github: "https://github.com/Dopetwist/Sleek-salon.git",
+        tech: [ "React.js + Vite | ", "JavaScript | ", "HTML | ", "CSS" ],
+        live: "https://sleek-salon.vercel.app"
     }
 ]
 
