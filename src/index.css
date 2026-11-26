@@ -125,10 +125,10 @@ header {
 
 .name figure,
 .name-logo figure {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
-    border: 0.2rem solid var(--main-color);
+    border: 0.15rem solid var(--main-color);
     display: flex;
     justify-content: center;
     align-items: center;
